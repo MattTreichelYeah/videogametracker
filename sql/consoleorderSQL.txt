@@ -1,0 +1,36 @@
+UPDATE consoles
+      SET `order` = CASE name
+            WHEN 'Wii U' THEN 0
+            WHEN 'Wii U Downloads' THEN 1
+            WHEN 'Virtual Console (Wii U)' THEN 2
+            WHEN 'Xbox 360' THEN 3
+            WHEN 'Xbox Live Arcade' THEN 4
+            WHEN 'Xbox Originals' THEN 5
+            WHEN 'XNA Indie Games' THEN 6
+            WHEN 'PlayStation 3' THEN 7
+            WHEN 'PlayStation Network (PS3)' THEN 8
+            WHEN 'PlayStation Classics' THEN 9
+            WHEN 'Wii' THEN 10
+            WHEN 'WiiWare' THEN 11
+            WHEN 'Virtual Console (Wii)' THEN 12
+            WHEN 'Xbox' THEN 13
+            WHEN 'PlayStation 2' THEN 14
+            WHEN 'GameCube' THEN 15
+            WHEN 'PlayStation' THEN 16
+            WHEN 'Nintendo 64' THEN 17
+            WHEN 'Sega Genesis' THEN 18
+            WHEN 'SNES' THEN 19
+            WHEN 'NES' THEN 20
+            WHEN 'Nintendo 3DS' THEN 21
+            WHEN 'Nintendo 3DS Downloads' THEN 22
+            WHEN 'Virtual Console (3DS)' THEN 23
+            WHEN 'DSiWare' THEN 24
+            WHEN 'PlayStation Portable' THEN 25
+            WHEN 'PSP Downloads' THEN 26
+            WHEN 'Nintendo DS' THEN 27
+            WHEN 'Game Boy Advance' THEN 28
+            WHEN 'Game Boy (Color)' THEN 29
+            WHEN 'PC' THEN 30
+            WHEN 'PC Downloads' THEN 31
+            WHEN 'Steam' THEN 32
+      END
