@@ -1,0 +1,129 @@
+*, :before, :after {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin:0px;
+	padding:0px;
+	font-family: 'Oswald', Verdana;
+}
+
+body {
+	background: black;
+}
+
+#ultimate-title {
+	font-family: 'Oswald', cursive;
+	margin:10px;
+	font-size:50px;
+	border-bottom: 4px solid white;
+	color:white;
+}
+
+#content {
+	margin:10px;
+}
+
+#console-box {
+	color:white;
+	font-size:22px;
+	width:20%;
+	//min-width:275px;
+	background:black;
+	padding:15px;
+	float:left;
+	border: solid 10px #C6EC51;
+}
+
+#games-box {
+	font-size:15px;
+	width:100%;
+	min-width:250px;
+	background:#C6EC51;
+	padding:20px;
+	clear:both;
+	float:left;
+}
+
+#stats-box {
+	font-size:20px;
+	width:100%;
+	background: #FD927E;
+	padding:20px;
+	float:left;
+}
+
+#console-list {
+	list-style-type: none;
+	padding-left:0px;
+}
+
+.console-sublist {
+	font-size:15px;
+	list-style-type: none;
+	padding-left:15px;
+	display: none;
+}
+
+#games-table {
+	text-align:left;
+	width:100%;
+}
+
+#right {
+	float:left;
+	width:80%;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+
+h3 {
+	margin-top: 0px;
+}
+
+.dataTables_filter {
+	background: #FD927E;
+	border-radius: 10px;
+	width:100%;
+	text-align:center !important;
+	font-weight:bold;
+	font-size:15px;
+	padding:10px;
+}
+
+.dataTables_filter input {
+	width:90%;
+	font-size:15px;
+}
+
+.rating {
+	//vertical-align:middle;
+}
+
+.sub-table {
+	width:100%;
+	background: yellow;
+}
+
+.sub-table td {
+	padding:0px !important;
+	background: yellow;
+}
+
+/*
+.subgames :first-child {
+	margin-left:30px;
+	color:red;
+}
+*/
