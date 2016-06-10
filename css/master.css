@@ -3,8 +3,6 @@
 }
 
 html, body {
-	margin:0px;
-	padding:0px;
 	font-family: 'Oswald', Verdana;
 }
 
@@ -12,67 +10,55 @@ body {
 	background: black;
 }
 
+h3 {
+	margin-bottom: 7px;
+}
+
 #ultimate-title {
 	font-family: 'Oswald', cursive;
-	margin:10px;
-	font-size:50px;
+	margin: 10px;
+	font-size: 50px;
+	padding-bottom: 7px;
 	border-bottom: 4px solid white;
-	color:white;
+	color: white;
 }
 
 #content {
-	margin:10px;
+	margin: 10px;
 }
 
 #console-box {
-	color:white;
-	font-size:22px;
-	width:20%;
-	//min-width:275px;
-	background:black;
-	padding:15px;
-	float:left;
+	color: white;
+	font-size: 22px;
+	background: black;
+	padding: 15px;
 	border: solid 10px #C6EC51;
 }
 
 #games-box {
-	font-size:15px;
-	width:100%;
-	min-width:250px;
-	background:#C6EC51;
-	padding:20px;
-	clear:both;
-	float:left;
+	background: #C6EC51;
+	padding: 20px;
+}
+
+#games-table {
+	margin-top: 7px;
 }
 
 #stats-box {
-	font-size:20px;
-	width:100%;
 	background: #FD927E;
-	padding:20px;
-	float:left;
+	padding: 20px;
 }
 
 #console-list {
 	list-style-type: none;
-	padding-left:0px;
+	padding-left: 0px;
 }
 
 .console-sublist {
-	font-size:15px;
+	font-size: 15px;
 	list-style-type: none;
-	padding-left:15px;
+	padding-left: 15px;
 	display: none;
-}
-
-#games-table {
-	text-align:left;
-	width:100%;
-}
-
-#right {
-	float:left;
-	width:80%;
 }
 
 a:link {
@@ -88,42 +74,36 @@ a:active {
     color: white;
 }
 
-h3 {
-	margin-top: 0px;
-}
+/*Override DataTables CSS*/
+
+/*Search Filter Bar*/
 
 .dataTables_filter {
 	background: #FD927E;
 	border-radius: 10px;
-	width:100%;
+	width: 100%;
 	text-align:center !important;
-	font-weight:bold;
-	font-size:15px;
-	padding:10px;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 10px;
 }
 
 .dataTables_filter input {
-	width:90%;
-	font-size:15px;
+	width: 90%;
+	font-size: 15px;
 }
 
-.rating {
-	//vertical-align:middle;
+/*Responsive Expand Buttons*/
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before, 
+table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before {
+	box-shadow: none;
+	border: none;
+	background-color: #FD927E;
+	top: 0px;
 }
 
-.sub-table {
-	width:100%;
-	background: yellow;
+table.dataTable.dtr-inline.collapsed.compact > tbody > tr > td:first-child:before,
+table.dataTable.dtr-inline.collapsed.compact > tbody > tr > th:first-child:before {
+	text-indent: 0px;
 }
-
-.sub-table td {
-	padding:0px !important;
-	background: yellow;
-}
-
-/*
-.subgames :first-child {
-	margin-left:30px;
-	color:red;
-}
-*/

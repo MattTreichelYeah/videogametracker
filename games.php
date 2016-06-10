@@ -22,7 +22,8 @@
 				case 0: echo "<img src='images/completion-null.png'>"; break; 
 				case 1: echo "<img src='images/completion-unfinished.png'>"; break; 
 				case 2: echo "<img src='images/completion-beat.png'>"; break; 
-				case 3: echo "<img src='images/completion-complete.png'>"; break; }
+				case 3: echo "<img src='images/completion-complete.png'>"; break; 
+			}
 			echo "</td>
 			<td>"; for ($i=0; $i <= $row["rating"]; $i++) { echo "<img class='rating' src='images/star.png'>"; } echo "</td>
 			<td>". $row["console"]; if ($row["console_original"] != "") echo " (". $row["console_original"] .")"; echo "</td>
@@ -36,7 +37,7 @@
 	}
 ?>
 
-<table id="games-table" class="hover compact order-column nowrap">
+<table id="games-table" class="hover compact order-column nowrap" width="100%">
 	<thead>
 		<tr>
 			<th>Name</th>
@@ -73,28 +74,11 @@
 </table>
 
 <script>
-$(document).ready( function () {
+$(document).ready(function () {
     var table = $('#games-table').DataTable({
 		"paging": false,
-		"info": false
-	});
-	
-	
-	table.rows().every( function () {
-		var game = this.node().className.split(" ");
-		console.log(game);
-		this.child($('.subgames.'+ game[0]));
-	} );
-
-	$('#games-table tbody').on('click', 'tr.games', function () {
-		var tr = $(this);
-		var row = table.row( tr );
- 
-		if (row.child.isShown()) {
-			row.child.hide();
-		} else {
-			row.child.show();
-		}
+		"info": false,
+		"responsive": true
 	});
 });
 </script>
