@@ -37,7 +37,7 @@
 	}
 ?>
 
-<table id="games-table" class="hover compact order-column nowrap" width="100%">
+<table id="games-table" class="hover compact order-column" width="100%"> <!--nowrap is useful attribute-->
 	<thead>
 		<tr>
 			<th>Name</th>
