@@ -16,7 +16,7 @@
 	function printrow($row) {
 		echo 
 		"<tr "; if ($row["compilation"] != NULL) { echo "class='subgames ". $row["compilation"] ."'"; } else { echo "class='games'"; } echo ">
-			<td>"; if ($row["compilation"] != NULL) { echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"; } echo $row["name"] ."</td>
+			<td>"; if ($row["compilation"] != NULL) { echo "<img src='images/star.png'> "; } echo $row["name"] ."</td>
 			<td>"; 
 			switch ($row["completion_status"]) { 
 				case 0: echo "<img src='images/completion-null.png'>"; break; 
@@ -37,7 +37,7 @@
 	}
 ?>
 
-<table id="games-table" class="hover compact order-column" width="100%"> <!--nowrap is useful attribute-->
+<table id="games-table" class="hover compact order-column nowrap" width="100%"> <!--nowrap is useful attribute-->
 	<thead>
 		<tr>
 			<th>Name</th>

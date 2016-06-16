@@ -2,17 +2,14 @@
 	box-sizing: border-box;
 }
 
-html, body {
-	font-family: 'Oswald', Verdana;
-}
-
 body {
+	font-family: 'Oswald', Verdana;
 	background: black;
 }
 
 h1 {
-	margin: 10px;
 	font-size: 50px;
+	margin: 20px;
 	padding-bottom: 7px;
 	border-bottom: 4px solid white;
 	color: white;
@@ -26,21 +23,22 @@ h2 {
 h3 {
 	font-size: 18px;
 	display: inline-block;
-	margin-bottom: 7px;
+	margin-bottom: 10px;
 }
 
-/*table tr {
-	color: white;
-	background-color: black !important;
-}*/
-
-#content {
-	margin: 10px;
+@media (max-width: 768px) {
+	table tbody {
+		font-size: 12px;
+	}
 }
 
 #console-box-access {
 	background: #C6EC51;
 	padding: 20px;
+}
+
+#console-title {
+	width: 50%;
 }
 
 #console-box {
@@ -53,6 +51,18 @@ h3 {
 #games-box {
 	background: #C6EC51;
 	padding: 20px;
+}
+
+@media (max-width: 768px) {
+	#games-box {
+		padding: 0px;
+	}
+
+	#games-box h3 {
+		padding: 20px;
+		padding-bottom: 13px;
+		margin: 0px;
+	}
 }
 
 #games-table {
@@ -76,6 +86,7 @@ h3 {
 .console-sublist {
 	font-size: 15px;
 	list-style-type: none;
+	padding-top: 5px;
 	padding-left: 15px;
 	display: none;
 }
@@ -95,21 +106,70 @@ h3 {
 
 /*Override DataTables CSS*/
 
+table tbody {
+	color: white;
+	font-weight: normal !important;
+}
+
+/*Main Table Styling*/
+
+table.dataTable tbody tr {
+	background: black;
+}
+
+table.dataTable>tbody>tr.child:hover {
+	/*Uses !important in datatables.css*/
+	background: black !important;
+}
+
+table.dataTable.order-column tbody tr>.sorting_1, table.dataTable.order-column tbody tr>.sorting_2, table.dataTable.order-column tbody tr>.sorting_3, table.dataTable.display tbody tr>.sorting_1, table.dataTable.display tbody tr>.sorting_2, table.dataTable.display tbody tr>.sorting_3 {
+	background: #262626;
+}
+
+table.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+	background: #595959;
+}
+
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+	background: #404040;
+}
+
+/*Sorting Arrows*/
+
+table.dataTable thead .sorting {
+	background-image: url("../images/sort_both.png");
+}
+
+table.dataTable thead .sorting_asc {
+	background-image: url("../images/sort_asc.png");
+}
+
+table.dataTable thead .sorting_desc {
+	background-image: url("../images/sort_desc.png");
+}
+
 /*Search Filter Bar*/
 
 .dataTables_filter {
 	background: #FD927E;
-	border-radius: 10px;
 	width: 100%;
 	text-align:center !important;
-	font-weight: bold;
 	font-size: 15px;
 	padding: 10px;
+	margin-bottom: 10px;
 }
 
 .dataTables_filter input {
 	width: 90%;
 	font-size: 15px;
+}
+
+@media (max-width: 768px) {
+	.dataTables_filter {
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 
 /*Responsive Expand Buttons*/
