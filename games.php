@@ -2,15 +2,10 @@
 	include "dblogin.php";
 
 	if ($_POST["console"] == "All Games") { 
-		$sqlgames = "SELECT * FROM games WHERE compilation IS NULL ORDER BY name"; 
-		$sqlcompilations = "SELECT DISTINCT compilation FROM games WHERE compilation IS NOT NULL";
+		$sqlgames = "SELECT * FROM games"; 
 	} else {
-		$sqlgames = "SELECT * FROM games WHERE console='" . $_POST["console"] . "' AND compilation IS NULL ORDER BY name";
-		$sqlcompilations = "SELECT DISTINCT compilation FROM games WHERE console='" . $_POST["console"] . "' AND compilation IS NOT NULL";
+		$sqlgames = "SELECT * FROM games WHERE console='" . $_POST["console"] ."'";
 	}
-	$compilations = mysqli_query($db, $sqlcompilations);
-	$compilations = mysqli_fetch_all($compilations);
-	$compilations = array_column($compilations,0);
 	$games = mysqli_query($db, $sqlgames);
 	
 	function printrow($row) {
@@ -57,18 +52,6 @@
 		<?php
 			while($row = mysqli_fetch_array($games)) {
 				printrow($row);
-				//Sub Games:
-				if(in_array($row["name"], $compilations)) {
-					if ($_POST["console"] == "All Games") { 
-						$sqlsubgames = "SELECT * FROM games WHERE compilation='". $row["name"] ."'";
-					} else {
-						$sqlsubgames = "SELECT * FROM games WHERE console='" . $_POST["console"] . "' AND compilation='". $row["name"] ."'";
-					}
-					$subgames = mysqli_query($db, $sqlsubgames);
-					while($subrow = mysqli_fetch_array($subgames)) {
-						printrow($subrow);
-					}
-				}
 			}
 		?>
 	</tbody>
