@@ -38,7 +38,11 @@
 
 	$percent = function($value) {
 		global $total;
-	    return round($value / $total[0] * 100);
+		if ($total[0] != 0) { 
+	    	return round($value / $total[0] * 100);
+	    } else {
+	    	return 0;
+	    }
 	};
 	$ratingPercent = array_map($percent, $rating);
 	$completionPercent = array_map($percent, $completion);
