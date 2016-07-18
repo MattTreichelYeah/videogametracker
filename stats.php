@@ -29,7 +29,7 @@
 	
 	/*Placeholder Stats*/
 	$total = "SELECT COUNT(*) FROM games";
-	if ($_POST["console"] != "All Games") { $total .= " WHERE console='" . $_POST["console"]; }
+	if ($_POST["console"] != "All Games") { $total .= " WHERE console='" . $_POST["console"] ."'"; }
 	$total = mysqli_fetch_array(mysqli_query($db, $total));
 
 	$rating = [154, 33, 22, 10, 44];
