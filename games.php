@@ -60,7 +60,9 @@
 <script>
 $(document).ready(function () {
     var table = $('#games-table').DataTable({
-		"paging": false,
+		//"paging": false,
+		"pageLength": 150,
+		"pagingType": "simple",
 		"info": false,
 		"responsive": true,
 		// "columnDefs": [
@@ -84,6 +86,7 @@ $(document).ready(function () {
 
 	$("#singlemulti").on("change", function() {
 		var single = this.checked;
+		// false means don't redraw each time
         table.columns([".local-coop",".local-comp",".LAN-coop",".LAN-comp",".online-coop",".online-comp"]).visible(!single, false);
 		table.columns([".completion",".rating",".system"]).visible(single, false);
 		table.columns.adjust().draw();

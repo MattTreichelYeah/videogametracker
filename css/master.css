@@ -142,6 +142,12 @@ h3 {
     color: white;
 }
 
+.loading-icon {
+	position: absolute;
+	right: 35px;
+	top: 340px;
+}
+
 /*Override DataTables CSS*/
 
 #games table tbody {
