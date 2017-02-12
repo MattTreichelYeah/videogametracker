@@ -28,9 +28,18 @@
 	/*Unfinished End*/
 	
 	/*Placeholder Stats*/
-	$total = "SELECT COUNT(*) FROM games";
-	if ($_POST["console"] != "All Games") { $total .= " WHERE console='" . $_POST["console"] ."'"; }
-	$total = mysqli_fetch_array(mysqli_query($db, $total));
+	if ($_POST["consoleID"] == "-1") { 
+		$sql = "SELECT COUNT(*) FROM games"; 
+	} else if (!is_null($_POST["consoleChildren"])) {
+		// Some redundancy here with the first criteria
+		$sql = "SELECT COUNT(*) FROM games WHERE console={$_POST["consoleID"]}";
+		foreach ($_POST["consoleChildren"] as $child) {
+    		$sql .= " OR console={$child}";
+    	}
+	} else {
+		$sql = "SELECT COUNT(*) FROM games WHERE console={$_POST["consoleID"]}";
+	}
+	$total = mysqli_fetch_array(mysqli_query($db, $sql));
 
 	$rating = [154, 33, 22, 10, 44];
 	$completion = [33, 44, 22, 50, 10];
@@ -53,18 +62,18 @@
 	echo "<p>Total Games: " . $total[0] . "</p>
 		<table class='stats-table'>
 			<tr><th>Ratings</th><th></th><th></th></tr>
-			<tr><td>1-Star: </td><td>" . $rating[0] . "</td><td>" . $ratingPercent[0] . "%</td></tr>
-			<tr><td>2-Star: </td><td>" . $rating[1] . "</td><td>" . $ratingPercent[1] . "%</td></tr>
-			<tr><td>3-Star: </td><td>" . $rating[2] . "</td><td>" . $ratingPercent[2] . "%</td></tr>
-			<tr><td>4-Star: </td><td>" . $rating[3] . "</td><td>" . $ratingPercent[3] . "%</td></tr>
-			<tr><td>5-Star: </td><td>" . $rating[4] . "</td><td>" . $ratingPercent[4] . "%</td></tr>
+			<tr><td>1-Star </td><td>" . $rating[0] . "</td><td>" . $ratingPercent[0] . "%</td></tr>
+			<tr><td>2-Star </td><td>" . $rating[1] . "</td><td>" . $ratingPercent[1] . "%</td></tr>
+			<tr><td>3-Star </td><td>" . $rating[2] . "</td><td>" . $ratingPercent[2] . "%</td></tr>
+			<tr><td>4-Star </td><td>" . $rating[3] . "</td><td>" . $ratingPercent[3] . "%</td></tr>
+			<tr><td>5-Star </td><td>" . $rating[4] . "</td><td>" . $ratingPercent[4] . "%</td></tr>
 		</table><table class='stats-table'>
 			<tr><th>Completion</th><th></th><th></th></tr>
-			<tr><td>Unplayed: </td><td>" . $completion[0] . "</td><td>" . $completionPercent[0] . "%</td></tr>
-			<tr><td>Unfinished: </td><td>" . $completion[1] . "</td><td>" . $completionPercent[1] . "%</td></tr>
-			<tr><td>Beaten: </td><td>" . $completion[2] . "</td><td>" . $completionPercent[2] . "%</td></tr>
-			<tr><td>Complete: </td><td>" . $completion[3] . "</td><td>" . $completionPercent[3] . "%</td></tr>
-			<tr><td>Null: </td><td>" . $completion[4] . "</td><td>" . $completionPercent[4] . "%</td></tr>
+			<tr><td>Unplayed </td><td>" . $completion[0] . "</td><td>" . $completionPercent[0] . "%</td></tr>
+			<tr><td>Unfinished </td><td>" . $completion[1] . "</td><td>" . $completionPercent[1] . "%</td></tr>
+			<tr><td>Beaten </td><td>" . $completion[2] . "</td><td>" . $completionPercent[2] . "%</td></tr>
+			<tr><td>Complete </td><td>" . $completion[3] . "</td><td>" . $completionPercent[3] . "%</td></tr>
+			<tr><td>Null </td><td>" . $completion[4] . "</td><td>" . $completionPercent[4] . "%</td></tr>
 		</table><table class='stats-table'>
 			<tr><th>Multiplayer</th><th></th><th></th></tr>
 			<tr><td>1-Player </td><td>" . $multiplayer[0] . "</td><td>" . $multiplayerPercent[0] . "%</td></tr>
@@ -73,14 +82,6 @@
 			<tr><td>5-Player+ </td><td>" . $multiplayer[3] . "</td><td>" . $multiplayerPercent[3] . "%</td></tr>
 			<tr><td>7-Player+ </td><td>" . $multiplayer[4] . "</td><td>" . $multiplayerPercent[4] . "%</td></tr>
 		</table>";
+
+	echo "<script> updateStats(); </script>"
 ?>
-
-<script>
-
-$('.stats-table tr td:nth-child(3)').each(function(index, element) {
-	var percent = $(element).text();
-	$(element).css("background", "url('images/stat-percent-background.png') no-repeat");
-    $(element).css("background-size", percent + " 100%");
-});
-
-</script>

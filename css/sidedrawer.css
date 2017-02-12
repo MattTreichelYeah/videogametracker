@@ -16,8 +16,8 @@ body {
 	position: fixed;
 	top: 0;
 	bottom: 0;
-	width: 270px;
-	left: -270px;
+	width: 285px;
+	left: -285px;
 	overflow: auto;
 	z-index: 2;
 	background-color: #FD927E;
@@ -28,7 +28,6 @@ body {
 
 .sidedrawer-toggle {
 	font-size: 22px;
-	width: 50%;
 	float: right;
 	text-align: right;
 	line-height:0.70; /*This is neccessary since the ☰ icon and the custom font don't align well*/
@@ -56,11 +55,11 @@ body {
 @media (min-width: 768px) {
 
 	#sidedrawer {
-		transform: translate(270px);
+		transform: translate(285px);
 	}
 
 	#content-wrapper {
-		margin-left: 270px;
+		margin-left: 285px;
 	}
 
 	body.hide-sidedrawer #sidedrawer {
@@ -85,5 +84,5 @@ body {
  * Toggle Side drawer
  */
 #sidedrawer.active {
-	transform: translate(270px);
+	transform: translate(285px);
 }

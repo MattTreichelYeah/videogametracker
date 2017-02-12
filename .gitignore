@@ -1,2 +1,3 @@
 resources
-dblogin.php
+node_modules
+**/dblogin.php
