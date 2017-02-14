@@ -1,0 +1,43 @@
+"id";"name";"name_short";"console_root";"order"
+1;"Wii U";"Wii U";1;0
+2;"eShop";"eSh";1;2
+3;"Virtual Console";"VC";1;3
+4;"Xbox 360";"360";4;4
+5;"Xbox Live Arcade";"XBLA";4;6
+6;"Xbox Live Indie Games";"XBLIG";4;7
+7;"PlayStation 3";"PS3";7;8
+8;"PlayStation Network";"PSN";7;10
+9;"PlayStation Classics";"PSC";7;11
+11;"Wii";"Wii";11;12
+12;"WiiWare";"WiiW";11;14
+13;"Virtual Console";"VC";11;15
+14;"Xbox";"Xbox";14;16
+15;"PlayStation 2";"PS2";15;17
+16;"GameCube";"GCN";16;18
+17;"PlayStation";"PS1";17;19
+18;"Nintendo 64";"N64";18;20
+19;"Sega Genesis";"Gen";19;21
+20;"SNES";"SNES";20;22
+21;"NES";"NES";21;23
+22;"Nintendo 3DS";"3DS";22;24
+23;"eShop";"eSh";22;26
+24;"Virtual Console";"VC";22;27
+25;"DSiWare";"DSiW";22;28
+26;"PlayStation Portable";"PSP";26;29
+27;"PlayStation Network";"PSN";26;30
+28;"Nintendo DS";"DS";28;31
+29;"Game Boy Advance";"GBA";29;32
+30;"Game Boy Color";"GBC";30;35
+31;"Game Boy";"GB";31;36
+32;"Android";"Droid";32;41
+33;"PC";"PC";33;37
+34;"PC Downloads";"PCDL";33;39
+35;"Steam";"Steam";33;40
+36;"Discs";"PC";33;38
+37;"Discs";"Wii U";1;1
+38;"Discs";"360";4;5
+39;"Discs";"PS3";7;9
+40;"Cartridges";"3DS";22;25
+41;"Cartridges";"GBA";29;33
+42;"e-Reader";"eR";29;34
+54;"Discs";"Wii";11;13

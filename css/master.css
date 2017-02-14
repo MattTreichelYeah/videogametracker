@@ -67,6 +67,25 @@ h3 {
   margin-top: 7px;
 }
 
+#games-table thead tr {
+  text-align: left;
+}
+/* Blank out headers but show &nbsp; to not collapse row */
+.th-desktop {
+  display: inline;
+}
+.th-mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .th-desktop {
+    display: none;
+  }
+  .th-mobile {
+    display: inline;
+  }
+}
+
 /* Stats */
 #stats-box {
   background: var(--pink);
@@ -82,18 +101,24 @@ h3 {
 
 .stats-table td, .stats-table th {
   padding: 5px 5px 5px 0;
+  text-align: left;
 }
 
 .stats-table tr td:nth-child(3) {
   width: 100%;
+  background: url('../images/stat-percent-background.png') no-repeat;
 }
 
 @media (max-width: 768px) {
+  .stats-table tr td:nth-child(1) {
+    width: 100%;
+    background: url('../images/stat-percent-background.png') no-repeat;
+  }
   .stats-table tr td:nth-child(2) {
     display: none;
   }
   .stats-table tr td:nth-child(3) {
-    font-size: 0px;
+    display: none;
   }
 }
 
@@ -175,6 +200,12 @@ h3 {
   color: #f45555;
 }
 
+.svg {
+  height: 1em;
+  width: 1em;
+  vertical-align: bottom;
+}
+
 .title-cell {
   text-overflow: ellipsis;
 }
@@ -226,17 +257,19 @@ table.dataTable thead .sorting_desc {
 }
 
 .dataTables_filter input {
-  width: 90%;
+  /* 51px is the Label */
+  width: calc(100% - 51px);
   font-size: 15px;
+  border: 0px;
+  margin: 3px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .dataTables_filter {
-    width: 85%;
     margin-right: auto;
     margin-left: auto;
   }
-}
+}*/
 
 /*Responsive Expand Buttons*/
 table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before,
@@ -244,7 +277,8 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before {
   box-shadow: none;
   border: none;
   background-color: #FD927E;
-  top: 0px;
+  color: #000000;
+  font-weight: bold;
 }
 
 table.dataTable.dtr-inline.collapsed.compact > tbody > tr > td:first-child:before,

@@ -14,21 +14,25 @@
 	}
 	$games = mysqli_query($db, $sql);
 	
-	function printrow($row) {
-		echo 
-		"<tr class='local-". $row["multi_comp_local"] ."'>
-			<td class='title-cell'>"; if ($row["compilation_root"] != 0) { echo "<img src='../images/star.png' title='". $row["compilation_root"] ."'> "; } echo $row["name"] ."</td>
+	// Passing $console & $original_console is really hacky and bad
+	function printrow($row, $console, $original_console) {
+		// Should probably use Join?
+		echo "<tr class='local-". max($row["multi_comp_local"], $row["multi_coop_local"]) ."'>
+			<td class='title-cell'>"; 
+			//if ($row["compilation_root"] != 0) { echo "<img src='../images/star.png' title='". $row["compilation_root"] ."'> "; } 
+			echo $row["name"] ."</td>
 			<td>"; 
 			switch ($row["completion"]) { 
-				case 0: echo "<img src='../images/star.png'>"; break; 
-				case 1: echo "<img src='../images/star.png'>"; break;
-				case 2: echo "<img src='../images/star.png'>"; break; 
-				case 3: echo "<img src='../images/star.png'>"; break; 
-				case 4: echo "<img src='../images/star.png'>"; break; 
+				case 1: echo "<img class='svg' src='../svg/unplayed.svg'>"; break;
+				case 2: echo "<img class='svg' src='../svg/unfinished.svg'>"; break; 
+				case 3: echo "<img class='svg' src='../svg/beaten.svg'>"; break; 
+				case 4: echo "<img class='svg' src='../svg/completed2.svg'>"; break; 
 			}
 			echo "</td>
-			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<img class='rating' src='../images/star.png'>"; } echo "</td>
-			<td>". $row["console"]; if ($row["console_original"] != "") echo " (". $row["console_original"] .")"; echo "</td>
+			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<img class='rating svg' src='../svg/star.svg'>"; } echo "</td>
+			<td>". $console; 
+			if ($row["original_console"] != "0") echo " (". $original_console .")"; 
+			echo "</td>
 			<td>". $row["multi_comp_local"] ."</td>
 			<td>". $row["multi_coop_local"] ."</td>
 			<td>". $row["multi_comp_LAN"] ."</td>
@@ -43,22 +47,27 @@
 	<thead>
 		<tr>
 			<!--Class Names are for Datatables Column Visibility Control-->
-			<th class="name">Name</th>
-			<th class="completion">Completion</th>
-			<th class="rating">Rating</th>
-			<th class="system">System</th>
-			<th class="local-comp"><img src="../images/multiplayer-comp-local.png"></th>
-			<th class="local-coop"><img src="../images/multiplayer-comp-local.png"></th>
-			<th class="LAN-comp"><img src="../images/multiplayer-comp-LAN.png"></th>
-			<th class="LAN-coop"><img src="../images/multiplayer-comp-LAN.png"></th>
-			<th class="online-comp"><img src="../images/multiplayer-comp-online.png"></th>
-			<th class="online-coop"><img src="../images/multiplayer-comp-online.png"></th>
+			<th class="name"><span class="th-desktop">Name</span><span class="th-mobile">&nbsp;</span></th>
+			<th class="completion"><span class="th-desktop">Completion</span><span class="th-mobile">&nbsp;</span></th>
+			<th class="rating"><span class="th-desktop">Rating</span><span class="th-mobile">&nbsp;</span></th>
+			<th class="system"><span class="th-desktop">Console</span><span class="th-mobile">&nbsp;</span></th>
+			<th class="local-comp"><img class='svg' src="../svg/local.svg"></th>
+			<th class="local-coop"><img class='svg' src="../svg/local.svg"></th>
+			<th class="LAN-comp"><img class='svg' src="../svg/LAN.svg"></th>
+			<th class="LAN-coop"><img class='svg' src="../svg/LAN.svg"></th>
+			<th class="online-comp"><img class='svg' src="../svg/online.svg"></th>
+			<th class="online-coop"><img class='svg' src="../svg/online.svg"></th>
 		</tr>
 	</thead>
 	<tbody>
 		<?php
 			while($row = mysqli_fetch_array($games)) {
-				printrow($row);
+				// This is really slowing things down
+				$sql = "SELECT name_short FROM consoles WHERE id={$row["console"]}";
+				$console = mysqli_fetch_array(mysqli_query($db, $sql))[0];
+				$sql = "SELECT name_short FROM consoles WHERE id={$row["original_console"]}";
+				$original_console = mysqli_fetch_array(mysqli_query($db, $sql))[0];
+				printrow($row, $console, $original_console);
 			}
 		?>
 	</tbody>
