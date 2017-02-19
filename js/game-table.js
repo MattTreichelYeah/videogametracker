@@ -21,6 +21,9 @@ $(document).ready(function () {
    //          },
             //'colvis',
             //'print'
+        ],
+        "columnDefs": [
+        	{ "targets": ["rating","completion","local-coop","local-comp","LAN-coop","LAN-comp","online-coop","online-comp"], "orderSequence": ["desc", "asc"] }
         ]
 	});
 
@@ -31,4 +34,6 @@ $(document).ready(function () {
 		table.columns([".completion",".rating",".system"]).visible(single, false);
 		table.columns.adjust().draw();
 	});
+
+	//$('.sidedrawer-toggle').on('click', function() { table.columns.adjust().responsive.recalc(); console.log("hi"); });
 });

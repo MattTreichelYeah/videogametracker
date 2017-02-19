@@ -20,3 +20,4 @@
 <script type="text/javascript" src="../js/index-ajax.js"></script>
 <script type="text/javascript" src="../js/game-table.js"></script>
 <script type="text/javascript" src="../js/stats-table.js"></script>
+<script type="text/javascript" src="../js/datatables-plugins.js"></script>

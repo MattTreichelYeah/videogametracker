@@ -7,31 +7,35 @@
 	<head>
 		<?php include 'head.php' ?>
 	</head>
-	<body>
-		<div id="sidedrawer">
-			<h3>Consoles!</h3>
-			<a class="sidedrawer-toggle sidedrawer-toggle-mobile">☰</a>
+	<body class="hide-sidedrawer-right">
+		<div class="sidedrawer sidedrawer-left">
+			<h3>Consoles</h3>
+			<a class="sidedrawer-toggle sidedrawer-left-toggle-mobile">☰</a>
 
 			<?php include 'consoles.php' ?>
 		</div>
-		<div id="content-wrapper">
+		<div class="content-wrapper">
 			<h1>Video Games</h1>
 
-			<div id="console-box-access">
-				<h2 id="console-title">All Games</h2> 
-
-				<a class="sidedrawer-toggle sidedrawer-toggle-mobile">☰</a>
-				<a class="sidedrawer-toggle sidedrawer-toggle-desktop">☰</a>
+			<div class="console-box-access">
+				<div class="console-access">
+					<h2 class="console-title">All Games</h2> 
+					<a class="sidedrawer-toggle sidedrawer-left-toggle-mobile">☰</a>
+					<a class="sidedrawer-toggle sidedrawer-left-toggle-desktop">☰</a>
+				</div><div class="tag-access"> <!-- No Line Break -->
+					<a class="sidedrawer-toggle sidedrawer-right-toggle-mobile">☰</a>
+					<a class="sidedrawer-toggle sidedrawer-right-toggle-desktop">☰</a>
+					<h2 class="tag-title">All Tags</h2> 
+				</div>
 			</div>
 			
 			<div id="stats-box">
-				<h3>Stats!</h3>
-
+				<!--<h3>Stats!</h3>-->
 				<div id="stats"></div>
 			</div>
 
 			<div id="games-box">
-				<h3>Games!</h3>
+				<!-- <h3>Games!</h3> -->
 
 				<!--Component from Proto.io - https://proto.io/freebies/onoff/-->
 				<div class="onoffswitch">
@@ -47,6 +51,12 @@
 
 				<div id="games"></div>
 			</div>
+		</div>
+		<div class="sidedrawer sidedrawer-right">
+			<h3>Tags</h3>
+			<a class="sidedrawer-toggle sidedrawer-right-toggle-mobile">☰</a>
+
+			<?php include 'tags.php' ?>
 		</div>
 	</body>
 </html>

@@ -1,52 +1,78 @@
 <?php
 	include "dblogin.php";
 
-	// error_reporting(E_ALL);
-	// ini_set('display_errors', 1);
+	$sql = "";
 
-	$total = "SELECT COUNT(*) FROM games";
+	$sql .= "SELECT COUNT(*) FROM (";
+
+	$sql .= "SELECT COUNT(*) FROM games AS g 
+		LEFT JOIN games_tags AS gt ON g.id = gt.gameid
+		LEFT JOIN tags AS t ON t.id = gt.tagid
+		WHERE compilation_root != -1";
+
+	$total = $sql;
 
 	$ratings = [];
 	$completions = [];
 	for ($i = 0; $i < 5; $i++) {
-		$ratings[] = "SELECT COUNT(*) FROM games WHERE rating = " . ($i + 1);
-		$completions[] = "SELECT COUNT(*) FROM games WHERE completion = {$i}";
+		$ratings[] = $sql . " AND rating = " . ($i + 1);
+		$completions[] = $sql . " AND completion = {$i}";
 	}
 
 	$multiplayers = [];
-	$multiplayers[] = "SELECT DISTINCT COUNT(*) FROM games WHERE (GREATEST(multi_comp_local, multi_coop_local) = 1)";
-	$multiplayers[] = "SELECT DISTINCT COUNT(*) FROM games WHERE (2 <= GREATEST(multi_comp_local, multi_coop_local) AND GREATEST(multi_comp_local, multi_coop_local) <= 3)";
-	$multiplayers[] = "SELECT DISTINCT COUNT(*) FROM games WHERE (GREATEST(multi_comp_local, multi_coop_local) = 4)";
-	$multiplayers[] = "SELECT DISTINCT COUNT(*) FROM games WHERE (5 <= GREATEST(multi_comp_local, multi_coop_local) AND GREATEST(multi_comp_local, multi_coop_local) <= 6)";
-	$multiplayers[] = "SELECT DISTINCT COUNT(*) FROM games WHERE (7 <= GREATEST(multi_comp_local, multi_coop_local))";
+	$multiplayers[] = $sql . " AND (GREATEST(multi_comp_local, multi_coop_local) = 1)";
+	$multiplayers[] = $sql . " AND (2 <= GREATEST(multi_comp_local, multi_coop_local) AND GREATEST(multi_comp_local, multi_coop_local) <= 3)";
+	$multiplayers[] = $sql . " AND (GREATEST(multi_comp_local, multi_coop_local) = 4)";
+	$multiplayers[] = $sql . " AND (5 <= GREATEST(multi_comp_local, multi_coop_local) AND GREATEST(multi_comp_local, multi_coop_local) <= 6)";
+	$multiplayers[] = $sql . " AND (7 <= GREATEST(multi_comp_local, multi_coop_local))";
 	
-	$whereConsole = "";
-	if ($_POST["consoleID"] == "-1") { 
-		$whereConsole = ""; 
-	} else if (!is_null($_POST["consoleChildren"])) {
-		// Some redundancy here with the first criteria
-		$whereConsole = "(console={$_POST["consoleID"]}";
-		foreach ($_POST["consoleChildren"] as $child) {
-    		$whereConsole .= " OR console={$child}";
-    	}
-    	$whereConsole .= ")";
+	$whereConsole = "";	
+	if ($_POST["consoleID"] != "-1") { 
+		if (!is_null($_POST["consoleChildren"])) {
+			// Some redundancy here with the first criteria
+			$whereConsole .= " AND (g.console = {$_POST["consoleID"]}";
+			foreach ($_POST["consoleChildren"] as $child) {
+	    		$whereConsole .= " OR g.console = {$child}";
+	    	}
+		} else {
+			$whereConsole .= " AND (g.console = {$_POST["consoleID"]}";
+		}
+
+		if(!is_null($_POST["tagIDs"]) && $_POST["tagIDs"][0] != "-1") {
+			$whereConsole .= ") AND (gt.tagid = {$_POST["tagIDs"][0]}"; 
+			foreach ($_POST["tagIDs"] as $tag) {
+	    		$whereConsole .= " OR gt.tagid = {$tag}";
+	    	}
+	    	$whereConsole .= ") GROUP BY g.id HAVING COUNT(*) = " . count($_POST["tagIDs"]);
+		} else {
+			$whereConsole .= ") GROUP BY g.id";
+		}
 	} else {
-		$whereConsole = "console={$_POST["consoleID"]}";
+		if(!is_null($_POST["tagIDs"]) && $_POST["tagIDs"][0] != "-1") {
+			$whereConsole .= " AND (gt.tagid = {$_POST["tagIDs"][0]}"; 
+			foreach ($_POST["tagIDs"] as $tag) {
+	    		$whereConsole .= " OR gt.tagid = {$tag}";
+	    	}
+	    	$whereConsole .= ") GROUP BY g.id HAVING COUNT(*) = " . count($_POST["tagIDs"]);
+		} else {
+			$whereConsole .= " GROUP BY g.id";			
+		}
 	}
 
-	if ($whereConsole != "") $total .= " WHERE " . $whereConsole; 
+	$total .= $whereConsole;
+	$total .= ") AS count"; 
 	$total = mysqli_fetch_array(mysqli_query($db, $total))[0];
 
 	foreach ($ratings as $index => $rating) {
-		if ($whereConsole != "") $rating .= " AND " . $whereConsole;
+		if ($whereConsole != "") $rating .= $whereConsole . ") AS count";
 		$ratings[$index] = mysqli_fetch_array(mysqli_query($db, $rating))[0];
 	}
 	foreach ($completions as $index => $completion) {
-		if ($whereConsole != "") $completion .= " AND " . $whereConsole;
+		if ($whereConsole != "") $completion .= $whereConsole . ") AS count";
 		$completions[$index] = mysqli_fetch_array(mysqli_query($db, $completion))[0];
 	}
 	foreach ($multiplayers as $index => $multiplayer) {
-		if ($whereConsole != "") $multiplayer .= " AND " . $whereConsole;
+		if ($whereConsole != "") $multiplayer .= $whereConsole . ") AS count";
 		$multiplayers[$index] = mysqli_fetch_array(mysqli_query($db, $multiplayer))[0];
 	}
 
@@ -76,14 +102,14 @@
 			<tr><td>3-Star </td><td>" . $ratings[2] . "</td><td>" . $ratingPercent[2] . "%</td></tr>
 			<tr><td>4-Star </td><td>" . $ratings[3] . "</td><td>" . $ratingPercent[3] . "%</td></tr>
 			<tr><td>5-Star </td><td>" . $ratings[4] . "</td><td>" . $ratingPercent[4] . "%</td></tr>
-		</table><table class='stats-table'>
+		</table><table class='stats-table'> <!-- No Line Break -->
 			<tr><th>Completion</th><th></th><th></th></tr>
 			<tr><td>Endless </td><td>" . $completions[0] . "</td><td>" . $completionPercent[0] . "%</td></tr>
 			<tr><td>Unplayed </td><td>" . $completions[1] . "</td><td>" . $completionPercent[1] . "%</td></tr>
 			<tr><td>Unfinished </td><td>" . $completions[2] . "</td><td>" . $completionPercent[2] . "%</td></tr>
 			<tr><td>Beaten </td><td>" . $completions[3] . "</td><td>" . $completionPercent[3] . "%</td></tr>
 			<tr><td>Complete </td><td>" . $completions[4] . "</td><td>" . $completionPercent[4] . "%</td></tr>
-		</table><table class='stats-table'>
+		</table><table class='stats-table'> <!-- No Line Break -->
 			<tr><th>Multiplayer</th><th></th><th></th></tr>
 			<tr><td>1-Player </td><td>" . $multiplayers[0] . "</td><td>" . $multiplayerPercent[0] . "%</td></tr>
 			<tr><td>2-Player+ </td><td>" . $multiplayers[1] . "</td><td>" . $multiplayerPercent[1] . "%</td></tr>

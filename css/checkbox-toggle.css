@@ -1,5 +1,5 @@
 .onoffswitch {
-    position: relative; width: 90px;
+    position: relative; width: 80px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox {
@@ -7,7 +7,8 @@
 }
 .onoffswitch-label {
     display: block; overflow: hidden; cursor: pointer;
-    border: 2px solid #000000; border-radius: 30px;
+    border: 0px solid #FD927E; 
+    /*border-radius: 30px;*/
 }
 .onoffswitch-inner {
     display: block; width: 200%; margin-left: -100%;
@@ -21,7 +22,7 @@
 .onoffswitch-inner:before {
     content: "Single";
     padding-left: 10px;
-    background-color: #C6EC51; color: #000000;
+    background-color: #FD927E; color: #000000;
 }
 .onoffswitch-inner:after {
     content: "Multi";
@@ -30,11 +31,12 @@
     text-align: right;
 }
 .onoffswitch-switch {
-    display: block; width: 30px; margin: 0px;
-    background: #000000;
+    display: block; width: 27px; margin: 0px;
+    background: #FFFFFF;
     position: absolute; top: 0; bottom: 0;
-    right: 59px;
-    border: 2px solid #000000; border-radius: 30px;
+    right: 54px;
+    border: 3px solid #FFFFFF;
+    /*border-radius: 30px;*/
     transition: all 0.3s ease-in 0s; 
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {

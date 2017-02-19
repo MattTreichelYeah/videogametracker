@@ -1,8 +1,9 @@
 $(document).ready(function(event) { //Default View
-	$.post("stats.php", {"consoleID": "-1"}, function(data) {
+	var tagIDs = ["-1"];
+	$.post("stats.php", {"consoleID": "-1", "tagIDs": tagIDs}, function(data) {
 		$("#stats").html(data);
 	});
-	$.post("games.php", {"consoleID": "-1"}, function(data) {
+	$.post("games.php", {"consoleID": "-1", "tagIDs": tagIDs}, function(data) {
 		$("#games").html(data);
 	});
 });

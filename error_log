@@ -1,0 +1,20 @@
+[12-Feb-2017 22:14:33 America/Denver] PHP Notice:  Undefined index: consoleChildren in /home4/ehhemnet/public_html/videogames/temp/games.php on line 6
+[12-Feb-2017 22:14:33 America/Denver] PHP Notice:  Undefined index: consoleChildren in /home4/ehhemnet/public_html/videogames/temp/stats.php on line 33
+[17-Feb-2017 12:18:42 America/Denver] PHP Notice:  Undefined index: consoleChildren in /home4/ehhemnet/public_html/videogames/temp/stats.php on line 26
+[17-Feb-2017 12:18:42 America/Denver] PHP Notice:  Undefined index: consoleChildren in /home4/ehhemnet/public_html/videogames/temp/games.php on line 6
+[17-Feb-2017 12:19:21 America/Denver] PHP Notice:  Undefined index: consoleChildren in /home4/ehhemnet/public_html/videogames/temp/games.php on line 6
+[17-Feb-2017 12:19:21 America/Denver] PHP Notice:  Undefined index: consoleChildren in /home4/ehhemnet/public_html/videogames/temp/stats.php on line 26
+[18-Feb-2017 22:50:53 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 22:51:00 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 22:51:02 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:16 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:19 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:21 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:22 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:23 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:28 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:30 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:32 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:33 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:35 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
+[18-Feb-2017 23:08:36 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home4/ehhemnet/public_html/videogames/temp/games.php on line 99
