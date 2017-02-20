@@ -19,37 +19,44 @@
 		LEFT JOIN games_tags AS gt ON g.id = gt.gameid
 		LEFT JOIN tags AS t ON t.id = gt.tagid";
 
+	$whereConsole = "";
+	$groupBy = "";
 	if ($_POST["consoleID"] != "-1") { 
 		if (!is_null($_POST["consoleChildren"])) {
 			// Some redundancy here with the first criteria
-			$sql .= " WHERE (g.console = {$_POST["consoleID"]}";
+			$whereConsole .= " WHERE (g.console = {$_POST["consoleID"]}";
 			foreach ($_POST["consoleChildren"] as $child) {
-	    		$sql .= " OR g.console = {$child}";
+	    		$whereConsole .= " OR g.console = {$child}";
 	    	}
 		} else {
-			$sql .= " WHERE (g.console = {$_POST["consoleID"]}";
+			$whereConsole .= " WHERE (g.console = {$_POST["consoleID"]}";
 		}
 
 		if(!is_null($_POST["tagIDs"]) && $_POST["tagIDs"][0] != "-1") {
-			$sql .= ") AND (gt.tagid = {$_POST["tagIDs"][0]}"; 
+			$whereConsole .= ") AND (gt.tagid = {$_POST["tagIDs"][0]}"; 
 			foreach ($_POST["tagIDs"] as $tag) {
-	    		$sql .= " OR gt.tagid = {$tag}";
+	    		$whereConsole .= " OR gt.tagid = {$tag}";
 	    	}
-	    	$sql .= ") GROUP BY g.id HAVING COUNT(*) = " . count($_POST["tagIDs"]);
+	    	$whereConsole .= ")";
+	    	$groupBy .= " GROUP BY g.id HAVING COUNT(*) = " . count($_POST["tagIDs"]);
 		} else {
-			$sql .= ") GROUP BY g.id";
+	    	$whereConsole .= ")";
+	    	$groupBy .= " GROUP BY g.id";
 		}
 	} else {
 		if(!is_null($_POST["tagIDs"]) && $_POST["tagIDs"][0] != "-1") {
-			$sql .= " WHERE gt.tagid = {$_POST["tagIDs"][0]}"; 
+			$whereConsole .= " WHERE (gt.tagid = {$_POST["tagIDs"][0]}"; 
 			foreach ($_POST["tagIDs"] as $tag) {
-	    		$sql .= " OR gt.tagid = {$tag}";
+	    		$whereConsole .= " OR gt.tagid = {$tag}";
 	    	}
-	    	$sql .= " GROUP BY g.id HAVING COUNT(*) = " . count($_POST["tagIDs"]);
+	    	$whereConsole .= ")";
+	    	$groupBy .= " GROUP BY g.id HAVING COUNT(*) = " . count($_POST["tagIDs"]);
 		} else {
-			$sql .= " GROUP BY g.id";
+	    	$groupBy .= " GROUP BY g.id";
 		}
 	}
+
+	$sql .= $whereConsole . $groupBy;
 
 	$games = mysqli_query($db, $sql);
 	
@@ -62,6 +69,7 @@
 			echo $row["name"] ."</td>
 			<td>"; 
 			switch ($row["completion"]) { 
+				case 0: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='../svg/endless.svg' title='Endless'>"; break;
 				case 1: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='../svg/unplayed.svg' title='Unplayed'>"; break;
 				case 2: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='../svg/unfinished.svg' title='Unfinished'>"; break; 
 				case 3: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='../svg/beaten.svg' title='Beaten'>"; break; 
@@ -84,22 +92,40 @@
 
 <div class="games-table-detail">
 
-	<h3>Now Playing:&nbsp;&nbsp;</h3>
+	<h3>Now Playing:</h3>
 
 	<?php 
 
-		$sql = "SELECT g.name, c.name_short AS console_name
+		$sql = "SELECT g.name, c2.name_short AS console_name
 			FROM games AS g
 			LEFT JOIN consoles AS c ON g.console = c.id
-			WHERE now_playing = 1";
+			LEFT JOIN consoles AS c2 ON c2.id = c.console_root
+			LEFT JOIN games_tags AS gt ON g.id = gt.gameid
+			LEFT JOIN tags AS t ON t.id = gt.tagid";
+
+		if ($whereConsole != "") $sql .= $whereConsole . " AND now_playing = 1 " . $groupBy;
+		else $sql .= " WHERE now_playing = 1" . $groupBy;
 
 		$now_playing = mysqli_query($db, $sql);
 
-		while($row = mysqli_fetch_array($now_playing)) {
-			echo "<span class='now-playing'>" . $row["name"] . " (" . $row["console_name"] . ")</span>";
+		if (mysqli_num_rows($now_playing) != 0) {
+			while($row = mysqli_fetch_array($now_playing)) {
+				echo "<span class='now-playing'>" . $row["name"] . " (" . $row["console_name"] . ")</span>";
+			}
+		} else {
+			echo "None!";
 		}
 
 	?>
+</div>
+
+<!--Component from Proto.io - https://proto.io/freebies/onoff/-->
+<div class="onoffswitch">
+    <input type="checkbox" id="singlemulti" name="singlemulti" class="onoffswitch-checkbox" checked>
+    <label class="onoffswitch-label" for="singlemulti">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
 </div>
 
 <div>

@@ -35,5 +35,7 @@ $(document).ready(function () {
 		table.columns.adjust().draw();
 	});
 
-	//$('.sidedrawer-toggle').on('click', function() { table.columns.adjust().responsive.recalc(); console.log("hi"); });
+	$(".dataTables_paginate").on("click", function(event) {
+	    $("#games-table").DataTable().columns.adjust().responsive.recalc();
+	});
 });

@@ -15,7 +15,7 @@
     transition: margin 0.3s ease-in 0s;
 }
 .onoffswitch-inner:before, .onoffswitch-inner:after {
-    display: block; float: left; width: 50%; height: 27px; padding: 0; line-height: 27px;
+    display: block; float: left; width: 50%; height: 40px; padding: 0; line-height: 40px;
     font-size: 15px; color: white; 
     box-sizing: border-box;
 }

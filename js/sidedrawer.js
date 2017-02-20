@@ -21,4 +21,15 @@ $(function() {
 	$('.sidedrawer-left-toggle-desktop').on('click', desktopSidedrawer("left"));
 	$('.sidedrawer-right-toggle-mobile').on('click', mobileSidedrawer("right"));
 	$('.sidedrawer-right-toggle-desktop').on('click', desktopSidedrawer("right"));
+
+	// Left & Right Arrow Keys
+	$('body').keydown(function(event) {
+		if (event.keyCode === 37) desktopSidedrawer("left")();
+		else if (event.keyCode === 39) desktopSidedrawer("right")();
+	});
+
+	$(".content-wrapper").on('swipeleft', function(){ mobileSidedrawer("right")(); }).on('swiperight', function(){ mobileSidedrawer("left")(); });
+	$(".sidedrawer-left").on('swipeleft',  function(){ mobileSidedrawer("left")(); });
+	$(".sidedrawer-right").on('swiperight',  function(){ mobileSidedrawer("right")(); });
+
 });

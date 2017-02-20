@@ -37,15 +37,6 @@
 			<div id="games-box">
 				<!-- <h3>Games!</h3> -->
 
-				<!--Component from Proto.io - https://proto.io/freebies/onoff/-->
-				<div class="onoffswitch">
-				    <input type="checkbox" id="singlemulti" name="singlemulti" class="onoffswitch-checkbox" checked>
-				    <label class="onoffswitch-label" for="singlemulti">
-				        <span class="onoffswitch-inner"></span>
-				        <span class="onoffswitch-switch"></span>
-				    </label>
-				</div>
-
 				<!--Component from Loading.io -->
 				<!-- <div class='loading-icon uil-rolling-css' style='transform:scale(0.11);'><div><div></div><div></div></div></div> -->
 
