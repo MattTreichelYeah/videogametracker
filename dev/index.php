@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		<div class="sidedrawer sidedrawer-right">
-			<h3>Tags</h3>
+			<h3>Tags (Experimental)</h3>
 			<a class="sidedrawer-toggle sidedrawer-right-toggle-mobile">☰</a>
 
 			<!--Component from Loading.io -->

@@ -90,12 +90,12 @@
 
 		// Pass Data
 		$.post("stats.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			loading.finish("stats");
 			$("#stats").html(data);
+			loading.finish("stats");
 		});
 		$.post("games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			loading.finish("games");
 			$("#games").html(data);
+			loading.finish("games");
 		});
 	});
 </script>
