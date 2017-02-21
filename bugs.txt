@@ -1,0 +1,9 @@
+Other Things
+
+-DLC checkbox to remove from stats?
+-More explanation text for icons like Local/System Link/Online, Comp/Coop, and for handheld consoles how they apply
+-DLC/Comp Arrow is upside down when sorted backwards, confusing when sorted by other columns
+-Really need to optimize SQL
+-Verify Data/Stats
+
+-Database in localhost is most up to date version, not csv
