@@ -20,11 +20,11 @@
 	}
 
 	$multiplayers = [];
-	$multiplayers[] = $sql . " AND (GREATEST(multi_comp_local, multi_coop_local) = 1)";
-	$multiplayers[] = $sql . " AND (2 <= GREATEST(multi_comp_local, multi_coop_local) AND GREATEST(multi_comp_local, multi_coop_local) <= 3)";
-	$multiplayers[] = $sql . " AND (GREATEST(multi_comp_local, multi_coop_local) = 4)";
-	$multiplayers[] = $sql . " AND (5 <= GREATEST(multi_comp_local, multi_coop_local) AND GREATEST(multi_comp_local, multi_coop_local) <= 6)";
-	$multiplayers[] = $sql . " AND (7 <= GREATEST(multi_comp_local, multi_coop_local))";
+	$multiplayers[] = $sql . " AND (GREATEST(multi_comp_local, multi_coop_local, COALESCE(multi_comp_LAN, 0), COALESCE(multi_coop_LAN, 0)) = 1)";
+	$multiplayers[] = $sql . " AND (2 <= GREATEST(multi_comp_local, multi_coop_local, COALESCE(multi_comp_LAN, 0), COALESCE(multi_coop_LAN, 0)) AND GREATEST(multi_comp_local, multi_coop_local, COALESCE(multi_comp_LAN, 0), COALESCE(multi_coop_LAN, 0)) <= 3)";
+	$multiplayers[] = $sql . " AND (GREATEST(multi_comp_local, multi_coop_local, COALESCE(multi_comp_LAN, 0), COALESCE(multi_coop_LAN, 0)) = 4)";
+	$multiplayers[] = $sql . " AND (5 <= GREATEST(multi_comp_local, multi_coop_local, COALESCE(multi_comp_LAN, 0), COALESCE(multi_coop_LAN, 0)) AND GREATEST(multi_comp_local, multi_coop_local, COALESCE(multi_comp_LAN, 0), COALESCE(multi_coop_LAN, 0)) <= 6)";
+	$multiplayers[] = $sql . " AND (7 <= GREATEST(multi_comp_local, multi_coop_local, COALESCE(multi_comp_LAN, 0), COALESCE(multi_coop_LAN, 0)))";
 	
 	$whereConsole = "";	
 	if ($_POST["consoleID"] != "-1") { 
@@ -75,10 +75,6 @@
 		if ($whereConsole != "") $multiplayer .= $whereConsole . ") AS count";
 		$multiplayers[$index] = mysqli_fetch_array(mysqli_query($db, $multiplayer))[0];
 	}
-
-	// $rating = [154, 33, 22, 10, 44];
-	// $completion = [33, 44, 22, 50, 10];
-	// $multiplayer = [22, 50, 44, 10, 33];
 
 	$percent = function($value) {
 		global $total;

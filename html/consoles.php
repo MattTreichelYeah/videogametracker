@@ -46,11 +46,11 @@
 </div>
 
 <script>
-	$('.dropdown').click(function(event){
-		$(this).next().slideToggle();
+	$('.dropdown').click(function(event) {
+		$(this).siblings(".console-sublist").slideToggle();
 	});
 
-	$('.console-link').click(function(event){
+	$('.console-link').click(function(event) {
 		event.preventDefault(); //No link Page Reload
 		$(this).parents("ul").find('.option-selected').removeClass("option-selected");
 		$(this).addClass("option-selected");
@@ -69,11 +69,32 @@
 			$(`[data-root='${consoleRoot}']`).each(function() { consoleChildren.push($(this).attr("data-id")); });
 		}
 
+		if ($(this).next().is("img")) {
+			$(".sidedrawer-left .loading-icon").insertAfter($(this).next("img")).removeClass("hidden");
+		} else {
+			$(".sidedrawer-left .loading-icon").appendTo($(this)).removeClass("hidden");			
+		}
+
+		var loading = {
+			"stats": false, 
+			"games": false, 
+			"finish": function(component) { 
+				if (component === "stats") this.stats = true;
+				else if (component === "games") this.games = true;
+
+				if (this.stats && this.games) {
+					$(".loading-icon").addClass("hidden");					
+				}
+			}
+		};
+
 		// Pass Data
 		$.post("stats.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
+			loading.finish("stats");
 			$("#stats").html(data);
 		});
 		$.post("games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
+			loading.finish("games");
 			$("#games").html(data);
 		});
 	});

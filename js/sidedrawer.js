@@ -13,8 +13,12 @@ $(function() {
 	}
 
 	// Table doesn't update as transition occurs, which sucks
+	// Don't need this for mobile since sidebar doesn't move table, kills performance
+	// The detection method for mobile is stupid
 	$(".sidedrawer").on("transitionend", function() {
-		$("#games-table").DataTable().columns.adjust().responsive.recalc();
+		if ($(".sidedrawer-left-toggle-mobile:visible").length === 0) {
+			$("#games-table").DataTable().columns.adjust().responsive.recalc();
+		}
 	});
 
 	$('.sidedrawer-left-toggle-mobile').on('click', mobileSidedrawer("left"));
@@ -28,8 +32,8 @@ $(function() {
 		else if (event.keyCode === 39) desktopSidedrawer("right")();
 	});
 
-	$(".content-wrapper").on('swipeleft', function(){ mobileSidedrawer("right")(); }).on('swiperight', function(){ mobileSidedrawer("left")(); });
-	$(".sidedrawer-left").on('swipeleft',  function(){ mobileSidedrawer("left")(); });
-	$(".sidedrawer-right").on('swiperight',  function(){ mobileSidedrawer("right")(); });
+	$(".content-wrapper").on('swipeleft', mobileSidedrawer("right")).on('swiperight', mobileSidedrawer("left"));
+	$(".sidedrawer-left").on('swipeleft', mobileSidedrawer("left"));
+	$(".sidedrawer-right").on('swiperight', mobileSidedrawer("right"));
 
 });

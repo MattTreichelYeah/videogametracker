@@ -23,16 +23,19 @@ $(document).ready(function () {
             //'print'
         ],
         "columnDefs": [
-        	{ "targets": ["rating","completion","local-coop","local-comp","LAN-coop","LAN-comp","online-coop","online-comp"], "orderSequence": ["desc", "asc"] }
+        	{ "targets": ["rating","completion","local-comp","LAN-comp","multi-note"], "orderSequence": ["desc", "asc"] }
         ]
 	});
 
 	$("#singlemulti").on("change", function() {
 		var single = this.checked;
 		// false means don't redraw each time
-        table.columns([".local-coop",".local-comp",".LAN-coop",".LAN-comp",".online-coop",".online-comp"]).visible(!single, false);
+        // table.columns([".local-comp",".LAN-comp",".multi-note"]).visible(!single, false);
+		// table.columns([".completion",".rating",".system"]).visible(single, false);
+		// This isn't really single view, but makes sense to toggle initial view on/off
 		table.columns([".completion",".rating",".system"]).visible(single, false);
 		table.columns.adjust().draw();
+		$("#games-table tr").toggleClass("multi-active"); //enable highlighting
 	});
 
 	$(".dataTables_paginate").on("click", function(event) {

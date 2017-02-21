@@ -6,7 +6,7 @@
 	$sql = "SET SQL_BIG_SELECTS = 1; ";
 	mysqli_query($db, $sql);
 
-	$sql = "SELECT g.*, 
+	$sql = "SELECT g.name, g.completion, g.rating, g.console, g.original_console, g.compilation_root, g.dlc_root, g.multi_note, g.multi_comp_local, g.multi_comp_LAN, g.multi_coop_local, g.multi_coop_LAN,
 		c.name_short AS console_name, 
 		c2.name_short AS console_original_name, 
 		g2.name AS compilation_name, 
@@ -58,11 +58,13 @@
 
 	$sql .= $whereConsole . $groupBy;
 
+	//echo $sql;
+
 	$games = mysqli_query($db, $sql);
 	
 	function printrow($row) {
 		// Should probably use Join?
-		echo "<tr class='local-". max($row["multi_comp_local"], $row["multi_coop_local"]) ."'>
+		echo "<tr class='local-". max($row["multi_comp_local"], $row["multi_coop_local"], $row["multi_comp_LAN"], $row["multi_coop_LAN"]) ."'>
 			<td class='title-cell'>"; 
 			if ($row["compilation_root"] != 0 && $row["compilation_root"] != -1) { echo "<img class='svg' src='../svg/arrow.svg' title='" . $row["compilation_name"] . "'><span class='filter-data'>" . $row["compilation_name"] . "</span> "; } 
 			else if ($row["dlc_root"] != 0) { echo "<img class='svg' src='../svg/arrow.svg' title='" . $row["dlc_name"] . "'><span class='filter-data'>" . $row["dlc_name"] . "</span> "; } 
@@ -80,12 +82,9 @@
 			<td>". $row["console_name"]; 
 			if ($row["original_console"] != "0") echo " (". $row["console_original_name"] .")"; 
 			echo "</td>
-			<td>". $row["multi_comp_local"] ."</td>
-			<td>". $row["multi_coop_local"] ."</td>
-			<td>". $row["multi_comp_LAN"] ."</td>
-			<td>". $row["multi_coop_LAN"] ."</td>
-			<td>". $row["multi_comp_online"] ."</td>
-			<td>". $row["multi_coop_online"] ."</td>
+			<td>". max($row["multi_comp_local"], $row["multi_coop_local"]) ."</td>
+			<td>". max($row["multi_comp_LAN"], $row["multi_coop_LAN"]) ."</td>
+			<td>". $row["multi_note"] ."</td>
 		</tr>";
 	}
 ?>
@@ -137,12 +136,13 @@
 				<th class="completion"><span class="th-desktop">Completion</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="rating"><span class="th-desktop">Rating</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="system"><span class="th-desktop">Console</span><span class="th-mobile">&nbsp;</span></th>
-				<th class="local-comp"><img class='svg' src="../svg/local.svg" title="Local Competitive Players"></th>
-				<th class="local-coop"><img class='svg' src="../svg/local.svg" title="Local Co-op Players"></th>
-				<th class="LAN-comp"><img class='svg' src="../svg/LAN.svg" title="LAN Competitive Players"></th>
-				<th class="LAN-coop"><img class='svg' src="../svg/LAN.svg" title="LAN Co-op Players"></th>
-				<th class="online-comp"><img class='svg' src="../svg/online.svg" title="Online Competitive Players"></th>
-				<th class="online-coop"><img class='svg' src="../svg/online.svg" title="Online Co-op Players"></th>
+				<th class="local-comp"><img class='svg' src="../svg/local.svg" title="Local Players"></th>
+				<th class="LAN-comp"><img class='svg' src="../svg/LAN.svg" title="System Link Players"></th>
+				<th class="multi-note"><span class="th-desktop">Multiplayer Note</span><span class="th-mobile">&nbsp;</span></th>
+<!-- 				<th class="local-coop"><img class='svg' src="../svg/local.svg" title="Local Co-op Players"></th>
+				<th class="LAN-coop"><img class='svg' src="../svg/LAN.svg" title="LAN Co-op Players"></th> -->
+<!-- 				<th class="online-comp"><img class='svg' src="../svg/online.svg" title="Online Competitive Players"></th>
+				<th class="online-coop"><img class='svg' src="../svg/online.svg" title="Online Co-op Players"></th> -->
 			</tr>
 		</thead>
 		<tbody>
