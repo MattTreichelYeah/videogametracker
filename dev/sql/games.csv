@@ -1,774 +1,791 @@
-id,name,compilation_root,dlc_root,console,original_console,completion,ownership,achievements,achievements_total,rating,multi_rating,now_playing,note,multi_note,review,multi_comp_local,multi_coop_local,multi_comp_LAN,multi_coop_LAN,multi_comp_online,multi_coop_online
-,Animal Crossing: amiibo Festival,,,37,,0,,,,2,,,,,,4,,,,,
-,Call of Duty: Black Ops II,,,37,,1,,,,0,,,,,,4,2,,,,
-,Donkey Kong Country: Tropical Freeze,,,37,,3,,,,5,,,,,,,2,,,,
-,Game & Wario,,,37,,3,,,,4,,,,,,5,,,,,
-,Mario & Sonic at the Sochi 2014 Olympic Winter Games,,,37,,3,,,,3,,,,,,4,,,,,
-,Mario Kart 8,,,37,,3,,,,5,,,,,,4,2,,,,
-,Mario Party 10,,,37,,0,,,,4,,,,,,5,,,,,
-,Mario Tennis: Ultra Smash,,,37,,0,,,,4,,,,,,4,2,,,,
-,Monster Hunter 3 Ultimate,,,37,,3,,,,4,,,,,,,,,,,
-,New Super Mario Bros. U,,,37,,3,,,,5,,,,,,4,5,,,,
-,Nintendo Land,,,37,,3,,,,5,,,,,,5,5,,,,
-,Pikmin 3,,,37,,4,,,,5,,,,,,2,2,,,,
-,Rayman Legends,,,37,,3,,,,5,,,,,,5,5,,,,
-,Sonic & All-Stars Racing Transformed,,,37,,2,,,,0,,,,,,5,,,,,
-,Super Mario 3D World,,,37,,4,,,,5,,,,,,,4,,,,
-,Super Mario Maker,,,37,,0,,,,5,,,,,,,,,,,
-,Super Smash Bros. for Wii U,,,37,,2,,,,5,,,,,,8,4,,,,
-,Wii Party U,,,37,,0,,,,5,,,,,,4,4,,,,
-,The Wonderful 101,,,37,,2,,,,5,,,,,,,5,,,,
-,ZombiU,,,37,,2,,,,5,,,,,,2,,,,,
-,Affordable Space Adventures,,,2,,2,,,,0,,,,,,,3,,,,
-,Art of Balance,,,2,,3,,,,4,,,,,,5,,,,,
-,Chasing Aurora,,,2,,0,,,,3,,,,,,5,,,,,
-,Fast Racing Neo,,,2,,3,,,,4,,,,,,4,,,,,
-,Runbow,,,2,,3,,,,4,,,,,,9,9,,,,
-,Shantae and the Pirate's Curse,,,2,,3,,,,5,,,,,,,,,,,
-,Sportsball,,,2,,0,,,,3,,,,,,4,,,,,
-,Toki Tori 2+,,,2,,3,,,,4,,,,,,,,,,,
-,EarthBound,,,3,20,3,,,,5,,,,,,,,,,,
-,Super Metroid,,,3,20,3,,,,5,,,,,,,,,,,
-,Assassin's Creed,,,38,,3,,36,44,3,,,,,,,,,,,
-,Assassin's Creed II,,,38,,3,,47,50,5,,,,,,,,,,,
-,Banjo-Kazooie: Nuts & Bolts,,,38,,4,,59,60,5,,,,,,2,,,,,
-,L.O.G.'s Lost Challenges,,1,38,,4,,,,2,,,,,,,,,,,
-,Batman: Arkham Asylum,,,38,,4,,47,47,5,,,,,,,,,,,
-,Batman: Arkham City,,,38,,4,,65,70,5,,,,,,,,,,,
-,Harley Quinn's Revenge,,1,38,,3,,,,3,,,,,,,,,,,
-,Bioshock,,,38,,3,,39,50,5,,,,,,,,,,,
-,Bioshock 2,,,38,,3,,49,68,5,,,,,,,,,,,
-,Minerva's Den,,1,38,,3,,,,5,,,,,,,,,,,
-,BrUtal Legend,,,38,,3,,34,59,5,,,,,,,,,,,
-,Bulletstorm,,,38,,3,,29,60,5,,,,,,,,,,,
-,Call of Duty 4: Modern Warfare,,,38,,3,,31,37,4,,,,,,4,,,,,
-,Call of Duty: Modern Warfare 2,,,38,,3,,39,50,5,,,,,,4,2,,,,
-,Call of Duty: Modern Warfare 3,,,38,,3,,19,76,4,,,,,,4,2,,,,
-,Dark Void,,,38,,3,,35,47,3,,,,,,,,,,,
-,Dead Rising,,,38,,3,,21,50,3,,,,,,,,,,,
-,The Elder Scrolls IV: Oblivion,,,38,,3,,50,60,4,,,,,,,,,,,
-,Fable III,,,38,,3,,25,60,2,,,,,,,2,,,,
-,Fallout 3,,,38,,3,,63,72,5,,,,,,,,,,,
-,Broken Steel,,1,38,,3,,,,4,,,,,,,,,,,
-,Mothership Zeta,,1,38,,3,,,,3,,,,,,,,,,,
-,Operation: Anchorage,,1,38,,3,,,,4,,,,,,,,,,,
-,The Pitt,,1,38,,4,,,,4,,,,,,,,,,,
-,Point Lookout,,1,38,,3,,,,5,,,,,,,,,,,
-,Far Cry 2,,,38,,3,,33,48,4,,,,,,,,,,,
-,Gears of War,,,38,,3,,21,57,4,,,,,,2,2,4,4,,
-,Gears of War 2,,,38,,3,,56,79,5,,,,,,2,2,4,4,,
-,Road to Ruin,,1,38,,3,,,,4,,,,,,2,2,4,4,,
-,Gears of War 3,,,38,,3,,27,82,4,,,,,,2,2,4,4,,
-,Grand Theft Auto IV,,,38,,3,,30,65,5,,,,,,,,,,,
-,Halo 3,,,38,,4,,78,79,5,,,,,,4,2,8,4,,
-,Halo 3: ODST,,,38,,4,,42,47,5,,,,,,,2,,4,,
-,Halo 3: Mythic,1,,38,,0,,78,79,5,,,,,,4,,8,,,
-,Halo 4,,,38,,3,,35,57,5,,,,,,4,2,8,4,,
-,Halo Wars,,,38,,3,,47,58,5,,,,,,,,2,2,,
-,Halo: Combat Evolved Anniversary,,,38,,4,,37,44,4,,,,,,,2,,,,
-,Halo: Reach,,,38,,3,,60,69,5,,,,,,4,2,8,4,,
-,Kameo: Elements of Power,,,38,,3,,16,50,3,,,,,,,2,,,,
-,Left 4 Dead 2,,,38,,3,,45,60,5,,,,,,2,2,4,4,,
-,Mass Effect,,,38,,3,,12,49,3,,,,,,,,,,,
-,Mass Effect 2,,,38,,3,,44,51,4,,,,,,,,,,,
-,Mass Effect 3,,,38,,3,,36,68,4,,,,,,,,,,,
-,Metro 2033,,,38,,3,,29,48,4,,,,,,,,,,,
-,Mirror's Edge,,,38,,3,,22,50,4,,,,,,,,,,,
-,Mortal Kombat vs. DC Universe,,,38,,3,,18,50,4,,,,,,2,,,,,
-,Prince of Persia (2008),,,38,,3,,35,60,4,,,,,,,,,,,
-,Rayman Origins,,,38,,1,,1,36,0,,,,,,,4,,,,
-,Red Dead Redemption,,,38,,3,,17,95,3,,,,,,,,,,,
-,Undead Nightmare,,1,38,,3,,,,4,,,,,,,,,,,
-,Sega Superstars Tennis,,,38,,0,,7,45,3,,,,,,4,2,,,,
-,Singularity,,,38,,3,,18,50,4,,,,,,,,,,,
-,Sonic & Sega All-Stars Racing,,,38,,3,,16,50,4,,,,,,4,,,,,
-,Sonic Generations,,,38,,4,,49,49,5,,,,,,,,,,,
-,Sonic the Hedgehog,1,,38,19,3,,,,3,,,,,,,,,,,
-,Viva PiNata: Trouble in Paradise,,,38,,0,,47,50,5,,,,,,4,2,,,,
-,Banjo-Kazooie,,,5,,4,,12,12,5,,,,,,,,,,,
-,Banjo-Tooie,,,5,,4,,12,12,5,,,,,,4,,,,,
-,Bastion,,,5,,3,,10,12,4,,,,,,,,,,,
-,BattleBlock Theater,,,5,,3,,13,30,4,,,,,,,,,,,
-,Battlefield 1943,,,5,,0,,12,12,4,,,,,,,,,,,
-,Beyond Good and Evil HD,,,5,,3,,12,12,4,,,,,,,,,,,
-,Bionic Commando: Rearmed,,,5,,4,,9,12,5,,,,,,4,2,,,,
-,Carcassonne,,,5,,0,,2,12,3,,,,,,4,,,,,
-,Dead Rising 2: Case Zero,,,5,,3,,11,12,4,,,,,,,,,,,
-,Death Tank,,,5,,0,,1,12,3,,,,,,4,,,,,
-,Death Tank Zwei,1,,5,,0,,,,1,,,,,,4,,,,,
-,Defense Grid: The Awakening,,,5,,3,,7,22,3,,,,,,,,,,,
-,Doom,,,5,,2,,2,12,0,,,,,,4,4,,,,
-,Doritos Crash Course,,,5,,3,,5,15,3,,,,,,4,,,,,
-,City Lights,,1,5,,3,,,,3,,,,,,4,,,,,
-,Dungeon Defenders,,,5,,1,,0,12,0,,,,,,,4,,,,
-,Frogger: Hyper Arcade Edition,,,5,,0,,8,12,4,,,,,,4,,,,,
-,From Dust,,,5,,4,,11,12,5,,,,,,,,,,,
-,Gatling Gears,,,5,,3,,5,12,3,,,,,,,2,,,,
-,Geometry Wars 2: Retro Evolved,,,5,,0,,6,12,4,,,,,,4,4,,,,
-,Gotham City Imposters,,,5,,0,,6,12,5,,,,,,,,,,,
-,Grabbed by the Ghoulies,,,5,,3,,,,2,,,,,,,,,,,
-,Greed Corp,,,5,,3,,10,12,5,,,,,,4,,,,,
-,Hydro Thunder Hurricane,,,5,,1,,0,15,0,,,,,,4,,,,,
-,Insanely Twisted Shadow Planet,,,5,,2,,4,17,0,,,,,,,4,,,,
-,Lara Croft and the Guardian of Light,,,5,,1,,0,12,0,,,,,,,2,,,,
-,Lode Runner (2009),,,5,,2,,1,15,3,,,,,,4,2,,,,
-,Marvel vs. Capcom 2: New Age of Heroes,,,5,,4,,0,12,2,,,,,,2,,,,,
-,Monaco: What's Yours is Mine,,,5,,2,,1,12,0,,,,,,,4,,,,
-,NBA Jam: On Fire Edition,,,5,,2,,2,12,3,,,,,,4,,,,,
-,Pac-Man Championship Edition DX+,,,5,,0,,12,12,4,,,,,,,,,,,
-,Perfect Dark,,,5,,3,,18,20,5,,,,,,4,2,,,,
-,Shadow Complex,,,5,,4,,11,12,5,,,,,,,,,,,
-,Sonic Adventure,,,5,,3,,7,15,3,,,,,,,,,,,
-,Sonic CD,,,5,,3,,7,12,2,,,,,,,,,,,
-,Sonic the Hedgehog 4: Episode I,,,5,,3,,5,12,2,,,,,,,,,,,
-,Toy Soldiers,,,5,,3,,9,18,4,,,,,,2,,,,,
-,Toy Soldiers: Cold War,,,5,,3,,11,26,4,,,,,,2,,,,,
-,Trials HD,,,5,,3,,10,15,4,,,,,,,,,,,
-,Trials: Evolution,,,5,,3,,7,36,4,,,,,,4,,,,,
-,Worms 2: Armageddon,,,5,,0,,0,25,3,,,,,,4,,,,,
-,Worms: Ultimate Mayhem,,,5,,3,,7,21,5,,,,,,4,,,,,
-,\'Splosion Man,,,5,,3,,7,12,2,,,,,,,4,,,,
-,DLC Quest,,,6,,4,,,,3,,,,,,,,,,,
-,Blur,,,39,,2,,8,49,4,,,,,,4,,,,,
-,Call of Duty: Black Ops,,,39,,3,,19,71,4,,,,,,4,2,,,,
-,Dark Souls,,,39,,1,,,,0,,,,,,,,,,,
-,DC Universe Online,,,39,,0,,0,24,2,,,,,,,,,,,
-,Demon's Souls,,,39,,1,,,,0,,,,,,,,,,,
-,Deus Ex: Human Revolution,,,39,,2,,35,50,5,,,,,,,,,,,
-,The Missing Link,,1,39,,1,,,,0,,,,,,,,,,,
-,God of War Collection,,,39,,,,,,,,,,,,,,,,,
-,God of War,1,,39,15,3,,29,36,4,,,,,,,,,,,
-,God of War II,1,,39,15,3,,29,35,4,,,,,,,,,,,
-,God of War III,,,39,,3,,26,36,5,,,,,,,,,,,
-,Goldeneye 007: Reloaded,,,39,,1,,0,51,0,,,,,,4,,,,,
-,Heavy Rain,,,39,,3,,27,57,5,,,,,,,,,,,
-,Heavy Rain Chronicles: Episode 1: The Taxidermist,,1,39,,4,,,,3,,,,,,,,,,,
-,The Ico & Shadow of the Colossus Collection,,,39,,,,,,,,,,,,,,,,,
-,Ico,1,,39,15,3,,9,16,4,,,,,,,,,,,
-,Shadow of the Colossus,1,,39,15,3,,17,31,4,,,,,,,,,,,
-,inFamous,,,39,,3,,33,50,5,,,,,,,,,,,
-,Jak & Daxter Collection,,,39,,,,,,,,,,,,,,,,,
-,Jak & Daxter: The Precursor Legacy,1,,39,15,3,,37,39,5,,,,,,,,,,,
-,Jak II,1,,39,15,3,,38,41,3,,,,,,,,,,,
-,Jak 3,1,,39,15,3,,45,47,4,,,,,,,,,,,
-,Killzone 2,,,39,,3,,22,84,3,,,,,,,,,,,
-,L.A. Noire,,,39,,3,,26,61,4,,,,,,,,,,,
-,The Last of Us,,1,39,,3,,6,50,4,,,,,,,,,,,
-,Left Behind,,,39,,3,,,,4,,,,,,,,,,,
-,LittleBigPlanet,,,39,,3,,35,70,4,,,,,,,4,,,,
-,LittleBigPlanet Karting,,,39,,1,,3,45,0,,,,,,4,,,,,
-,MAG,,,39,,0,,17,44,4,,,,,,,,,,,
-,Metal Gear Solid 4: Guns of the Patriots,,,39,,3,,,,5,,,,,,,,,,,
-,Metal Gear Solid HD Collection,,,39,,2,,,,,,,,,,,,,,,
-,Metal Gear,1,,39,-1,2,,,,0,,,,,,,,,,,
-,Metal Gear 2: Solid Snake,1,,39,-1,3,,,,0,,,,,,,,,,,
-,Metal Gear Solid 2: Sons of Liberty,1,,39,15,3,,16,46,4,,,,,,,,,,,
-,Metal Gear Solid 3: Snake Eater,1,,39,15,3,,20,46,5,,,,,,,,,,,
-,Metal Gear Solid: Peace Walker,1,,39,16,3,,15,50,3,,,,,,,,,,,
-,Metro: Last Light,,,39,,3,,17,71,4,,,,,,,,,,,
-,Minecraft: PlayStation 3 Edition,,,39,,0,,7,51,5,,,,,,4,4,,,,
-,Mortal Kombat (2011),,,39,,4,,33,51,5,,,,,,4,2,,,,
-,MotorStorm: Apocalypse,,,39,,1,,,,0,,,,,,4,,,,,
-,PlayStation All-Stars Battle Royale,,,39,,3,,25,56,4,,,,,,4,,,,,
-,Portal 2,,,39,,3,,19,51,5,,,,,,,2,,,,
-,SSX (2012),,,39,,3,,37,37,5,,,,,,,,,,,
-,Mt. Eddie,,1,39,,4,,,,5,,,,,,,,,,,
-,Twisted Metal (2012),,,39,,3,,14,40,5,,,,,,4,2,,,,
-,Uncharted 2: Among Thieves,,,39,,3,,25,71,3,,,,,,,,,,,
-,Uncharted 3: Drake's Deception,,,39,,1,,0,105,0,,,,,,,2,,,,
-,Uncharted: Drake's Fortune,,,39,,3,,23,48,3,,,,,,,,,,,
-,Badland: Game of the Year Edition,,,8,,2,,7,43,0,,,,,,4,,,,,
-,BlazeRush,,,8,,1,,0,21,0,,,,,,4,,,,,
-,Bomberman Ultra,,,8,,0,,1,11,3,,,,,,7,,,,,
-,Braid,,,8,,3,,11,12,3,,,,,,,,,,,
-,Castle Crashers,,,8,,2,,1,13,0,,,,,,,4,,,,
-,Divekick,,,8,,3,,1,14,4,,,,,,2,,,,,
-,Flower,,,8,,3,,3,14,3,,,,,,,,,,,
-,Geometry Wars 3: Dimensions Evolved,,,8,,,,11,31,4,,,,,,,4,,,,
-,Journey,,,8,,3,,7,14,5,,,,,,,,,,,
-,Mortal Kombat: Arcade Kollection,,,8,,,,,,,,,,,,,,,,,
-,Mortal Kombat,1,,8,-2,3,,9,12,2,,,,,,2,,,,,
-,Mortal Kombat II,1,,8,-2,3,,9,12,2,,,,,,2,,,,,
-,Ultimate Mortal Kombat 3,1,,8,-2,3,,9,12,3,,,,,,2,,,,,
-,Scott Pilgrim vs. The World: The Game,,,8,,2,,1,19,0,,,,,,,4,,,,
-,Sportsfriends,,,8,,,,,,,,,,,,,,,,,
-,BaraBariBall,1,,8,,0,,2,14,4,,,,,,4,,,,,
-,Hokra,1,,8,,0,,,,4,,,,,,4,,,,,
-,Johann Sebastian Joust,1,,8,,0,,,,0,,,,,,7,,,,,
-,Super Pole Riders,1,,8,,0,,,,4,,,,,,4,,,,,
-,Starwhal,,,8,,0,,0,23,5,,,,,,4,,,,,
-,Super Motherload,,,8,,3,,4,9,3,,,,,,,4,,,,
-,Super Street Fighter II Turbo HD Remix,,,8,,3,,,,3,,,,,,2,,,,,
-,Supersonic Acrobatic Rocket-Powered Battle-Cars,,,8,,2,,0,14,4,,,,,,4,,,,,
-,Tokyo Jungle,,,8,,3,,10,13,3,,,,,,,2,,,,
-,Toybox Turbos,,,8,,4,,14,16,5,,,,,,4,,,,,
-,Wipeout HD,,,8,,3,,14,51,3,,,,,,2,,,,,
-,Fury,,1,8,,3,,,,2,,,,,,2,,,,,
-,Worms: Revolution,,,8,,0,,4,35,3,,,,,,4,,,,,
-,Crash Bandicoot,,,9,17,3,,,,4,,,,,,,,,,,
-,Crash Team Racing,,,9,17,3,,,,5,,,,,,4,,,,,
-,Metal Gear Solid,,,9,17,3,,,,5,,,,,,,,,,,
-,Red Faction II,,,9,15,3,,,,2,,,,,,4,,,,,
-,Spyro the Dragon,,,9,17,4,,,,3,,,,,,,,,,,
-,Toy Story 2: Buzz Lightyear to the Rescue,,,9,17,3,,,,4,,,,,,,,,,,
-,Twisted Metal 2,,,9,17,3,,,,2,,,,,,2,2,,,,
-,Animal Crossing: City Folk,,,54,,0,,,,3,,,,,,,,,,,
-,Boom Blox: Bash Party,,,54,,0,,,,4,,,,,,4,4,,,,
-,The Conduit,,,54,,4,,,,3,,,,,,,,,,,
-,Donkey Kong Country Returns,,,54,,3,,,,5,,,,,,,2,,,,
-,Dragon Ball Z: Budokai Tenkaichi 2,,,54,,4,,,,3,,,,,,2,,,,,
-,Elebits,,,54,,3,,,,4,,,,,,4,,,,,
-,Excitebots: Trick Racing,,,54,,3,,,,4,,,,,,2,,,,,
-,Godzilla Unleashed,,,54,,4,,,,4,,,,,,4,,,,,
-,The Legend of Zelda: Skyward Sword,,,54,,3,,,,4,,,,,,,,,,,
-,The Legend of Zelda: Twilight Princess,,,54,,3,,,,5,,,,,,,,,,,
-,Lego Star Wars: The Complete Saga,,,54,,3,,,,4,,,,,,,2,,,,
-,Let's Tap,,,54,,0,,,,3,,,,,,4,,,,,
-,Link's Crossbow Training,,,54,,1,,,,0,,,,,,4,,,,,
-,Mario & Sonic at the London 2012 Olympic Games,,,54,,0,,,,3,,,,,,4,,,,,
-,Mario Kart Wii,,,54,,4,,,,4,,,,,,4,,,,,
-,Mario Party 8,,,54,,4,,,,3,,,,,,4,,,,,
-,Mario Party 9,,,54,,3,,,,5,,,,,,4,,,,,
-,Mario Strikers: Charged,,,54,,2,,,,5,,,,,,4,4,,,,
-,Mario Super Sluggers,,,54,,3,,,,4,,,,,,4,,,,,
-,Metroid Prime 3: Corruption,,,54,,3,,,,5,,,,,,,,,,,
-,Metroid: Other M,,,54,,4,,,,4,,,,,,,,,,,
-,New Super Mario Bros. Wii,,,54,,3,,,,5,,,,,,4,4,,,,
-,No More Heroes,,,54,,3,,,,4,,,,,,,,,,,
-,No More Heroes 2: Desperate Struggle,,,54,,3,,,,4,,,,,,,,,,,
-,Punch-Out!!,,,54,,3,,,,5,,,,,,2,,,,,
-,Rayman Raving Rabbids: TV Party,,,54,,1,,,,0,,,,,,4,,,,,
-,Red Steel 2,,,54,,3,,,,4,,,,,,,,,,,
-,Sonic and the Secret Rings,,,54,,1,,,,0,,,,,,4,,,,,
-,Super Mario Galaxy,,,54,,4,,,,5,,,,,,,2,,,,
-,Super Mario Galaxy 2,,,54,,3,,,,5,,,,,,,2,,,,
-,Super Smash Bros. Brawl,,,54,,3,,,,5,,,,,,4,2,,,,
-,WarioWare: Smooth Moves,,,54,,4,,,,5,,,,,,12,2,,,,
-,Wii Party,,,54,,0,,,,4,,,,,,4,4,,,,
-,Wii Play,,,54,,3,,,,3,,,,,,2,2,,,,
-,Wii Sports,,,54,,0,,,,2,,,,,,4,2,,,,
-,Bomberman Blast,,,12,,0,,,,4,,,,,,8,,,,,
-,Contra: Rebirth,,,12,,3,,,,3,,,,,,,2,,,,
-,Doc Louis's Punch-Out,,,12,,4,,,,4,,,,,,,,,,,
-,Driift Mania,,,12,,0,,,,3,,,,,,8,8,,,,
-,Fluidity,,,12,,3,,,,4,,,,,,,,,,,
-,Mega Man 10,,,12,,3,,,,5,,,,,,,,,,,
-,Mega Man 9,,,12,,3,,,,5,,,,,,,,,,,
-,PokEmon Rumble,,,12,,2,,,,2,,,,,,,4,,,,
-,WarioWare: D.I.Y. Showcase,,,12,,4,,,,4,,,,,,4,,,,,
-,World of Goo,,,12,,3,,,,5,,,,,,,2,,,,
-,Actraiser,,,13,20,4,,,,4,,,,,,,,,,,
-,Battle Lode Runner,,,13,-3,0,,,,2,,,,,,5,,,,,
-,F-Zero X,,,13,18,3,,,,4,,,,,,4,,,,,
-,Kirby 64: The Crystal Shards,,,13,18,4,,,,5,,,,,,4,,,,,
-,Kirby's Adventure,,,13,21,3,,,,2,,,,,,,,,,,
-,The Legend of Zelda: Majora's Mask,,,13,18,3,,,,5,,,,,,,,,,,
-,Mario Kart 64,,,13,18,3,,,,4,,,,,,4,2,,,,
-,Mario Tennis,,,13,18,3,,,,4,,,,,,4,2,,,,
-,Mega Man 2,,,13,21,4,,,,4,,,,,,,,,,,
-,Paper Mario,,,13,18,3,,,,5,,,,,,,,,,,
-,Punch-Out!!: Featuring Mr. Dream,,,13,21,2,,,,4,,,,,,,,,,,
-,Star Fox 64,,,13,18,3,,,,5,,,,,,4,,,,,
-,Super Castlevania IV,,,13,20,4,,,,3,,,,,,,,,,,
-,Super Mario Kart,,,13,20,3,,,,2,,,,,,2,2,,,,
-,Super Mario RPG: Legend of the Seven Stars,,,13,20,3,,,,3,,,,,,,,,,,
-,Super Punch-Out!!,,,13,20,2,,,,4,,,,,,,,,,,
-,Fuzion Frenzy,,,14,,0,,,,3,,,,,,4,,,,,
-,Godzilla: Save the Earth,,,14,,3,,,,3,,,,,,4,,,,,
-,Halo 2,,,14,,3,,,,4,,,,,,4,2,8,,,
-,Halo: Combat Evolved,,,14,,3,,,,4,,,,,,4,2,8,,,
-,Mortal Kombat: Armageddon,,,14,,3,,,,3,,,,,,2,,,,,
-,Mortal Kombat: Deception,,,14,,3,,,,3,,,,,,2,,,,,
-,Mortal Kombat,1,,14,-2,3,,,,2,,,,,,2,,,,,
-,SSX 3,,,14,,3,,,,3,,,,,,2,,,,,
-,Mega Man X7,,,15,,3,,,,2,,,,,,,,,,,
-,Mega Man X8,,,15,,3,,,,3,,,,,,,,,,,
-,Mortal Kombat: Shaolin Monks,,,15,,3,,,,3,,,,,,,2,,,,
-,Animal Crossing,,,16,,0,,,,4,,,,,,,,,,,
-,Beach Spikers: Virtua Beach Volleyball,,,16,,0,,,,3,,,,,,4,2,,,,
-,Chibi-Robo!,,,16,,4,,,,4,,,,,,,,,,,
-,F-Zero GX,,,16,,3,,,,5,,,,,,4,,,,,
-,Final Fantasy: Crystal Chronicles,,,16,,2,,,,0,,,,,,,4,,,,
-,Godzilla: Destroy All Monsters Melee,,,16,,3,,,,4,,,,,,4,,,,,
-,Harvest Moon: A Wonderful Life,,,16,,0,,,,2,,,,,,,,,,,
-,Kirby Air Ride,,,16,,0,,,,5,,,,,,4,,,,,
-,The Legend of Zelda: Collector's Edition,,,16,,,,,,,,,,,,,,,,,
-,The Legend of Zelda,1,,16,21,3,,,,3,,,,,,,,,,,
-,The Legend of Zelda: Majora's Mask,1,,16,18,3,,,,5,,,,,,,,,,,
-,The Legend of Zelda: Ocarina of Time,1,,16,18,3,,,,5,,,,,,,,,,,
-,Zelda II: The Adventure of Link,1,,16,21,4,,,,3,,,,,,,,,,,
-,The Legend of Zelda: Four Swords Adventures,,,16,,2,,,,0,,,,,,4,4,,,,
-,The Legend of Zelda: The Wind Waker,,,16,,3,,,,5,,,,,,,2,,,,
-,Luigi's Mansion,,,16,,4,,,,5,,,,,,,,,,,
-,Mario Kart: Double Dash!!,,,16,,4,,,,4,,,,,,4,2,,,,
-,Mario Party 4,,,16,,3,,,,3,,,,,,4,,,,,
-,Mario Party 5,,,16,,3,,,,4,,,,,,4,,,,,
-,Mario Party 6,,,16,,3,,,,5,,,,,,4,,,,,
-,Mario Party 7,,,16,,3,,,,3,,,,,,8,,,,,
-,Mario Power Tennis,,,16,,3,,,,4,,,,,,4,2,,,,
-,Mario Superstar Baseball,,,16,,3,,,,4,,,,,,4,,,,,
-,Mega Man Anniversary Collection,,,16,,,,,,,,,,,,,,,,,
-,Mega Man,1,,16,21,4,,,,3,,,,,,,,,,,
-,Mega Man 2,1,,16,21,4,,,,4,,,,,,,,,,,
-,Mega Man 3,1,,16,21,4,,,,4,,,,,,,,,,,
-,Mega Man 4,1,,16,21,4,,,,4,,,,,,,,,,,
-,Mega Man 5,1,,16,21,4,,,,4,,,,,,,,,,,
-,Mega Man 6,1,,16,21,4,,,,4,,,,,,,,,,,
-,Mega Man 7,1,,16,20,4,,,,5,,,,,,,,,,,
-,Mega Man 8,1,,16,17,4,,,,3,,,,,,,,,,,
-,Mega Man: The Power Battle,1,,16,-2,4,,,,3,,,,,,,2,,,,
-,Mega Man: The Power Fighters,1,,16,-2,4,,,,3,,,,,,,2,,,,
-,Mega Man X Collection,,,16,,,,,,,,,,,,,,,,,
-,Mega Man X,1,,16,20,4,,,,5,,,,,,,,,,,
-,Mega Man X2,1,,16,20,4,,,,5,,,,,,,,,,,
-,Mega Man X3,1,,16,20,4,,,,5,,,,,,,,,,,
-,Mega Man X4,1,,16,17,3,,,,4,,,,,,,,,,,
-,Mega Man X5,1,,16,17,3,,,,2,,,,,,,,,,,
-,Mega Man X6,1,,16,17,3,,,,1,,,,,,,,,,,
-,Mega Man: Battle & Chase,1,,16,17,3,,,,4,,,,,,2,,,,,
-,Metroid Prime,,,16,,3,,,,5,,,,,,,,,,,
-,Metroid,1,,16,21,3,,,,3,,,,,,,,,,,
-,Metroid Prime 2: Echoes,,,16,,3,,,,5,,,,,,4,,,,,
-,Mortal Kombat: Deadly Alliance,,,16,,3,,,,3,,,,,,2,,,,,
-,Odama,,,16,,4,,,,4,,,,,,,,,,,
-,Pac-Man World 2,,,16,,3,,,,3,,,,,,,,,,,
-,Pac-Attack,1,,16,19,0,,,,2,,,,,,2,,,,,
-,Pac-Man,1,,16,-2,0,,,,3,,,,,,,,,,,
-,Pac-Man Vs.,,,16,,0,,,,5,,,,,,4,,,,,
-,Pikmin,,,16,,4,,,,5,,,,,,,,,,,
-,Pikmin 2,,,16,,4,,,,5,,,,,,2,2,,,,
-,Rampage: Total Destruction,,,16,,3,,,,3,,,,,,4,2,,,,
-,Rampage,1,,16,-2,0,,,,3,,,,,,,3,,,,
-,Rampage: World Tour,1,,16,-2,3,,,,5,,,,,,,3,,,,
-,Shadow the Hedgehog,,,16,,3,,,,3,,,,,,2,,,,,
-,Sonic Adventure 2: Battle,,,16,,3,,,,4,,,,,,2,,,,,
-,Sonic Gems Collection,,,16,,,,,,,,,,,,,,,,,
-,Sonic CD,1,,16,-5,3,,,,2,,,,,,,,,,,
-,Sonic Drift 2,1,,16,-7,2,,,,2,,,,,,2,,,,,
-,Sonic R,1,,16,-6,4,,,,2,,,,,,4,,,,,
-,Sonic Spinball,1,,16,-7,2,,,,1,,,,,,,,,,,
-,Sonic the Fighters,1,,16,-2,4,,,,2,,,,,,2,,,,,
-,Sonic the Hedgehog 2 (8-bit),1,,16,-7,2,,,,2,,,,,,,,,,,
-,Sonic the Hedgehog: Triple Trouble,1,,16,-7,2,,,,2,,,,,,,,,,,
-,Tails Adventures,1,,16,-7,2,,,,2,,,,,,,,,,,
-,Tails' Skypatrol,1,,16,-7,2,,,,1,,,,,,,,,,,
-,Vectorman,1,,16,19,1,,,,0,,,,,,,,,,,
-,Vectorman 2,1,,16,19,1,,,,0,,,,,,,,,,,
-,Spyro: Enter the Dragonfly,,,16,,4,,,,2,,,,,,,,,,,
-,Star Fox: Assault,,,16,,3,,,,4,,,,,,4,,,,,
-,Super Mario Strikers,,,16,,3,,,,4,,,,,,4,4,,,,
-,Super Mario Sunshine,,,16,,4,,,,5,,,,,,,,,,,
-,Super Monkey Ball 2,,,16,,3,,,,4,,,,,,4,,,,,
-,Super Smash Bros. Melee,,,16,,3,,,,5,,,,,,4,,,,,
-,"WarioWare, Inc.: Mega Party Game$!",,,16,,3,,,,4,,,,,,4,,,,,
-,Crash Bandicoot,,,17,,3,,,,3,,,,,,,,,,,
-,Crash Bash,,,17,,3,,,,4,,,,,,4,2,,,,
-,Frogger (1997),,,17,,1,,,,0,,,,,,4,,,,,
-,Frogger 2: Swampy's Revenge,,,17,,1,,,,0,,,,,,4,,,,,
-,International Track & Field,,,17,,1,,,,0,,,,,,4,,,,,
-,Micro Machines V3,,,17,,1,,,,0,,,,,,8,,,,,
-,Pong: The Next Level,,,17,,2,,,,0,,,,,,4,,,,,
-,Banjo-Kazooie,,,18,,4,,,,5,,,,,,,,,,,
-,Banjo-Tooie,,,18,,4,,,,5,,,,,,4,,,,,
-,Bomberman 64,,,18,,1,,,,0,,,,,,4,,,,,
-,Diddy Kong Racing,,,18,,3,,,,5,,,,,,4,,,,,
-,Donkey Kong 64,,,18,,3,,,,4,,,,,,4,,,,,
-,Excitebike 64,,,18,,3,,,,5,,,,,,4,,,,,
-,Excitebike,1,,18,21,0,,,,2,,,,,,,,,,,
-,F-Zero X,,,18,,3,,,,4,,,,,,4,,,,,
-,Goldeneye 007,,,18,,4,,,,5,,,,,,4,,,,,
-,The Legend of Zelda: Ocarina of Time,,,18,,3,,,,5,,,,,,,,,,,
-,Mario Golf,,,18,,0,,,,3,,,,,,4,,,,,
-,Mario Kart 64,,,18,,3,,,,4,,,,,,4,2,,,,
-,Mario Party,,,18,,3,,,,4,,,,,,4,,,,,
-,Mario Party 2,,,18,,3,,,,4,,,,,,4,,,,,
-,Mario Party 3,,,18,,3,,,,5,,,,,,4,,,,,
-,Mario Tennis,,,18,,3,,,,4,,,,,,4,2,,,,
-,Perfect Dark,,,18,,3,,,,5,,,,,,4,2,,,,
-,PokEmon Snap,,,18,,4,,,,5,,,,,,,,,,,
-,PokEmon Stadium,,,18,,2,,,,4,,,,,,4,,,,,
-,PokEmon Stadium 2,,,18,,2,,,,4,,,,,,4,,,,,
-,Snowboard Kids 2,,,18,,3,,,,4,,,,,,4,,,,,
-,Super Smash Bros.,,,18,,4,,,,5,,,,,,4,,,,,
-,WWF: No Mercy,,,18,,1,,,,0,,,,,,4,,,,,
-,Yoshi's Story,,,18,,3,,,,3,,,,,,,,,,,
-,Contra III: The Alien Wars,,,20,,3,,,,5,,,,,,,2,,,,
-,Donkey Kong Country,,,20,,3,,,,5,,,,,,,2,,,,
-,Donkey Kong Country 2: Diddy's Kong Quest,,,20,,3,,,,5,,,,,,,2,,,,
-,Donkey Kong Country 3: Dixie's Double Trouble,,,20,,3,,,,5,,,,,,,2,,,,
-,F-Zero,,,20,,3,,,,3,,,,,,2,,,,,
-,Kirby Super Star,,,20,,3,,,,5,,,,,,,2,,,,
-,Mario Paint,,,20,,0,,,,0,,,,,,,,,,,
-,Super Mario World,,,20,,4,,,,5,,,,,,,2,,,,
-,Super Metroid,,,20,,3,,,,5,,,,,,,,,,,
-,Wheel of Fortune: Deluxe Edition,,,20,,0,,,,1,,,,,,2,,,,,
-,Boogerman,,,19,,2,,,,2,,,,,,,,,,,
-,Cool Spot,,,19,,2,,,,2,,,,,,,,,,,
-,Dr. Robotnik's Mean Bean Machine,,,19,,2,,,,3,,,,,,2,,,,,
-,LHX Attack Chopper,,,19,,0,,,,1,,,,,,,,,,,
-,Marko,,,19,,2,,,,2,,,,,,,,,,,
-,Micro Machines,,,19,,2,,,,3,,,,,,2,,,,,
-,Ms. Pac-Man,,,19,,0,,,,3,,,,,,2,2,,,,
-,Sonic the Hedgehog 2,,,19,,3,,,,4,,,,,,2,2,,,,
-,TaleSpin,,,19,,2,,,,2,,,,,,,2,,,,
-,WWF: Royal Rumble,,,19,,2,,,,2,,,,,,2,2,,,,
-,Captain Skyhawk,,,21,,4,,,,3,,,,,,,,,,,
-,Donkey Kong Jr.,,,21,,4,,,,2,,,,,,,,,,,
-,Faxanadu,,,21,,3,,,,3,,,,,,,,,,,
-,Metroid,,,21,,3,,,,3,,,,,,,,,,,
-,Solar Jetman,,,21,,2,,,,2,,,,,,,,,,,
-,Super Mario Bros. 2,,,21,,2,,,,2,,,,,,,2,,,,
-,Super Mario Bros. 3,,,21,,4,,,,4,,,,,,,2,,,,
-,Super Mario Bros./Duck Hunt,,,21,,,,,,,,,,,,,,,,,
-,Super Mario Bros.,1,,21,,3,,,,2,,,,,,,2,,,,
-,Duck Hunt,1,,21,,0,,,,2,,,,,,2,,,,,
-,Teenage Mutant Ninja Turtles,,,21,,2,,,,2,,,,,,,2,,,,
-,To the Earth,,,21,,2,,,,1,,,,,,,,,,,
-,Yoshi's Cookie,,,21,,0,,,,1,,,,,,2,,,,,
-,Cooking Mama 4: Kitchen Magic,,,40,,0,,,,3,,,,,,4,,,,,
-,Fire Emblem Awakening,,,40,,1,,,,0,,,,,,,,,2,,
-,Kid Icarus: Uprising,,,40,,3,,,,4,,,,,,,,6,,,
-,The Legend of Zelda: Tri Force Heroes,,,40,,2,,,,0,,,,,,,3,3,3,,
-,Luigi's Mansion: Dark Moon,,,40,,3,,,,5,,,,,,,4,,4,,
-,Mario & Sonic at the London 2012 Olympic Games,,,40,,3,,,,4,,,,,,4,,4,,,
-,Mario Kart 7,,,40,,3,,,,4,,,,,,8,,8,,,
-,Mario Party: Island Tour,,,40,,3,,,,5,,,,,,4,,,,,
-,Mario Party: Star Rush,,,40,,3,,,,4,,,,,,4,,4,,,
-,New Super Mario Bros. 2,,,40,,3,,,,5,,,,,,,,,2,,
-,Paper Mario: Sticker Star,,,40,,4,,,,3,,,,,,,,,,,
-,Professor Layton and the Azran Legacy,,,40,,4,1,,,4,,,,,,,,,,,
-,Professor Layton and the Miracle Mask,,,40,,4,1,,,5,,,,,,,,,,,
-,Professor Layton vs. Phoenix Wright: Ace Attorney,,,40,,4,1,,,5,,,,,,,,,,,
-,Scribblenauts Unlimited,,,40,,4,,,,4,,,,,,,,,,,
-,Sega 3D Classics Collection,,,40,,,,,,,,,,,,,,,,,
-,Altered Beast,1,,40,19,3,,,,1,,,,,,,,,2,,
-,Fantasy Zone,1,,40,-4,2,,,,1,,,,,,,,,,,
-,Fantasy Zone II W,1,,40,-2,3,,,,2,,,,,,,,,,,
-,Fantasy Zone II: The Tears of Opa-Opa,1,,40,-4,2,,,,1,,,,,,,,,,,
-,Galaxy Force II,1,,40,-2,3,,,,2,,,,,,,,,,,
-,Maze Walker,1,,40,-4,2,,,,1,,,,,,,,,,,
-,Power Drift,1,,40,-2,3,,,,2,,,,,,,,,,,
-,Puyo Puyo 2,1,,40,-2,2,,,,3,,,,,,,,2,,,
-,Sonic the Hedgehog,1,,40,19,3,,,,3,,,,,,,,,,,
-,Thunder Blade,1,,40,-2,3,,,,1,,,,,,,,,,,
-,Sonic Generations,,,40,,3,,,,4,,,,,,,,2,,,
-,Sonic Lost World,,,40,,3,,,,3,,,,,,4,,4,,,
-,Star Fox 64 3D,,,40,,4,,,,5,,,,,,4,,,,,
-,Steel Diver,,,40,,3,,,,3,,,,,,2,,,,,
-,Super Mario 3D Land,,,40,,4,,,,5,,,,,,,,,,,
-,Super Smash Bros. for Nintendo 3DS,,,40,,3,,,,5,,,,,,,,4,2,,
-,Super Street Fighter IV: 3D Edition,,,40,,3,,,,4,,,,,,2,,2,,,
-,Tetris: Axis,,,40,,0,,,,3,,,,,,8,,,,,
-,Zero Escape: Virtue's Last Reward,,,40,,4,,,,3,,,,,,,,,,,
-,3D Sonic the Hedgehog 2,,,23,19,3,,,,4,,,,,,,,2,2,,
-,Ace Attorney: Phoenix Wright: Dual Destinies,,,23,,4,,,,5,,,,,,,,,,,
-,Turnabout Reclaimed,,1,23,,4,,,,4,,,,,,,,,,,
-,Ace Attorney: Phoenix Wright: Spirit of Justice,,,23,,4,,,,5,,,,,,,,,,,
-,Turnabout Time Traveler,,1,23,,4,,,,4,,,,,,,,,,,
-,Cave Story,,,23,,2,,,,4,,,,,,,,,,,
-,Gunman Clive,,,23,,4,,,,3,,,,,,,,,,,
-,Kersploosh!,,,23,,4,,,,3,,,,,,,,,,,
-,Kid Icarus: 3D Classics,,,23,21,4,,,,3,,,,,,,,,,,
-,Kirby Fighters Deluxe,,,23,,4,,,,4,,,,,,4,,4,,,
-,Kirby's Adventure: 3D Classics,,,23,21,3,,,,2,,,,,,,,,,,
-,Mario and Donkey Kong: Minis on the Move,,,23,,3,,,,4,,,,,,,,,,,
-,Metroid Prime: Blast Ball,,,23,,0,,,,3,,,,,,6,,6,,,
-,Mini Mario & Friends: amiibo Challenge,,,23,,3,,,,3,,,,,,,,,,,
-,Retro City Rampage DX,,,23,,3,,,,4,,,,,,,,,,,
-,Rhythm Heaven Megamix,,,23,,2,,,,0,,,,,,,,,,,
-,Rusty's Real Deal Baseball,,,23,,3,,,,5,,,,,,4,,,,,
-,Shantae and the Pirate's Curse,,,23,,3,,,,5,,,,,,,,,,,
-,SteamWorld Dig,,,23,,4,,,,5,,,,,,,,,,,
-,Steel Diver: Sub Wars,,,23,,3,,,,4,,,,,,8,,8,,,
-,VVVVVV,,,22,34,3,,,,4,,,,,,,,,,,
-,Donkey Kong (1994),,,24,31,4,,,,4,,,,,,,,,,,
-,The Legend of Zelda,,,24,21,3,,,,3,,,,,,,,,,,
-,The Legend of Zelda: Link's Awakening DX,,,24,30,3,,,,4,,,,,,,,,,,
-,Super Mario Land,,,24,31,4,,,,2,,,,,,,,,,,
-,Super Mario Land 2: 6 Golden Coins,,,24,31,4,,,,3,,,,,,,,,,,
-,Wario Land 3,,,24,30,4,,,,4,,,,,,,,,,,
-,Wario Land II,,,24,30,3,,,,3,,,,,,,,,,,
-,Wario Land: Super Mario Land 3,,,24,31,3,,,,3,,,,,,,,,,,
-,Zelda II: The Adventure of Link,,,24,21,4,,,,3,,,,,,,,,,,
-,The Legend of Zelda: Four Swords: Anniversary Edition,,,25,29,3,,,,4,,,,,,,,,4,,
-,Pop Island: Paperfield,,,25,,0,,,,2,,,,,,8,,8,,,
-,WarioWare: Snapped,,,25,,1,,,,2,,,,,,,2,,,,
-,Killzone: Liberation,,,27,,0,,,,0,,,,,,,,,,,
-,LittleBigPlanet,,,27,,0,,,,0,,,,,,,,,,,
-,"999: Nine Hours, Nine Persons, Nine Doors",,,28,,4,,,,5,,,,,,,,,,,
-,Ace Attorney Investigations: Miles Edgeworth,,,28,,4,,,,5,,,,,,,,,,,
-,Ace Attorney: Apollo Justice,,,28,,4,,,,5,,,,,,,,,,,
-,Ace Attorney: Phoenix Wright,,,28,,4,,,,5,,,,,,,,,,,
-,Ace Attorney: Phoenix Wright: Justice for All,,,28,,4,,,,4,,,,,,,,,,,
-,Ace Attorney: Phoenix Wright: Trials and Tribulations,,,28,,4,,,,5,,,,,,,,,,,
-,Advance Wars: Days of Ruin,,,28,,3,,,,4,,,,,,,,4,,,
-,Animal Crossing: Wild World,,,28,,0,,,,5,,,,,,,,,4,,
-,Big Brain Academy,,,28,,1,,,,0,,,,,,8,,,,,
-,Bomberman (2005),,,28,,0,,,,4,,,,,,8,,,,,
-,Brain Age 2: More Training in Minutes a Day!,,,28,,0,,,,4,,,,,,16,,,,,
-,Brain Age: Train Your Brain in Minutes a Day!,,,28,,0,,,,4,,,,,,16,,,,,
-,Call of Duty: Modern Warfare 3: Defiance,,,28,,1,,,,0,,,,,,,,6,,,
-,Chrono Trigger,,,28,,3,,,,5,,,,,,,,,,,
-,Clubhouse Games,,,28,,0,,,,3,,,,,,8,,8,,,
-,Contra 4,,,28,,3,,,,5,,,,,,,,,2,,
-,Contra,1,,28,21,3,,,,2,,,,,,,,,,,
-,Super C,1,,28,21,2,,,,2,,,,,,,,,,,
-,Diddy Kong Racing DS,,,28,,4,,,,4,,,,,,8,,8,,,
-,DK: Jungle Climber,,,28,,4,,,,5,,,,,,4,,,,,
-,Dragon Quest Heroes: Rocket Slime,,,28,,3,,,,5,,,,,,,,4,,,
-,Elite Beat Agents,,,28,,4,,,,5,,,,,,4,2,4,2,,
-,Geometry Wars: Galaxies,,,28,,2,,,,3,,,,,,2,2,2,2,,
-,Geometry Wars: Retro Evolved,1,,28,5,0,,,,3,,,,,,,,,,,
-,GoldenEye: Rogue Agent,,,28,,2,,,,1,,,,,,8,,4,,,
-,Grand Theft Auto: Chinatown Wars,,,28,,3,,,,5,,,,,,,,2,2,,
-,The Legend of Zelda: Spirit Tracks,,,28,,3,,,,4,,,,,,4,,,,,
-,The Legend of Zelda: Phantom Hourglass,,,28,,3,,,,4,,,,,,2,,2,,,
-,Mario & Luigi: Bowser's Inside Story,,,28,,3,,,,4,,,,,,,,,,,
-,Mario & Sonic at the Olympic Games,,,28,,3,,,,2,,,,,,4,,4,,,
-,Mario & Sonic at the Olympic Winter Games,,,28,,3,,,,2,,,,,,4,,4,,,
-,Mario Hoops: 3-on-3,,,28,,3,,,,4,,,,,,4,,4,,,
-,Mario Kart DS,,,28,,4,,,,5,,,,,,8,,8,,,
-,Mario Party DS,,,28,,3,,,,4,,,,,,4,,,,,
-,Mega Man ZX Advent,,,28,,3,,,,2,,,,,,,,,,,
-,Meteos,,,28,,4,,,,5,,,,,,4,,4,,,
-,Metroid Prime Hunters,,,28,,3,,,,4,,,,,,4,,4,,,
-,Metroid Prime Hunters: First Hunt,,,28,,4,,,,2,,,,,,,,4,,,
-,Metroid Prime Pinball,,,28,,1,,,,0,,,,,,8,,8,,,
-,Moon,,,28,,3,,,,3,,,,,,,,,,,
-,Namco Museum DS,,,28,,,,,,,,,,,,,,,,,
-,Dig Dug II,1,,28,-2,0,,,,2,,,,,,,,,,,
-,Galaga,1,,28,-2,0,,,,2,,,,,,,,,,,
-,Galaxian,1,,28,-2,0,,,,1,,,,,,,,,,,
-,Mappy,1,,28,-2,0,,,,2,,,,,,,,,,,
-,Pac-Man,1,,28,-2,0,,,,3,,,,,,,,,,,
-,Pac-Man Vs.,1,,28,16,0,,,,5,,,,,,4,,,,,
-,The Tower of Druaga,1,,28,-2,0,,,,1,,,,,,,,,,,
-,Xevious,1,,28,-2,0,,,,2,,,,,,,,,,,
-,New Super Mario Bros.,,,28,,3,,,,4,,,,,,4,,,,,
-,Nintendogs: Dachshund & Friends,,,28,,0,,,,2,,,,,,,,,,,
-,Pac-Pix,,,28,,4,,,,4,,,,,,,,,,,
-,Picross DS,,,28,,0,,,,4,,,,,,5,,,,,
-,PokEmon Dash,,,28,,3,,,,3,,,,,,,,6,,,
-,PokEmon Diamond,,,28,,4,,,,5,,,,,,,,4,,,
-,PokEmon SoulSilver,,,28,,3,,,,4,,,,,,,,4,,,
-,Professor Layton and the Curious Village,,,28,,4,1,,,5,,,,,,,,,,,
-,Professor Layton and the Diabolical Box,,,28,,4,1,,,5,,,,,,,,,,,
-,Professor Layton and the Last Specter,,,28,,4,1,,,4,,,,,,,,,,,
-,London Life,1,,28,,0,1,,,0,,,,,,,,,,,
-,Professor Layton and the Unwound Future,,,28,,4,1,,,5,,,,,,,,,,,
-,Sonic Colors,,,28,,3,,,,3,,,,,,2,,2,,,
-,Sonic Rush,,,28,,3,,,,4,,,,,,2,,2,,,
-,Sonic Rush: Adventure,,,28,,3,,,,4,,,,,,2,,2,,,
-,Star Fox: Command,,,28,,4,,,,3,,,,,,6,,6,,,
-,Super Mario 64 DS,,,28,,4,,,,5,,,,,,4,,,,,
-,Tetris DS,,,28,,0,,,,5,,,,,,10,,,,,
-,Viva PiNata: Pocket Paradise,,,28,,4,,,,5,,,,,,,,,,,
-,WarioWare: D.I.Y.,,,28,,3,,,,5,,,,,,,,,,,
-,Worms: Open Warfare 2,,,28,,3,,,,5,,,,,,2,,4,,,
-,Advance Wars 2: Black Hole Rising,,,41,,3,,,,4,,,,,,4,,4,,,
-,Banjo-Kazooie: Grunty's Revenge,,,41,,4,,,,3,,,,,,,,,,,
-,Banjo-Pilot,,,41,,3,,,,3,,,,,,,,4,,,
-,Chu Chu Rocket,,,41,,3,,,,3,,,,,,4,,,,,
-,DK: King of Swing,,,41,,3,,,,4,,,,,,4,,4,,,
-,F-Zero: GP Legend,,,41,,3,,,,4,,,,,,4,,4,,,
-,F-Zero: Maximum Velocity,,,41,,3,,,,4,,,,,,4,,4,,,
-,Kirby & The Amazing Mirror,,,41,,4,1,,,5,,,,,,,,4,4,,
-,Kuru Kuru Kururin,,,41,,3,,,,4,,,,,,4,,,,,
-,The Legend of Zelda: A Link to the Past,,,41,,3,,,,5,,,,,,,,,,,
-,The Legend of Zelda: Four Swords,1,,41,,3,,,,4,,,,,,,,,4,,
-,Mario & Luigi: Superstar Saga,,,41,,3,,,,3,,,,,,,,,,,
-,Mario Bros. (2001),,,41,,0,,,,2,,,,,,4,,4,4,,
-,Mario Golf: Advance Tour,,,41,,2,,,,3,,,,,,4,,4,,,
-,Mario Kart: Super Circuit,,,41,,3,,,,3,,,,,,4,,4,,,
-,Mario Party Advance,,,41,,3,,,,3,,,,,,4,,2,,,
-,Mario Tennis: Power Tour,,,41,,2,,,,3,,,,,,,,4,2,,
-,Mario vs. Donkey Kong,,,41,,4,,,,4,,,,,,,,,,,
-,Mega Man & Bass,,,41,,2,,,,2,,,,,,,,,,,
-,Metroid Fusion,,,41,,4,,,,5,,,,,,,,,,,
-,Metroid: Zero Mission,,,41,,3,1,,,5,,,,,,,,,,,
-,Metroid,1,,41,21,3,1,,,3,,,,,,,,,,,
-,PokEmon LeafGreen,,,41,,3,,,,5,,,,,,,,4,,,
-,PokEmon Mystery Dungeon: Red Rescue Team,,,41,,3,1,,,3,,,,,,,,,,,
-,PokEmon Sapphire,,,41,,3,1,,,5,,,,,,,,4,,,
-,Sonic Advance,,,41,,3,,,,4,,,,,,4,,4,,,
-,Sonic Advance 2,,,41,,3,,,,4,,,,,,4,,4,,,
-,Sonic Advance 3,,,41,,3,,,,3,,,,,,4,,4,2,,
-,Wario Land 4,,,41,,3,,,,4,,,,,,,,,,,
-,"WarioWare, Inc.: Mega Microgame$!",,,41,,3,,,,5,,,,,,2,,,,,
-,Mario Party-e,,,42,,0,,,,3,,,,,,4,,,,,
-,Donkey Kong Country ,,,30,20,3,,,,4,,,,,,,,,,,
-,PokEmon Silver,,,30,,3,,,,4,,,,,,,,2,,,
-,Super Mario Bros. Deluxe,,,30,21,3,,,,4,,,,,,,,2,,,
-,Super Mario Bros.: For Super Players,1,,30,21,2,,,,0,,,,,,,,,,,
-,Kwirk,,,31,,2,,,,3,,,,,,,,2,,,
-,Metroid II: Return of Samus,,,31,,3,,,,4,,,,,,,,,,,
-,PokEmon Yellow,,,31,,3,1,,,3,,,,,,,,2,,,
-,Command & Conquer: Red Alert 2,,,36,,3,,,,5,,,,,,,,,,,
-,Command & Conquer: The First Decade,,,36,,,,,,,,,,,,,,,,,
-,Command & Conquer,1,,36,,3,,,,4,,,,,,,,,,,
-,Command & Conquer: Generals,1,,36,,3,,,,4,,,,,,,,,,,
-,Command & Conquer: Generals: Zero Hour,1,,36,,2,,,,0,,,,,,,,,,,
-,Command & Conquer: Red Alert,1,,36,,2,,,,4,,,,,,,,,,,
-,Command & Conquer: Red Alert 2,1,,36,,3,,,,5,,,,,,,,,,,
-,Command & Conquer: Red Alert: Counterstrike,1,,36,,1,,,,0,,,,,,,,,,,
-,Command & Conquer: Red Alert: The Aftermath,1,,36,,1,,,,0,,,,,,,,,,,
-,Command & Conquer: Renegade,1,,36,,3,,,,3,,,,,,,,,,,
-,Command & Conquer: The Covert Operations,1,,36,,1,,,,0,,,,,,,,,,,
-,Command & Conquer: Tiberian Sun,1,,36,,2,,,,4,,,,,,,,,,,
-,Command & Conquer: Tiberian Sun: Firestorm,1,,36,,1,,,,0,,,,,,,,,,,
-,Command & Conquer: Yuri's Revenge,1,,36,,3,,,,5,,,,,,,,,,,
-,Command & Conquer: Yuri's Revenge,,,36,,3,,,,5,,,,,,,,,,,
-,Lode Runner: The Legend Returns,,,36,,2,,,,5,,,,,,,,,,,
-,Red Alert 3,,,36,,3,,,,5,,,,,,,,,,,
-,Sid Meier's Civilization III Complete,,,36,,1,,,,0,,,,,,,,,,,
-,Sid Meier's Civilization IV,,,36,,0,,,,0,,,,,,,,,,,
-,Beyond the Sword,,1,36,,2,,,,0,,,,,,,,,,,
-,Colonization,,1,36,,1,,,,0,,,,,,,,,,,
-,Warlords,,1,36,,0,,,,0,,,,,,,,,,,
-,SimCity 3000,,,36,,0,,,,4,,,,,,,,,,,
-,Spore,,,36,,3,,,,4,,,,,,,,,,,
-,Gone Home,,,34,,4,,,,4,,,,,,,,,,,
-,Hidden in Plain Sight,,,34,,0,,,,4,,,,,,,,,,,
-,Light Angles,,,34,,0,,,,4,,,,,,8,,,,,
-,Lode Runner Online: The Mad Monks' Revenge,,,34,,0,,,,5,,,,,,,2,,,,
-,Mari0,,,34,,0,,,,0,,,,,,,4,,,,
-,Minecraft,,,34,,0,,,,5,,,,,,,,,,,
-,Regular Human Basketball,,,34,,0,,,,5,,,,,,10,,,,,
-,Street Fighter X Mega Man,,,34,,3,,,,3,,,,,,,,,,,
-,An Untitled Story,,,34,,3,,,,5,,,,,,,,,,,
-,1001 Spikes,,,35,,1,,0,25,0,,,,,,4,4,,,,
-,12 orbits,,,35,,1,,,,0,,,,,,12,,,,,
-,Amnesia: The Dark Descent,,,35,,3,,,,4,,,,,,,,,,,
-,Justine,,1,35,,0,,,,0,,,,,,,,,,,
-,Astro Duel,,,35,,0,,,,4,,,,,,4,,,,,
-,The Beginner's Guide,,,35,,4,,,,0,,,,,,,,,,,
-,Bionic Commando: Rearmed,,,35,,3,,,,5,,,,,,4,2,,,,
-,Borderlands,,,35,,2,,15,80,5,,,,,,,,,,,
-,Broforce,,,35,,0,,,,4,,,,,,4,4,,,,
-,Clusterpuck 99,,,35,,2,,,,0,,,,,,8,,,,,
-,CMYW,,,35,,0,,,,4,,,,,,,4,,,,
-,Collider,,,35,,0,,,,4,,,,,,8,,,,,
-,Counter-Strike,,,35,,0,,,,0,,,,,,,,,,,
-,Counter-Strike: Condition Zero,,,35,,3,,,,3,,,,,,,,,,,
-,Counter-Strike: Condition Zero Deleted Scenes,,,35,,2,,,,0,,,,,,,,,,,
-,Counter-Strike: Source,,,35,,0,,,,0,,,,,,,,,,,
-,Crawl,,,35,,2,,,,0,,,,,,4,,,,,
-,Day of Defeat,,,35,,0,,,,0,,,,,,,,,,,
-,Day of Defeat: Source,,,35,,0,,0,52,0,,,,,,,,,,,
-,Dear Esther,,,35,,4,,,,4,,,,,,,,,,,
-,Deathmatch Classic,,,35,,0,,,,0,,,,,,,,,,,
-,Deus Ex,,,35,,3,,,,5,,,,,,,,,,,
-,Deus Ex: Human Revolution,,,35,,3,,0,49,5,,,,,,,,,,,
-,Deus Ex: Invisible War,,,35,,3,,,,3,,,,,,,,,,,
-,Divekick,,,35,,3,,0,14,4,,,,,,2,,,,,
-,Duck Game,,,35,,1,,,,0,,,,,,4,,,,,
-,Dustforce DX,,,35,,2,,0,1,0,,,,,,4,,,,,
-,Gang Beasts,,,35,,0,,,,5,,,,,,8,,,,,
-,Goat Simulator,,,35,,1,,0,47,5,,,,,,,4,,,,
-,Greed Corp,,,35,,3,,3,13,5,,,,,,,,,,,
-,Gun Monkeys,,,35,,0,,,,0,,,,,,2,,,,,
-,Half-Life,,,35,,3,,,,5,,,,,,,,,,,
-,Half-Life 2,,,35,,3,,20,33,5,,,,,,,,,,,
-,Half-Life 2: Deathmatch,,,35,,0,,,,0,,,,,,,,,,,
-,Half-Life 2: Episode One,,,35,,3,,6,13,5,,,,,,,,,,,
-,Half-Life 2: Episode Two,,,35,,3,,13,22,5,,,,,,,,,,,
-,Half-Life 2: Lost Coast,,,35,,3,,,,3,,,,,,,,,,,
-,Half-Life Deathmatch: Source,,,35,,0,,,,0,,,,,,,,,,,
-,Half-Life: Blue Shift,,,35,,3,,,,3,,,,,,,,,,,
-,Half-Life: Opposing Force,,,35,,3,,,,5,,,,,,,,,,,
-,Half-Life: Source,,,35,,3,,,,5,,,,,,,,,,,
-,Hitman: Blood Money,,,35,,3,,,,5,,,,,,,,,,,
-,Jamestown,,,35,,0,,0,42,0,,,,,,,,,,,
-,Keep Talking and Nobody Explodes,,,35,,0,,,,0,,,,,,,2,,,,
-,Left 4 Dead,,,35,,3,,24,73,5,,,,,,,,,,,
-,Left 4 Dead 2,,,35,,3,,1,67,5,,,,,,,,,,,
-,Lethal League,,,35,,2,,3,23,4,,,,,,4,,,,,
-,Limbo,,,35,,3,,5,13,4,,,,,,,,,,,
-,Lovers in a Dangerous Spacetime,,,35,,1,,,,0,,,,,,,4,,,,
-,Mashed,,,35,14,4,,,,4,,,,,,4,,,,,
-,Moonshot,,,35,,0,,,,4,,,,,,4,,,,,
-,Move or Die,,,35,,1,,,,0,,,,,,4,,,,,
-,Nidhogg,,,35,,4,,4,12,5,,,,,,2,,,,,
-,Obliteracers,,,35,,1,,0,13,0,,,,,,16,,,,,
-,Octodad: Dadliest Catch,,,35,,2,,1,32,0,,,,,,,4,,,,
-,OlliOlli 2: Welcome to Olliwood,,,35,,3,,13,27,4,,,,,,4,,,,,
-,Orbital Gear,,,35,,0,,0,12,4,,,,,,4,,,,,
-,Overcooked,,,35,,1,,0,12,0,,,,,,,4,,,,
-,The Last Morsel,,1,35,,1,,,,0,,,,,,,4,,,,
-,Pac-Man 256,,,35,,0,,,,4,,,,,,,4,,,,
-,Pac-Man Museum,,,35,,,,,,,,,,,,,,,,,
-,Pac & Pal,1,,35,-2,0,,4,12,2,,,,,,,,,,,
-,Pac-Attack,1,,35,19,0,,,,2,,,,,,2,,,,,
-,Pac-Land,1,,35,-2,0,,,,1,,,,,,,,,,,
-,Pac-Man,1,,35,-2,0,,,,3,,,,,,,,,,,
-,Pac-Man Arrangement (2005),1,,35,16,3,,,,4,,,,,,,,,,,
-,Pac-Man Championship Edition,1,,35,5,0,,,,4,,,,,,,,,,,
-,Pac-Man: Battle Royale,1,,35,-2,0,,,,4,,,,,,4,,,,,
-,Pac-Mania,1,,35,-2,0,,,,3,,,,,,,,,,,
-,Super Pac-Man,1,,35,-2,0,,,,2,,,,,,,,,,,
-,Pix the Cat,,,35,,0,,4,11,4,,,,,,4,,,,,
-,Portal,,,35,,3,,5,15,5,,,,,,,,,,,
-,Portal 2,,,35,,3,,16,50,5,,,,,,,,,,,
-,Push Me Pull You,,,35,,0,,0,11,5,,,,,,4,,,,,
-,Red Faction ,,,35,,3,,,,2,,,,,,,,,,,
-,Red Faction II,,,35,,3,,,,2,,,,,,,,,,,
-,Ricochet,,,35,,0,,,,0,,,,,,,,,,,
-,Rivals of Aether,,,35,,1,,,,0,,,,,,4,,,,,
-,Rocket League,,,35,,1,,0,70,0,,,,,,4,,,,,
-,Rome: Total War,,,35,,2,,,,4,,,,,,,,,,,
-,Alexander,,1,35,,1,,,,0,,,,,,,,,,,
-,Barbarian Invasion,,1,35,,2,,,,0,,,,,,,,,,,
-,Samurai Gunn,,,35,,0,,0,6,5,,,,,,4,,,,,
-,Screencheat,,,35,,0,,0,21,5,,,,,,8,,,,,
-,Soccertron,,,35,,0,,0,30,0,,,,,,4,,,,,
-,Sonic the Hedgehog 3 & Knuckles,,,35,19,3,,,,4,,,,,,2,2,,,,
-,SpeedRunners,,,35,,0,,3,14,4,,,,,,4,,,,,
-,Spelunky,,,35,,3,,7,20,4,,,,,,4,4,,,,
-,The Stanley Parable,,,35,,3,,6,10,4,,,,,,,,,,,
-,Star Wars: Knights of the Old Republic,,,35,,2,,,,0,,,,,,,,,,,
-,Starwhal,,,35,,0,,0,24,5,,,,,,4,,,,,
-,Super Impossible Road,,,35,,0,,,,4,,,,,,4,,,,,
-,Super Meat Boy,,,35,,3,,,,5,,,,,,,,,,,
-,Team Fortress 2,,,35,,0,,44,448,5,,,,,,,,,,,
-,Team Fortress Classic,,,35,,0,,,,0,,,,,,,,,,,
-,Thief Town,,,35,,0,,0,32,0,,,,,,4,,,,,
-,Toto Temple Deluxe,,,35,,2,,,,0,,,,,,4,,,,,
-,TowerFall: Ascension,,,35,,3,,10,20,5,,,,,,4,2,,,,
-,TowerFall: Dark World,,1,35,,2,,,,5,,,,,,4,4,,,,
-,TowerFall: 8-Player,,1,35,,0,,,,0,,,,,,8,,,,,
-,Tricky Towers,,,35,,2,,0,29,5,,,,,,4,,,,,
-,Ultimate Chicken Horse,,,35,,0,,0,31,5,,,,,,4,,,,,
-,Undertale,,,35,,3,,,,5,,,,,,,,,,,
-,Vertiginous Golf,,,35,,3,,9,45,4,,,,,,4,,,,,
-,Videoball,,,35,,2,,,,0,,,,,,6,,,,,
-,Worms: Clan Wars,,,35,,0,,3,14,4,,,,,,4,,,,,
-,Worms: Reloaded,,,35,,0,,0,61,2,,,,,,4,,,,,
-,Angry Birds,,,32,,0,1,,,2,,,,,,,,,,,
-,Angry Birds 2,,,32,,0,,,,3,,,,,,,,,,,
-,O Loop,,,32,,0,,,,3,,,,,,,,,,,
-,Clash of Clans,,,32,,0,,,,2,,,,,,,,,,,
-,Crossy Road,,,32,,0,,,,3,,,,,,,,,,,
-,Desert Golfing,,,32,,0,,,,3,,,,,,,,,,,
-,Deus Ex Go,,,32,,3,,,,4,,,,,,,,,,,
-,Downwell,,,32,,2,,,,4,,,,,,,,,,,
-,Game Dev Story,,,32,,0,1,,,2,,,,,,,,,,,
-,Hitman Go,,,32,,3,,,,4,,,,,,,,,,,
-,Hitman: Sniper,,,32,,0,,,,3,,,,,,,,,,,
-,Impossible Road,,,32,,0,,,,3,,,,,,,,,,,
-,Lara Croft Go,,,32,,3,,,,5,,,,,,,,,,,
-,The Shard of Life,,1,32,,3,,,,5,,,,,,,,,,,
-,Layton Brothers: Mystery Room,,,32,,2,,,,4,,,,,,,,,,,
-,Monument Valley,,,32,,4,,,,4,,,,,,,,,,,
-,Ida's Dream,,1,32,,4,,,,1,,,,,,,,,,,
-,Mortal Kombat X,,,32,,0,1,,,3,,,,,,,,,,,
-,Pac-Man 256,,,32,,0,,,,4,,,,,,,,,,,
-,PokEmon Go,,,32,,0,,,,3,,,,,,,,,,,
-,Ridiculous Fishing,,,32,,0,,,,4,,,,,,,,,,,
-,Sonic Dash,,,32,,3,1,,,2,,,,,,,,,,,
-,Sonic Runners,,,32,,0,1,,,2,,,,,,,,,,,
-,Stack,,,32,,0,,,,3,,,,,,,,,,,
-,Temple Run,,,32,,0,1,,,3,,,,,,,,,,,
-,Temple Run 2,,,32,,0,1,,,3,,,,,,,,,,,
-,That Bouncy Thing,,,32,,0,1,,,2,,,,,,,,,,,
-,Threes,,,32,,0,,,,4,,,,,,,,,,,
-,The Trail,,,32,,0,,,,1,,,,,,,,,,,
+id,"name",console,original_console,completion,rating,now_playing,compilation_root,dlc_root,"multi_note",multi_comp_local,multi_coop_local,multi_comp_LAN,multi_coop_LAN,multi_comp_online,multi_coop_online,achievements,achievement_total,ownership,multi_rating,"note","review"
+1,"Animal Crossing: amiibo Festival",37,0,0,2,0,0,0,"Pass the Controller Only/With amiibo",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+2,"Call of Duty: Black Ops II",37,0,1,0,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+3,"Donkey Kong Country: Tropical Freeze",37,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+4,"Game & Wario",37,0,3,4,0,0,0,"Pass the Controller Only",5,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+5,"Mario & Sonic at the Sochi 2014 Olympic Winter Games",37,0,3,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+6,"Mario Kart 8",37,0,3,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+7,"Mario Party 10",37,0,0,4,0,0,0,"Optional amiibo",5,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+8,"Mario Tennis: Ultra Smash",37,0,0,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+9,"Monster Hunter 3 Ultimate",37,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+10,"New Super Mario Bros. U",37,0,3,5,0,0,0,"",4,5,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+11,"Nintendo Land",37,0,3,5,0,0,0,"",5,5,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+12,"Pikmin 3",37,0,4,5,0,0,0,"",2,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+13,"Rayman Legends",37,0,3,5,0,0,0,"",5,5,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+14,"Sonic & All-Stars Racing Transformed",37,0,2,0,0,0,0,"",5,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+15,"Super Mario 3D World",37,0,4,5,0,0,0,"",1,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+16,"Super Mario Maker",37,0,0,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+17,"Super Smash Bros. for Wii U",37,0,3,5,0,0,0,"Optional GameCube Adaptor/Controllers",8,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+18,"Wii Party U",37,0,0,5,0,0,0,"Optional Horizontal Gamepad Stand",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+19,"The Wonderful 101",37,0,3,5,0,0,0,"",1,5,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+20,"ZombiU",37,0,3,5,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+21,"Affordable Space Adventures",2,0,2,0,0,0,0,"",1,3,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+22,"Art of Balance",2,0,3,4,0,0,0,"",5,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+23,"Chasing Aurora",2,0,0,3,0,0,0,"",5,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+24,"Fast Racing Neo",2,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+25,"Runbow",2,0,3,4,0,0,0,"",9,9,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+26,"Shantae and the Pirate's Curse",2,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+27,"Sportsball",2,0,0,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+28,"Toki Tori 2+",2,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+29,"EarthBound",3,20,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+30,"Super Metroid",3,20,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+31,"Assassin's Creed",38,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,36,44,0,0,"",""
+32,"Assassin's Creed II",38,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,47,50,0,0,"",""
+33,"Banjo-Kazooie: Nuts & Bolts",38,0,4,5,0,0,0,"",2,1,NULL,NULL,NULL,NULL,59,60,0,0,"",""
+34,"L.O.G.'s Lost Challenges",38,0,4,2,0,0,33,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+35,"Batman: Arkham Asylum",38,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,47,47,0,0,"",""
+36,"Batman: Arkham City",38,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,65,70,0,0,"",""
+37,"Harley Quinn's Revenge",38,0,3,3,0,0,36,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+38,"Bioshock",38,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,39,50,0,0,"",""
+39,"Bioshock 2",38,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,49,68,0,0,"",""
+40,"Minerva's Den",38,0,3,5,0,0,39,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+41,"Brütal Legend",38,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,34,59,0,0,"",""
+42,"Bulletstorm",38,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,29,60,0,0,"",""
+43,"Call of Duty 4: Modern Warfare",38,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,31,37,0,0,"",""
+44,"Call of Duty: Modern Warfare 2",38,0,3,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,39,50,0,0,"",""
+45,"Call of Duty: Modern Warfare 3",38,0,3,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,19,76,0,0,"",""
+46,"Dark Void",38,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,35,47,0,0,"",""
+47,"Dead Rising",38,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,21,50,0,0,"",""
+48,"The Elder Scrolls IV: Oblivion",38,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,50,60,0,0,"",""
+49,"Fable III",38,0,3,2,0,0,0,"",1,2,NULL,NULL,NULL,NULL,25,60,0,0,"",""
+50,"Fallout 3",38,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,63,72,0,0,"",""
+51,"Broken Steel",38,0,3,4,0,0,50,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+52,"Mothership Zeta",38,0,3,3,0,0,50,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+53,"Operation: Anchorage",38,0,3,4,0,0,50,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+54,"The Pitt",38,0,4,4,0,0,50,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+55,"Point Lookout",38,0,3,5,0,0,50,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+56,"Far Cry 2",38,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,33,48,0,0,"",""
+57,"Gears of War",38,0,3,4,0,0,0,"",2,2,4,4,NULL,NULL,21,57,0,0,"",""
+58,"Gears of War 2",38,0,3,5,0,0,0,"",2,2,4,4,NULL,NULL,56,79,0,0,"",""
+59,"Road to Ruin",38,0,3,4,0,0,58,"",2,2,4,4,NULL,NULL,0,0,0,0,"",""
+60,"Gears of War 3",38,0,3,4,0,0,0,"",2,2,4,4,NULL,NULL,27,82,0,0,"",""
+61,"Grand Theft Auto IV",38,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,30,65,0,0,"",""
+62,"Halo 3",38,0,4,5,0,0,0,"",4,2,8,4,NULL,NULL,78,79,0,0,"",""
+63,"Halo 3: ODST",38,0,4,5,0,0,0,"",1,2,NULL,4,NULL,NULL,42,47,0,0,"",""
+64,"Halo 3: Mythic",38,0,0,5,0,63,0,"",4,1,8,NULL,NULL,NULL,78,79,0,0,"",""
+65,"Halo 4",38,0,3,5,0,0,0,"",4,2,8,4,NULL,NULL,35,57,0,0,"",""
+66,"Halo Wars",38,0,3,5,0,0,0,"",1,1,2,2,NULL,NULL,47,58,0,0,"",""
+67,"Halo: Combat Evolved Anniversary",38,0,4,4,0,0,0,"",1,2,NULL,NULL,NULL,NULL,37,44,0,0,"",""
+68,"Halo: Reach",38,0,3,5,0,0,0,"",4,2,8,4,NULL,NULL,60,69,0,0,"",""
+69,"Kameo: Elements of Power",38,0,3,3,0,0,0,"",1,2,NULL,NULL,NULL,NULL,16,50,0,0,"",""
+70,"Left 4 Dead 2",38,0,3,5,0,0,0,"",2,2,4,4,NULL,NULL,45,60,0,0,"",""
+71,"Mass Effect",38,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,12,49,0,0,"",""
+72,"Mass Effect 2",38,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,44,51,0,0,"",""
+73,"Mass Effect 3",38,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,36,68,0,0,"",""
+74,"Metro 2033",38,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,29,48,0,0,"",""
+75,"Mirror's Edge",38,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,22,50,0,0,"",""
+76,"Mortal Kombat vs. DC Universe",38,0,3,4,0,0,0,"",2,1,NULL,NULL,NULL,NULL,18,50,0,0,"",""
+77,"Prince of Persia (2008)",38,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,35,60,0,0,"",""
+78,"Rayman Origins",38,0,1,0,0,0,0,"",1,4,NULL,NULL,NULL,NULL,1,36,0,0,"",""
+79,"Red Dead Redemption",38,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,17,95,0,0,"",""
+80,"Undead Nightmare",38,0,3,4,0,0,79,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+81,"Sega Superstars Tennis",38,0,0,3,0,0,0,"",4,2,NULL,NULL,NULL,NULL,7,45,0,0,"",""
+82,"Singularity",38,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,18,50,0,0,"",""
+83,"Sonic & Sega All-Stars Racing",38,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,16,50,0,0,"",""
+84,"Sonic Generations",38,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,49,49,0,0,"",""
+85,"Sonic the Hedgehog",38,19,3,3,0,84,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+86,"Viva Piñata: Trouble in Paradise",38,0,0,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,47,50,0,0,"",""
+87,"Banjo-Kazooie",5,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,12,12,0,0,"",""
+88,"Banjo-Tooie",5,0,4,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,12,12,0,0,"",""
+89,"Bastion",5,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,10,12,0,0,"",""
+90,"BattleBlock Theater",5,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,13,30,0,0,"",""
+91,"Battlefield 1943",5,0,0,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,12,12,0,0,"",""
+92,"Beyond Good and Evil HD",5,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,12,12,0,0,"",""
+93,"Bionic Commando: Rearmed",5,0,4,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,9,12,0,0,"",""
+94,"Carcassonne",5,0,0,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,2,12,0,0,"",""
+95,"Dead Rising 2: Case Zero",5,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,11,12,0,0,"",""
+96,"Death Tank",5,0,0,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,1,12,0,0,"",""
+97,"Death Tank Zwei",5,0,0,1,0,96,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+98,"Defense Grid: The Awakening",5,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,7,22,0,0,"",""
+99,"Doom",5,0,2,0,0,0,0,"",4,4,NULL,NULL,NULL,NULL,2,12,0,0,"",""
+100,"Doritos Crash Course",5,0,3,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,5,15,0,0,"",""
+101,"City Lights",5,0,3,3,0,0,100,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+102,"Dungeon Defenders",5,0,1,0,0,0,0,"",1,4,NULL,NULL,NULL,NULL,0,12,0,0,"",""
+103,"Frogger: Hyper Arcade Edition",5,0,0,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,8,12,0,0,"",""
+104,"From Dust",5,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,11,12,0,0,"",""
+105,"Gatling Gears",5,0,3,3,0,0,0,"",1,2,NULL,NULL,NULL,NULL,5,12,0,0,"",""
+106,"Geometry Wars 2: Retro Evolved",5,0,0,4,0,0,0,"",4,4,NULL,NULL,NULL,NULL,6,12,0,0,"",""
+107,"Gotham City Imposters",5,0,0,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,6,12,0,0,"",""
+108,"Grabbed by the Ghoulies",5,0,3,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+109,"Greed Corp",5,0,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,10,12,0,0,"",""
+110,"Hydro Thunder Hurricane",5,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,15,0,0,"",""
+111,"Insanely Twisted Shadow Planet",5,0,2,0,0,0,0,"",1,4,NULL,NULL,NULL,NULL,4,17,0,0,"",""
+112,"Lara Croft and the Guardian of Light",5,0,1,0,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,12,0,0,"",""
+113,"Lode Runner (2009)",5,0,2,3,0,0,0,"",4,2,NULL,NULL,NULL,NULL,1,15,0,0,"",""
+114,"Marvel vs. Capcom 2: New Age of Heroes",5,0,4,2,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,12,0,0,"",""
+115,"Monaco: What's Yours is Mine",5,0,2,0,0,0,0,"",1,4,NULL,NULL,NULL,NULL,1,12,0,0,"",""
+116,"NBA Jam: On Fire Edition",5,0,2,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,2,12,0,0,"",""
+117,"Pac-Man Championship Edition DX+",5,0,0,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,12,12,0,0,"",""
+118,"Perfect Dark",5,0,3,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,18,20,0,0,"",""
+119,"Shadow Complex",5,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,11,12,0,0,"",""
+120,"Sonic Adventure",5,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,7,15,0,0,"",""
+121,"Sonic CD",5,0,3,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,7,12,0,0,"",""
+122,"Sonic the Hedgehog 4: Episode I",5,0,3,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,5,12,0,0,"",""
+123,"Toy Soldiers",5,0,3,4,0,0,0,"",2,1,NULL,NULL,NULL,NULL,9,18,0,0,"",""
+124,"Toy Soldiers: Cold War",5,0,3,4,0,0,0,"",2,1,NULL,NULL,NULL,NULL,11,26,0,0,"",""
+125,"Trials HD",5,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,10,15,0,0,"",""
+126,"Trials: Evolution",5,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,7,36,0,0,"",""
+127,"Worms 2: Armageddon",5,0,0,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,25,0,0,"",""
+128,"Worms: Ultimate Mayhem",5,0,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,7,21,0,0,"",""
+129,"'Splosion Man",5,0,3,2,0,0,0,"",1,4,NULL,NULL,NULL,NULL,7,12,0,0,"",""
+130,"DLC Quest",6,0,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+131,"Blur",39,0,2,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,8,49,0,0,"",""
+132,"Call of Duty: Black Ops",39,0,3,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,19,71,0,0,"",""
+133,"Dark Souls",39,0,1,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+134,"DC Universe Online",39,0,0,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,24,0,0,"",""
+135,"Demon's Souls",39,0,1,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+136,"Deus Ex: Human Revolution",39,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,35,50,0,0,"",""
+137,"The Missing Link",39,0,1,0,0,0,136,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+138,"God of War Collection",39,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+139,"God of War",39,15,3,4,0,138,0,"",1,1,NULL,NULL,NULL,NULL,29,36,0,0,"",""
+140,"God of War II",39,15,3,4,0,138,0,"",1,1,NULL,NULL,NULL,NULL,29,35,0,0,"",""
+141,"God of War III",39,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,26,36,0,0,"",""
+142,"Goldeneye 007: Reloaded",39,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,51,0,0,"",""
+143,"Heavy Rain",39,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,27,57,0,0,"",""
+144,"Heavy Rain Chronicles: Episode 1: The Taxidermist",39,0,4,3,0,0,143,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+145,"The Ico & Shadow of the Colossus Collection",39,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+146,"Ico",39,15,3,4,0,145,0,"",1,1,NULL,NULL,NULL,NULL,9,16,0,0,"",""
+147,"Shadow of the Colossus",39,15,3,4,0,145,0,"",1,1,NULL,NULL,NULL,NULL,17,31,0,0,"",""
+148,"inFamous",39,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,33,50,0,0,"",""
+149,"Jak & Daxter Collection",39,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+150,"Jak & Daxter: The Precursor Legacy",39,15,3,5,0,149,0,"",1,1,NULL,NULL,NULL,NULL,37,39,0,0,"",""
+151,"Jak II",39,15,3,3,0,149,0,"",1,1,NULL,NULL,NULL,NULL,38,41,0,0,"",""
+152,"Jak 3",39,15,3,4,0,149,0,"",1,1,NULL,NULL,NULL,NULL,45,47,0,0,"",""
+153,"Killzone 2",39,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,22,84,0,0,"",""
+154,"L.A. Noire",39,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,26,61,0,0,"",""
+155,"The Last of Us",39,0,3,4,0,0,154,"",1,1,NULL,NULL,NULL,NULL,6,50,0,0,"",""
+156,"Left Behind",39,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+157,"LittleBigPlanet",39,0,3,4,0,0,0,"",1,4,NULL,NULL,NULL,NULL,35,70,0,0,"",""
+158,"LittleBigPlanet Karting",39,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,3,45,0,0,"",""
+159,"MAG",39,0,0,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,17,44,0,0,"",""
+160,"Metal Gear Solid 4: Guns of the Patriots",39,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+161,"Metal Gear Solid HD Collection",39,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+162,"Metal Gear",39,55,2,0,0,161,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+163,"Metal Gear 2: Solid Snake",39,55,2,0,0,161,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+164,"Metal Gear Solid 2: Sons of Liberty",39,15,3,4,0,161,0,"",1,1,NULL,NULL,NULL,NULL,16,46,0,0,"",""
+165,"Metal Gear Solid 3: Snake Eater",39,15,3,5,0,161,0,"",1,1,NULL,NULL,NULL,NULL,20,46,0,0,"",""
+166,"Metal Gear Solid: Peace Walker",39,16,3,3,0,161,0,"",1,1,NULL,NULL,NULL,NULL,15,50,0,0,"",""
+167,"Metro: Last Light",39,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,17,71,0,0,"",""
+168,"Minecraft: PlayStation 3 Edition",39,0,0,5,0,0,0,"",4,4,NULL,NULL,NULL,NULL,7,51,0,0,"",""
+169,"Mortal Kombat (2011)",39,0,4,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,33,51,0,0,"",""
+170,"MotorStorm: Apocalypse",39,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+171,"PlayStation All-Stars Battle Royale",39,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,25,56,0,0,"",""
+172,"Portal 2",39,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,19,51,0,0,"",""
+173,"SSX (2012)",39,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,37,37,0,0,"",""
+174,"Mt. Eddie",39,0,4,5,0,0,173,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+175,"Twisted Metal (2012)",39,0,3,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,14,40,0,0,"",""
+176,"Uncharted 2: Among Thieves",39,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,25,71,0,0,"",""
+177,"Uncharted 3: Drake's Deception",39,0,1,0,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,105,0,0,"",""
+178,"Uncharted: Drake's Fortune",39,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,23,48,0,0,"",""
+179,"Badland: Game of the Year Edition",8,0,2,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,7,43,0,0,"",""
+180,"BlazeRush",8,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,21,0,0,"",""
+181,"Bomberman Ultra",8,0,0,3,0,0,0,"",7,1,NULL,NULL,NULL,NULL,1,11,0,0,"",""
+182,"Braid",8,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,11,12,0,0,"",""
+183,"Castle Crashers",8,0,2,0,0,0,0,"",1,4,NULL,NULL,NULL,NULL,1,13,0,0,"",""
+184,"Divekick",8,0,3,4,0,0,0,"",2,1,NULL,NULL,NULL,NULL,1,14,0,0,"",""
+185,"Flower",8,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,3,14,0,0,"",""
+186,"Geometry Wars 3: Dimensions Evolved",8,0,3,4,0,0,0,"",1,4,NULL,NULL,NULL,NULL,11,31,0,0,"",""
+187,"Journey",8,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,7,14,0,0,"",""
+188,"Mortal Kombat: Arcade Kollection",8,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+189,"Mortal Kombat",8,56,3,2,0,188,0,"",2,1,NULL,NULL,NULL,NULL,9,12,0,0,"",""
+190,"Mortal Kombat II",8,56,3,2,0,188,0,"",2,1,NULL,NULL,NULL,NULL,9,12,0,0,"",""
+191,"Ultimate Mortal Kombat 3",8,56,3,3,0,188,0,"",2,1,NULL,NULL,NULL,NULL,9,12,0,0,"",""
+192,"Scott Pilgrim vs. The World: The Game",8,0,2,0,0,0,0,"",1,4,NULL,NULL,NULL,NULL,1,19,0,0,"",""
+193,"Sportsfriends",8,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+194,"BaraBariBall",8,0,0,4,0,193,0,"",4,1,NULL,NULL,NULL,NULL,2,14,0,0,"",""
+195,"Hokra",8,0,0,4,0,193,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+196,"Johann Sebastian Joust",8,0,0,0,0,193,0,"",7,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+197,"Super Pole Riders",8,0,0,4,0,193,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+198,"Starwhal",8,0,0,5,0,0,0,"Patch 1.01 doesn't work Offline",4,1,NULL,NULL,NULL,NULL,0,23,0,0,"",""
+199,"Super Motherload",8,0,3,3,0,0,0,"",1,4,NULL,NULL,NULL,NULL,4,9,0,0,"",""
+200,"Super Street Fighter II Turbo HD Remix",8,0,3,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+201,"Supersonic Acrobatic Rocket-Powered Battle-Cars",8,0,2,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,14,0,0,"",""
+202,"Tokyo Jungle",8,0,3,3,0,0,0,"",1,2,NULL,NULL,NULL,NULL,10,13,0,0,"",""
+203,"Toybox Turbos",8,0,4,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,14,16,0,0,"",""
+204,"Wipeout HD",8,0,3,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,14,51,0,0,"",""
+205,"Fury",8,0,3,2,0,0,204,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+206,"Worms: Revolution",8,0,0,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,4,35,0,0,"",""
+207,"Crash Bandicoot",9,17,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+208,"Crash Team Racing",9,17,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+209,"Metal Gear Solid",9,17,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+210,"Red Faction II",9,15,3,2,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+211,"Spyro the Dragon",9,17,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+212,"Toy Story 2: Buzz Lightyear to the Rescue",9,17,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+213,"Twisted Metal 2",9,17,3,2,0,0,0,"",2,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+214,"Animal Crossing: City Folk",54,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+215,"Boom Blox: Bash Party",54,0,0,4,0,0,0,"",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+216,"The Conduit",54,0,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+217,"Donkey Kong Country Returns",54,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+218,"Dragon Ball Z: Budokai Tenkaichi 2",54,0,4,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+219,"Elebits",54,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+220,"Excitebots: Trick Racing",54,0,3,4,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+221,"Godzilla Unleashed",54,0,4,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+222,"The Legend of Zelda: Skyward Sword",54,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+223,"The Legend of Zelda: Twilight Princess",54,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+224,"Lego Star Wars: The Complete Saga",54,0,3,4,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+225,"Let's Tap",54,0,0,3,0,0,0,"With 4 Cardboard Boxes",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+226,"Link's Crossbow Training",54,0,1,0,0,0,0,"Pass the Controller Only",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+227,"Mario & Sonic at the London 2012 Olympic Games",54,0,0,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+228,"Mario Kart Wii",54,0,4,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+229,"Mario Party 8",54,0,4,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+230,"Mario Party 9",54,0,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+231,"Mario Strikers: Charged",54,0,2,5,0,0,0,"",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+232,"Mario Super Sluggers",54,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+233,"Metroid Prime 3: Corruption",54,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+234,"Metroid: Other M",54,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+235,"New Super Mario Bros. Wii",54,0,3,5,0,0,0,"",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+236,"No More Heroes",54,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+237,"No More Heroes 2: Desperate Struggle",54,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+238,"Punch-Out!!",54,0,3,5,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+239,"Rayman Raving Rabbids: TV Party",54,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+240,"Red Steel 2",54,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+241,"Sonic and the Secret Rings",54,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+242,"Super Mario Galaxy",54,0,4,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+243,"Super Mario Galaxy 2",54,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+244,"Super Smash Bros. Brawl",54,0,3,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+245,"WarioWare: Smooth Moves",54,0,4,5,0,0,0,"Pass the Controller Only",12,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+246,"Wii Party",54,0,0,4,0,0,0,"",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+247,"Wii Play",54,0,3,3,0,0,0,"",2,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+248,"Wii Sports",54,0,0,2,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+249,"Bomberman Blast",12,0,0,4,0,0,0,"",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+250,"Contra: Rebirth",12,0,3,3,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+251,"Doc Louis's Punch-Out",12,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+252,"Driift Mania",12,0,0,3,0,0,0,"",8,8,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+253,"Fluidity",12,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+254,"Mega Man 10",12,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+255,"Mega Man 9",12,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+256,"Pokémon Rumble",12,0,2,2,0,0,0,"",1,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+257,"WarioWare: D.I.Y. Showcase",12,0,4,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+258,"World of Goo",12,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+259,"Actraiser",13,20,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+260,"Battle Lode Runner",13,57,0,2,0,0,0,"",5,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+261,"F-Zero X",13,18,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+262,"Kirby 64: The Crystal Shards",13,18,4,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+263,"Kirby's Adventure",13,21,3,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+264,"The Legend of Zelda: Majora's Mask",13,18,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+265,"Mario Kart 64",13,18,3,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+266,"Mario Tennis",13,18,3,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+267,"Mega Man 2",13,21,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+268,"Paper Mario",13,18,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+269,"Punch-Out!!: Featuring Mr. Dream",13,21,2,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+270,"Star Fox 64",13,18,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+271,"Super Castlevania IV",13,20,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+272,"Super Mario Kart",13,20,3,2,0,0,0,"",2,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+273,"Super Mario RPG: Legend of the Seven Stars",13,20,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+274,"Super Punch-Out!!",13,20,2,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+275,"Fuzion Frenzy",14,0,0,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+276,"Godzilla: Save the Earth",14,0,3,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+277,"Halo 2",14,0,3,4,0,0,0,"Optional Multiplayer Map Pack Disc",4,2,8,NULL,NULL,NULL,0,0,0,0,"",""
+278,"Halo: Combat Evolved",14,0,3,4,0,0,0,"",4,2,8,NULL,NULL,NULL,0,0,0,0,"",""
+279,"Mortal Kombat: Armageddon",14,0,3,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+280,"Mortal Kombat: Deception",14,0,3,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+281,"Mortal Kombat",14,56,3,2,0,280,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+282,"SSX 3",14,0,3,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+283,"Mega Man X7",15,0,3,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+284,"Mega Man X8",15,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+285,"Mortal Kombat: Shaolin Monks",15,0,3,3,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+286,"Animal Crossing",16,0,0,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+287,"Beach Spikers: Virtua Beach Volleyball",16,0,0,3,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+288,"Chibi-Robo!",16,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+289,"F-Zero GX",16,0,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+290,"Final Fantasy: Crystal Chronicles",16,0,2,0,0,0,0,"With 4 GBAs/Cables",1,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+291,"Godzilla: Destroy All Monsters Melee",16,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+292,"Harvest Moon: A Wonderful Life",16,0,0,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+293,"Kirby Air Ride",16,0,0,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+294,"The Legend of Zelda: Collector's Edition",16,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+295,"The Legend of Zelda",16,21,3,3,0,294,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+296,"The Legend of Zelda: Majora's Mask",16,18,3,5,0,294,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+297,"The Legend of Zelda: Ocarina of Time",16,18,3,5,0,294,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+298,"Zelda II: The Adventure of Link",16,21,4,3,0,294,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+299,"The Legend of Zelda: Four Swords Adventures",16,0,2,0,0,0,0,"With 4 GBAs/Cables",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+300,"The Legend of Zelda: The Wind Waker",16,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+301,"Luigi's Mansion",16,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+302,"Mario Kart: Double Dash!!",16,0,4,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+303,"Mario Party 4",16,0,3,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+304,"Mario Party 5",16,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+305,"Mario Party 6",16,0,3,5,0,0,0,"Optional GameCube Microphone",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+306,"Mario Party 7",16,0,3,3,0,0,0,"Optional GameCube Microphone",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+307,"Mario Power Tennis",16,0,3,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+308,"Mario Superstar Baseball",16,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+309,"Mega Man Anniversary Collection",16,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+310,"Mega Man",16,21,4,3,0,309,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+311,"Mega Man 2",16,21,4,4,0,309,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+312,"Mega Man 3",16,21,4,4,0,309,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+313,"Mega Man 4",16,21,4,4,0,309,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+314,"Mega Man 5",16,21,4,4,0,309,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+315,"Mega Man 6",16,21,4,4,0,309,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+316,"Mega Man 7",16,20,4,5,0,309,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+317,"Mega Man 8",16,17,4,3,0,309,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+318,"Mega Man: The Power Battle",16,56,4,3,0,309,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+319,"Mega Man: The Power Fighters",16,56,4,3,0,309,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+320,"Mega Man X Collection",16,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+321,"Mega Man X",16,20,4,5,0,320,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+322,"Mega Man X2",16,20,4,5,0,320,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+323,"Mega Man X3",16,20,4,5,0,320,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+324,"Mega Man X4",16,17,3,4,0,320,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+325,"Mega Man X5",16,17,3,2,0,320,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+326,"Mega Man X6",16,17,3,1,0,320,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+327,"Mega Man: Battle & Chase",16,17,3,4,0,320,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+328,"Metroid Prime",16,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+329,"Metroid",16,21,3,3,0,328,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+330,"Metroid Prime 2: Echoes",16,0,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+331,"Mortal Kombat: Deadly Alliance",16,0,3,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+332,"Odama",16,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+333,"Pac-Man World 2",16,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+334,"Pac-Attack",16,19,0,2,0,333,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+335,"Pac-Man",16,56,0,3,0,333,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+336,"Pac-Man Vs.",16,0,0,5,0,0,0,"With 1 GBA/Cable",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+337,"Pikmin",16,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+338,"Pikmin 2",16,0,4,5,0,0,0,"",2,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+339,"Rampage: Total Destruction",16,0,3,3,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+340,"Rampage",16,56,0,3,0,339,0,"",1,3,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+341,"Rampage: World Tour",16,56,3,5,0,339,0,"",1,3,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+342,"Shadow the Hedgehog",16,0,3,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+343,"Sonic Adventure 2: Battle",16,0,3,4,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+344,"Sonic Gems Collection",16,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+345,"Sonic CD",16,58,3,2,0,344,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+346,"Sonic Drift 2",16,60,2,2,0,344,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+347,"Sonic R",16,59,4,2,0,344,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+348,"Sonic Spinball",16,60,2,1,0,344,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+349,"Sonic the Fighters",16,56,4,2,0,344,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+350,"Sonic the Hedgehog 2 (8-bit)",16,60,2,2,0,344,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+351,"Sonic the Hedgehog: Triple Trouble",16,60,2,2,0,344,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+352,"Tails Adventures",16,60,2,2,0,344,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+353,"Tails' Skypatrol",16,60,2,1,0,344,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+354,"Vectorman",16,19,1,0,0,344,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+355,"Vectorman 2",16,19,1,0,0,344,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+356,"Spyro: Enter the Dragonfly",16,0,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+357,"Star Fox: Assault",16,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+358,"Super Mario Strikers",16,0,3,4,0,0,0,"",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+359,"Super Mario Sunshine",16,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+360,"Super Monkey Ball 2",16,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+361,"Super Smash Bros. Melee",16,0,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+362,"WarioWare, Inc.: Mega Party Game$!",16,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+363,"Crash Bandicoot",17,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+364,"Crash Bash",17,0,3,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+365,"Frogger (1997)",17,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+366,"Frogger 2: Swampy's Revenge",17,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+367,"International Track & Field",17,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+368,"Micro Machines V3",17,0,1,0,0,0,0,"",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+369,"Pong: The Next Level",17,0,2,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+370,"Banjo-Kazooie",18,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+371,"Banjo-Tooie",18,0,4,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+372,"Bomberman 64",18,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+373,"Diddy Kong Racing",18,0,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+374,"Donkey Kong 64",18,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+375,"Excitebike 64",18,0,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+376,"Excitebike",18,21,0,2,0,375,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+377,"F-Zero X",18,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+378,"Goldeneye 007",18,0,4,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+379,"The Legend of Zelda: Ocarina of Time",18,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+380,"Mario Golf",18,0,0,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+381,"Mario Kart 64",18,0,3,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+382,"Mario Party",18,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+383,"Mario Party 2",18,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+384,"Mario Party 3",18,0,3,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+385,"Mario Tennis",18,0,3,4,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+386,"Perfect Dark",18,0,3,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+387,"Pokémon Snap",18,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+388,"Pokémon Stadium",18,0,2,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+389,"Pokémon Stadium 2",18,0,2,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+390,"Snowboard Kids 2",18,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+391,"Super Smash Bros.",18,0,4,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+392,"WWF: No Mercy",18,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+393,"Yoshi's Story",18,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+394,"Contra III: The Alien Wars",20,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+395,"Donkey Kong Country",20,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+396,"Donkey Kong Country 2: Diddy's Kong Quest",20,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+397,"Donkey Kong Country 3: Dixie's Double Trouble",20,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+398,"F-Zero",20,0,3,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+399,"Kirby Super Star",20,0,3,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+400,"Mario Paint",20,0,1,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+401,"Super Mario World",20,0,4,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+402,"Super Metroid",20,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+403,"Wheel of Fortune: Deluxe Edition",20,0,0,1,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+404,"Boogerman",19,0,2,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+405,"Cool Spot",19,0,2,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+406,"Dr. Robotnik's Mean Bean Machine",19,0,2,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+407,"LHX Attack Chopper",19,0,0,1,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+408,"Marko",19,0,2,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+409,"Micro Machines",19,0,2,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+410,"Ms. Pac-Man",19,0,0,3,0,0,0,"",2,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+411,"Sonic the Hedgehog 2",19,0,3,4,0,0,0,"",2,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+412,"TaleSpin",19,0,2,2,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+413,"WWF: Royal Rumble",19,0,2,2,0,0,0,"",2,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+414,"Captain Skyhawk",21,0,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+415,"Donkey Kong Jr.",21,0,4,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+416,"Faxanadu",21,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+417,"Metroid",21,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+418,"Solar Jetman",21,0,2,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+419,"Super Mario Bros. 2",21,0,2,2,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+420,"Super Mario Bros. 3",21,0,4,4,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+421,"Super Mario Bros. / Duck Hunt",21,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+422,"Super Mario Bros.",21,0,3,2,0,421,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+423,"Duck Hunt",21,0,0,2,0,421,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+424,"Teenage Mutant Ninja Turtles",21,0,2,2,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+425,"To the Earth",21,0,2,1,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+426,"Yoshi's Cookie",21,0,0,1,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+427,"Cooking Mama 4: Kitchen Magic",40,0,0,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+428,"Fire Emblem Awakening",40,0,1,0,1,0,0,"",1,1,NULL,2,NULL,NULL,0,0,0,0,"",""
+429,"Kid Icarus: Uprising",40,0,3,4,0,0,0,"",1,1,6,NULL,NULL,NULL,0,0,0,0,"",""
+430,"The Legend of Zelda: Tri Force Heroes",40,0,2,0,0,0,0,"Limited Download Play",1,3,3,3,NULL,NULL,0,0,0,0,"",""
+431,"Luigi's Mansion: Dark Moon",40,0,3,5,0,0,0,"",1,4,NULL,4,NULL,NULL,0,0,0,0,"",""
+432,"Mario & Sonic at the London 2012 Olympic Games",40,0,3,4,0,0,0,"Limited Download Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+433,"Mario Kart 7",40,0,3,4,0,0,0,"Limited Download Play",8,1,8,NULL,NULL,NULL,0,0,0,0,"",""
+434,"Mario Party: Island Tour",40,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+435,"Mario Party: Star Rush",40,0,3,4,0,0,0,"Limited Download Play/Free to Download Guest Edition",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+436,"New Super Mario Bros. 2",40,0,3,5,0,0,0,"",1,1,NULL,2,NULL,NULL,0,0,0,0,"",""
+437,"Paper Mario: Sticker Star",40,0,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+438,"Professor Layton and the Azran Legacy",40,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+439,"Professor Layton and the Miracle Mask",40,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+440,"Professor Layton vs. Phoenix Wright: Ace Attorney",40,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+441,"Scribblenauts Unlimited",40,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+442,"Sega 3D Classics Collection",40,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+443,"Altered Beast",40,19,3,1,0,442,0,"",1,1,NULL,2,NULL,NULL,0,0,0,0,"",""
+444,"Fantasy Zone",40,61,2,1,0,442,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+445,"Fantasy Zone II W",40,56,3,2,0,442,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+446,"Fantasy Zone II: The Tears of Opa-Opa",40,61,2,1,0,442,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+447,"Galaxy Force II",40,56,3,2,0,442,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+448,"Maze Walker",40,61,2,1,0,442,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+449,"Power Drift",40,56,3,2,0,442,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+450,"Puyo Puyo 2",40,56,2,3,0,442,0,"",1,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+451,"Sonic the Hedgehog",40,19,3,3,0,442,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+452,"Thunder Blade",40,56,3,1,0,442,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+453,"Sonic Generations",40,0,3,4,0,0,0,"",1,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+454,"Sonic Lost World",40,0,3,3,0,0,0,"Limited Download Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+455,"Star Fox 64 3D",40,0,4,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+456,"Steel Diver",40,0,3,3,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+457,"Super Mario 3D Land",40,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+458,"Super Smash Bros. for Nintendo 3DS",40,0,3,5,0,0,0,"",1,1,4,2,NULL,NULL,0,0,0,0,"",""
+459,"Super Street Fighter IV: 3D Edition",40,0,3,4,0,0,0,"Limited Download Play",2,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+460,"Tetris: Axis",40,0,0,3,0,0,0,"",8,1,8,NULL,NULL,NULL,0,0,0,0,"",""
+461,"Zero Escape: Virtue's Last Reward",40,0,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+462,"3D Sonic the Hedgehog 2",23,19,3,4,0,0,0,"",1,1,2,2,NULL,NULL,0,0,0,0,"",""
+463,"Ace Attorney: Phoenix Wright: Dual Destinies",23,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+464,"Turnabout Reclaimed",23,0,4,4,0,0,463,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+465,"Ace Attorney: Phoenix Wright: Spirit of Justice",23,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+466,"Turnabout Time Traveler",23,0,4,4,0,0,465,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+467,"Cave Story",23,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+468,"Gunman Clive",23,0,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+469,"Kersploosh!",23,0,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+470,"Kid Icarus: 3D Classics",23,21,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+471,"Kirby Fighters Deluxe",23,0,4,4,0,0,0,"Limited Download Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+472,"Kirby's Adventure: 3D Classics",23,21,3,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+473,"Mario and Donkey Kong: Minis on the Move",23,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+474,"Metroid Prime: Blast Ball",23,0,0,3,0,0,0,"Free to Download",6,1,6,NULL,NULL,NULL,0,0,0,0,"",""
+475,"Mini Mario & Friends: amiibo Challenge",23,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+476,"Retro City Rampage DX",23,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+477,"Rhythm Heaven Megamix",23,0,3,5,0,0,0,"",1,4,NULL,4,NULL,NULL,0,0,0,0,"",""
+478,"Rusty's Real Deal Baseball",23,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+479,"Shantae and the Pirate's Curse",23,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+480,"SteamWorld Dig",23,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+481,"Steel Diver: Sub Wars",23,0,3,4,0,0,0,"Free to Download",1,1,8,NULL,NULL,NULL,0,0,0,0,"",""
+482,"VVVVVV",22,34,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+483,"Donkey Kong (1994)",24,31,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+484,"The Legend of Zelda",24,21,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+485,"The Legend of Zelda: Link's Awakening DX",24,30,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+486,"Super Mario Land",24,31,4,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+487,"Super Mario Land 2: 6 Golden Coins",24,31,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+488,"Wario Land 3",24,30,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+489,"Wario Land II",24,30,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+490,"Wario Land: Super Mario Land 3",24,31,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+491,"Zelda II: The Adventure of Link",24,21,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+492,"The Legend of Zelda: Four Swords: Anniversary Edition",25,29,3,4,0,0,0,"",1,1,NULL,4,NULL,NULL,0,0,0,0,"",""
+493,"Pop Island: Paperfield",25,0,0,2,0,0,0,"",8,1,8,NULL,NULL,NULL,0,0,0,0,"",""
+494,"WarioWare: Snapped!",25,0,1,2,0,0,0,"Single DS Play",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+495,"Killzone: Liberation",27,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+496,"LittleBigPlanet",27,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+497,"999: Nine Hours, Nine Persons, Nine Doors",28,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+498,"Ace Attorney Investigations: Miles Edgeworth",28,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+499,"Ace Attorney: Apollo Justice",28,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+500,"Ace Attorney: Phoenix Wright",28,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+501,"Ace Attorney: Phoenix Wright: Justice for All",28,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+502,"Ace Attorney: Phoenix Wright: Trials and Tribulations",28,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+503,"Advance Wars: Days of Ruin",28,0,3,4,0,0,0,"",1,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+504,"Animal Crossing: Wild World",28,0,0,5,0,0,0,"",1,1,NULL,4,NULL,NULL,0,0,0,0,"",""
+505,"Big Brain Academy",28,0,0,4,0,0,0,"",8,NULL,8,NULL,NULL,NULL,0,0,0,0,"",""
+506,"Bomberman (2005)",28,0,0,4,0,0,0,"",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+507,"Brain Age 2: More Training in Minutes a Day!",28,0,0,4,0,0,0,"",16,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+508,"Brain Age: Train Your Brain in Minutes a Day!",28,0,0,4,0,0,0,"",16,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+509,"Call of Duty: Modern Warfare 3: Defiance",28,0,2,2,0,0,0,"Freezing Issues",1,1,6,NULL,NULL,NULL,0,0,0,0,"",""
+510,"Chrono Trigger",28,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+511,"Clubhouse Games",28,0,0,3,0,0,0,"",8,1,8,NULL,NULL,NULL,0,0,0,0,"",""
+512,"Contra 4",28,0,3,5,0,0,0,"",1,1,NULL,2,NULL,NULL,0,0,0,0,"",""
+513,"Contra",28,21,3,2,0,512,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+514,"Super C",28,21,2,2,0,512,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+515,"Diddy Kong Racing DS",28,0,4,4,0,0,0,"",8,1,8,NULL,NULL,NULL,0,0,0,0,"",""
+516,"DK: Jungle Climber",28,0,4,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+517,"Dragon Quest Heroes: Rocket Slime",28,0,3,5,0,0,0,"",1,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+518,"Elite Beat Agents",28,0,4,5,0,0,0,"Limited Download Play",4,2,4,2,NULL,NULL,0,0,0,0,"",""
+519,"Geometry Wars: Galaxies",28,0,2,3,0,0,0,"",2,2,2,2,NULL,NULL,0,0,0,0,"",""
+520,"Geometry Wars: Retro Evolved",28,5,0,3,0,519,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+521,"GoldenEye: Rogue Agent",28,0,2,1,0,0,0,"Limited Download Play",8,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+522,"Grand Theft Auto: Chinatown Wars",28,0,3,5,0,0,0,"Freezing Issues",1,1,2,2,NULL,NULL,0,0,0,0,"",""
+523,"The Legend of Zelda: Spirit Tracks",28,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+524,"The Legend of Zelda: Phantom Hourglass",28,0,3,4,0,0,0,"",2,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+525,"Mario & Luigi: Bowser's Inside Story",28,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+526,"Mario & Sonic at the Olympic Games",28,0,3,2,0,0,0,"",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+527,"Mario & Sonic at the Olympic Winter Games",28,0,3,2,0,0,0,"",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+528,"Mario Hoops: 3-on-3",28,0,3,4,0,0,0,"Limited Download Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+529,"Mario Kart DS",28,0,4,5,0,0,0,"Limited Download Play",8,1,8,NULL,NULL,NULL,0,0,0,0,"",""
+530,"Mario Party DS",28,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+531,"Mega Man ZX Advent",28,0,3,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+532,"Meteos",28,0,4,5,0,0,0,"Limited Download Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+533,"Metroid Prime Hunters",28,0,3,4,0,0,0,"Limited Download Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+534,"Metroid Prime Hunters: First Hunt",28,0,4,2,0,0,0,"",1,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+535,"Metroid Prime Pinball",28,0,2,4,0,0,0,"",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+536,"Moon",28,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+537,"Namco Museum DS",28,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+538,"Dig Dug II",28,56,0,2,0,537,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+539,"Galaga",28,56,0,2,0,537,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+540,"Galaxian",28,56,0,1,0,537,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+541,"Mappy",28,56,0,2,0,537,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+542,"Pac-Man",28,56,0,3,0,537,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+543,"Pac-Man Vs.",28,16,0,5,0,537,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+544,"The Tower of Druaga",28,56,0,1,0,537,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+545,"Xevious",28,56,0,2,0,537,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+546,"New Super Mario Bros.",28,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+547,"Nintendogs: Dachshund & Friends",28,0,0,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+548,"Pac-Pix",28,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+549,"Picross DS",28,0,0,4,0,0,0,"",5,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+550,"Pokémon Dash",28,0,3,3,0,0,0,"",1,1,6,NULL,NULL,NULL,0,0,0,0,"",""
+551,"Pokémon Diamond",28,0,4,5,0,0,0,"",1,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+552,"Pokémon SoulSilver",28,0,3,4,0,0,0,"",1,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+553,"Professor Layton and the Curious Village",28,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+554,"Professor Layton and the Diabolical Box",28,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+555,"Professor Layton and the Last Specter",28,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+556,"London Life",28,0,0,0,0,555,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+557,"Professor Layton and the Unwound Future",28,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+558,"Sonic Colors",28,0,3,3,0,0,0,"",2,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+559,"Sonic Rush",28,0,3,4,0,0,0,"",2,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+560,"Sonic Rush: Adventure",28,0,3,4,0,0,0,"",2,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+561,"Star Fox: Command",28,0,4,3,0,0,0,"",6,1,6,NULL,NULL,NULL,0,0,0,0,"",""
+562,"Super Mario 64 DS",28,0,4,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+563,"Tetris DS",28,0,0,5,0,0,0,"",10,1,10,NULL,NULL,NULL,0,0,0,0,"",""
+564,"Viva Piñata: Pocket Paradise",28,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+565,"WarioWare: D.I.Y.",28,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+566,"Worms: Open Warfare 2",28,0,3,5,0,0,0,"Limited Download Play",2,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+567,"Advance Wars 2: Black Hole Rising",41,0,3,4,0,0,0,"Single GBA Play/Limited Single-Cart Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+568,"Banjo-Kazooie: Grunty's Revenge",41,0,4,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+569,"Banjo-Pilot",41,0,3,3,0,0,0,"",1,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+570,"Chu Chu Rocket",41,0,3,3,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+571,"DK: King of Swing",41,0,3,4,0,0,0,"Limited Single-Cart Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+572,"F-Zero: GP Legend",41,0,3,4,0,0,0,"Limited Single-Cart Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+573,"F-Zero: Maximum Velocity",41,0,3,4,0,0,0,"Limited Single-Cart Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+574,"Kirby & the Amazing Mirror",41,0,4,5,0,0,0,"Limited Single-Cart Play",4,1,4,4,NULL,NULL,0,0,1,0,"",""
+575,"Kuru Kuru Kururin",41,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+576,"The Legend of Zelda: A Link to the Past",41,20,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+577,"The Legend of Zelda: Four Swords",41,0,3,4,0,576,0,"",1,1,NULL,4,NULL,NULL,0,0,0,0,"",""
+578,"Mario & Luigi: Superstar Saga",41,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+579,"Mario Bros. (2001)",41,0,0,2,0,0,0,"Limited Single-Cart Play",4,1,4,4,NULL,NULL,0,0,0,0,"",""
+580,"Mario Golf: Advance Tour",41,0,2,3,0,0,0,"Single GBA Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+581,"Mario Kart: Super Circuit",41,0,3,3,0,0,0,"Limited Single-Cart Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+582,"Mario Party Advance",41,0,3,3,0,0,0,"Single GBA Play (With Paper Board)",4,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+583,"Mario Tennis: Power Tour",41,0,2,3,0,0,0,"",1,1,4,2,NULL,NULL,0,0,0,0,"",""
+584,"Mario vs. Donkey Kong",41,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+585,"Mega Man & Bass",41,20,2,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+586,"Metroid Fusion",41,0,4,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+587,"Metroid: Zero Mission",41,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+588,"Metroid",41,21,3,3,0,587,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+589,"Pokémon LeafGreen",41,0,3,5,0,0,0,"",1,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+590,"Pokémon Mystery Dungeon: Red Rescue Team",41,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+591,"Pokémon Sapphire",41,0,3,5,0,0,0,"",1,1,4,NULL,NULL,NULL,0,0,1,0,"",""
+592,"Sonic Advance",41,0,3,4,0,0,0,"Limited Single-Cart Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+593,"Sonic Advance 2",41,0,3,4,0,0,0,"Limited Single-Cart Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+594,"Sonic Advance 3",41,0,3,3,0,0,0,"Limited Single-Cart Play",4,1,4,2,NULL,NULL,0,0,0,0,"",""
+595,"Wario Land 4",41,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+596,"WarioWare, Inc.: Mega Microgame$!",41,0,3,5,0,0,0,"Single GBA Play",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+597,"Mario Party-e",42,0,0,3,0,0,0,"Single GBA Play (With Physical Game)",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+598,"Donkey Kong Country ",30,20,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+599,"Pokémon Silver",30,0,3,4,0,0,0,"",1,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+600,"Super Mario Bros. Deluxe",30,21,3,4,0,0,0,"",1,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+601,"Super Mario Bros.: For Super Players",30,21,2,0,0,600,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+602,"Kwirk",31,0,2,3,0,0,0,"",1,1,2,NULL,NULL,NULL,0,0,0,0,"",""
+603,"Metroid II: Return of Samus",31,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+604,"Pokémon Yellow",31,0,3,3,0,0,0,"",1,1,2,NULL,NULL,NULL,0,0,1,0,"",""
+605,"Command & Conquer: Red Alert 2",36,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+606,"Command & Conquer: The First Decade",36,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+607,"Command & Conquer",36,0,3,4,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+608,"Command & Conquer: Generals",36,0,3,4,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+609,"Command & Conquer: Generals: Zero Hour",36,0,2,0,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+610,"Command & Conquer: Red Alert",36,0,2,4,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+611,"Command & Conquer: Red Alert 2",36,0,3,5,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+612,"Command & Conquer: Red Alert: Counterstrike",36,0,1,0,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+613,"Command & Conquer: Red Alert: The Aftermath",36,0,1,0,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+614,"Command & Conquer: Renegade",36,0,3,3,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+615,"Command & Conquer: The Covert Operations",36,0,1,0,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+616,"Command & Conquer: Tiberian Sun",36,0,2,4,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+617,"Command & Conquer: Tiberian Sun: Firestorm",36,0,1,0,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+618,"Command & Conquer: Yuri's Revenge",36,0,3,5,0,606,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+619,"Command & Conquer: Yuri's Revenge",36,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+620,"Lode Runner: The Legend Returns",36,0,0,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+621,"Red Alert 3",36,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+622,"Sid Meier's Civilization III Complete",36,0,1,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+623,"Sid Meier's Civilization IV",36,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+624,"Beyond the Sword",36,0,2,0,0,0,623,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+625,"Colonization",36,0,1,0,0,0,623,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+626,"Warlords",36,0,0,0,0,0,623,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+627,"SimCity 3000",36,0,0,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+628,"Spore",36,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+629,"Gone Home",34,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+630,"Hidden in Plain Sight",34,0,0,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+631,"Light Angles",34,0,0,4,0,0,0,"XInput Limited",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+632,"Lode Runner Online: The Mad Monks' Revenge",34,0,0,5,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+633,"Mari0",34,0,0,0,0,0,0,"Controller Re-mapping",1,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+634,"Minecraft",34,0,0,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+635,"Regular Human Basketball",34,0,0,5,0,0,0,"",10,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+636,"Street Fighter X Mega Man",34,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+637,"An Untitled Story",34,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+638,"1001 Spikes",35,0,1,0,0,0,0,"",4,4,NULL,NULL,NULL,NULL,0,25,0,0,"",""
+639,"12 orbits",35,0,1,0,0,0,0,"",12,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+640,"Amnesia: The Dark Descent",35,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+641,"Justine",35,0,0,0,0,0,640,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+642,"Astro Duel",35,0,0,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+643,"The Beginner's Guide",35,0,4,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+644,"Bionic Commando: Rearmed",35,0,4,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+645,"Borderlands",35,0,2,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,15,80,0,0,"",""
+646,"Broforce",35,0,0,4,0,0,0,"",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+647,"Clusterpuck 99",35,0,2,0,0,0,0,"",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+648,"CMYW",35,0,0,4,0,0,0,"",1,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+649,"Collider",35,0,0,4,0,0,0,"XInput Limited",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+650,"Counter-Strike",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+651,"Counter-Strike: Condition Zero",35,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+652,"Counter-Strike: Condition Zero Deleted Scenes",35,0,2,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+653,"Counter-Strike: Source",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+654,"Crawl",35,0,2,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+655,"Day of Defeat",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+656,"Day of Defeat: Source",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,52,0,0,"",""
+657,"Dear Esther",35,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+658,"Deathmatch Classic",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+659,"Deus Ex",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+660,"Deus Ex: Human Revolution",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,49,0,0,"",""
+661,"Deus Ex: Invisible War",35,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+662,"Divekick",35,0,3,4,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,14,0,0,"",""
+663,"Duck Game",35,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+664,"Dustforce DX",35,0,2,0,0,0,0,"Controller Re-mapping",4,1,NULL,NULL,NULL,NULL,0,1,0,0,"",""
+665,"Gang Beasts",35,0,0,5,0,0,0,"",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+666,"Goat Simulator",35,0,1,5,0,0,0,"",1,4,NULL,NULL,NULL,NULL,0,47,0,0,"",""
+667,"Greed Corp",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,3,13,0,0,"",""
+668,"Gun Monkeys",35,0,0,0,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+669,"Half-Life",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+670,"Half-Life 2",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,20,33,0,0,"",""
+671,"Half-Life 2: Deathmatch",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+672,"Half-Life 2: Episode One",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,6,13,0,0,"",""
+673,"Half-Life 2: Episode Two",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,13,22,0,0,"",""
+674,"Half-Life 2: Lost Coast",35,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+675,"Half-Life Deathmatch: Source",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+676,"Half-Life: Blue Shift",35,0,3,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+677,"Half-Life: Opposing Force",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+678,"Half-Life: Source",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+679,"Hitman: Blood Money",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+680,"Jamestown",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,42,0,0,"",""
+681,"Keep Talking and Nobody Explodes",35,0,0,0,0,0,0,"",1,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+682,"Left 4 Dead",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,24,73,0,0,"",""
+683,"Left 4 Dead 2",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,1,67,0,0,"",""
+684,"Lethal League",35,0,2,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,3,23,0,0,"",""
+685,"Limbo",35,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,5,13,0,0,"",""
+686,"Lovers in a Dangerous Spacetime",35,0,1,0,0,0,0,"",1,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+687,"Mashed",35,14,4,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+688,"Moonshot",35,0,0,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+689,"Move or Die",35,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+690,"Nidhogg",35,0,4,5,0,0,0,"",2,1,NULL,NULL,NULL,NULL,4,12,0,0,"",""
+691,"Obliteracers",35,0,1,0,0,0,0,"",16,1,NULL,NULL,NULL,NULL,0,13,0,0,"",""
+692,"Octodad: Dadliest Catch",35,0,2,0,0,0,0,"",1,4,NULL,NULL,NULL,NULL,1,32,0,0,"",""
+693,"OlliOlli 2: Welcome to Olliwood",35,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,13,27,0,0,"",""
+694,"Orbital Gear",35,0,0,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,12,0,0,"",""
+695,"Overcooked",35,0,1,0,0,0,0,"",1,4,NULL,NULL,NULL,NULL,0,12,0,0,"",""
+696,"The Last Morsel",35,0,1,0,0,0,695,"",1,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+697,"Pac-Man 256",35,0,0,4,0,0,0,"",1,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+698,"Pac-Man Museum",35,0,NULL,0,0,-1,0,"",NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+699,"Pac & Pal",35,56,0,2,0,698,0,"",1,1,NULL,NULL,NULL,NULL,4,12,0,0,"",""
+700,"Pac-Attack",35,19,0,2,0,698,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+701,"Pac-Land",35,56,0,1,0,698,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+702,"Pac-Man",35,56,0,3,0,698,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+703,"Pac-Man Arrangement (2005)",35,16,3,4,0,698,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+704,"Pac-Man Championship Edition",35,5,0,4,0,698,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+705,"Pac-Man: Battle Royale",35,56,0,4,0,698,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+706,"Pac-Mania",35,56,0,3,0,698,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+707,"Super Pac-Man",35,56,0,2,0,698,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+708,"Pix the Cat",35,0,0,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,4,11,0,0,"",""
+709,"Portal",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,5,15,0,0,"",""
+710,"Portal 2",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,16,50,0,0,"",""
+711,"Push Me Pull You",35,0,0,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,11,0,0,"",""
+712,"Red Faction ",35,0,3,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+713,"Red Faction II",35,0,3,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+714,"Ricochet",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+715,"Rivals of Aether",35,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+716,"Rocket League",35,0,1,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,70,0,0,"",""
+717,"Rome: Total War",35,0,2,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+718,"Alexander",35,0,1,0,0,0,717,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+719,"Barbarian Invasion",35,0,2,0,0,0,717,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+720,"Samurai Gunn",35,0,0,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,6,0,0,"",""
+721,"Screencheat",35,0,0,5,0,0,0,"",8,1,NULL,NULL,NULL,NULL,0,21,0,0,"",""
+722,"Soccertron",35,0,0,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,30,0,0,"",""
+723,"Sonic the Hedgehog 3 & Knuckles",35,19,3,4,0,0,0,"",2,2,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+724,"SpeedRunners",35,0,0,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,3,14,0,0,"",""
+725,"Spelunky",35,0,3,4,0,0,0,"",4,4,NULL,NULL,NULL,NULL,7,20,0,0,"",""
+726,"The Stanley Parable",35,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,6,10,0,0,"",""
+727,"Star Wars: Knights of the Old Republic",35,0,2,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+728,"Starwhal",35,0,0,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,24,0,0,"",""
+729,"Super Impossible Road",35,0,0,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+730,"Super Meat Boy",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+731,"Team Fortress 2",35,0,0,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,44,448,0,0,"",""
+732,"Team Fortress Classic",35,0,0,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+733,"Thief Town",35,0,0,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,32,0,0,"",""
+734,"Toto Temple Deluxe",35,0,2,0,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+735,"TowerFall: Ascension",35,0,3,5,0,0,0,"",4,2,NULL,NULL,NULL,NULL,10,20,0,0,"",""
+736,"TowerFall: Dark World",35,0,2,5,0,0,735,"",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+737,"TowerFall: 8-Player",35,0,0,5,0,0,735,"",8,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+738,"Tricky Towers",35,0,2,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,29,0,0,"",""
+739,"Ultimate Chicken Horse",35,0,0,5,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,31,0,0,"",""
+740,"Undertale",35,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+741,"Vertiginous Golf",35,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,9,45,0,0,"",""
+742,"Videoball",35,0,2,0,0,0,0,"",6,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+743,"Worms: Clan Wars",35,0,0,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,3,14,0,0,"",""
+744,"Worms: Reloaded",35,0,0,2,0,0,0,"Pass the Controller Only",4,1,NULL,NULL,NULL,NULL,0,61,0,0,"",""
+745,"Angry Birds",32,0,0,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+746,"Angry Birds 2",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+747,"? Loop",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+748,"Clash of Clans",32,0,0,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+749,"Crossy Road",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+750,"Desert Golfing",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+751,"Deus Ex Go",32,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+752,"Downwell",32,0,2,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+753,"Game Dev Story",32,0,0,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+754,"Hitman Go",32,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+755,"Hitman: Sniper",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+756,"Impossible Road",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+757,"Lara Croft Go",32,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+758,"The Shard of Life",32,0,3,5,0,0,757,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+759,"Layton Brothers: Mystery Room",32,0,2,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+760,"Monument Valley",32,0,4,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+761,"Ida's Dream",32,0,4,4,0,0,760,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+762,"Mortal Kombat X",32,0,0,1,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+763,"Pac-Man 256",32,0,0,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+764,"Pokémon Go",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+765,"Ridiculous Fishing",32,0,3,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+766,"Sonic Dash",32,0,0,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+767,"Sonic Runners",32,0,0,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+768,"Stack",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+769,"Temple Run",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+770,"Temple Run 2",32,0,0,3,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+771,"That Bouncy Thing",32,0,0,2,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,1,0,"",""
+772,"Threes",32,0,0,4,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+773,"The Trail",32,0,0,1,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+774,"Advance Wars",3,41,2,4,0,0,0,"Pass the Controller Only",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+775,"Godzilla: Domination!",41,0,3,2,0,0,0,"Limited Single-Cart Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+776,"WarioWare: Touched!",28,0,1,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+777,"Mario Tennis Open",40,0,2,0,1,0,0,"",4,2,4,2,NULL,NULL,0,0,0,0,"",""
+778,"Excite Truck",54,0,1,0,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+779,"The Legend of Zelda: Breath of the Wild",63,0,3,5,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+780,"1-2-Switch",63,0,0,2,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+781,"Snipperclips",64,0,2,5,0,0,0,"",4,4,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+782,"Fast RMX",64,0,3,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+783,"Doom",41,36,1,0,0,0,0,"",1,1,4,1,NULL,NULL,0,0,0,0,"",""
+784,"Ultra Street Fighter IV",39,0,1,0,0,0,0,"",2,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+785,"Frogger: Hyper Arcade Edition",8,0,0,4,0,0,0,"",4,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+786,"Kirby: Nightmare in Dreamland",41,0,1,0,0,0,0,"Limited Single-Cart Play",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+787,"Kirby: Squeak Squad",28,0,1,4,0,0,0,"",4,1,4,NULL,NULL,NULL,0,0,0,0,"",""
+788,"Kirby Super Star Ultra",28,0,1,5,0,0,0,"Limited Download Play",4,1,4,2,NULL,NULL,0,0,0,0,"",""
+789,"Final Fantasy VI Advance",41,20,1,0,0,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""
+790,"Super Mario Run",32,0,2,4,1,0,0,"",1,1,NULL,NULL,NULL,NULL,0,0,0,0,"",""

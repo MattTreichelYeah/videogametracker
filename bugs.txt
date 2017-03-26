@@ -4,6 +4,8 @@ Other Things
 -More explanation text for icons like Local/System Link/Online, Comp/Coop, and for handheld consoles how they apply
 -DLC/Comp Arrow is upside down when sorted backwards, confusing when sorted by other columns
 -Really need to optimize SQL
--Verify Data/Stats
+-Browser Quirks: Link Underline Width, Completed SVG in FireFox Windows is unsmooth
+-Database Backup
+-Test Scroll Swipe Events Conflict on Scrolling
 
 -Database in localhost is most up to date version, not csv

@@ -40,7 +40,7 @@ h3 {
 }*/
 /* Games */
 #games-box {
-  background: var(--lime);
+  background: #C6EC51;
   padding: 20px;
   padding-bottom: 24px;
 }
@@ -94,7 +94,7 @@ h3 {
 
 /* Stats */
 #stats-box {
-  background: var(--pink);
+  background: #FD927E;
   padding: 20px;
 }
 
@@ -130,7 +130,7 @@ h3 {
 
 /* Consoles */
 .console-box-access {
-  background: var(--lime);
+  background: #C6EC51;
   padding: 20px;
 }
 
@@ -189,7 +189,7 @@ h3 {
 }
 
 .console-list a:link.option-selected, .console-list a:visited.option-selected, .console-list a:hover.option-selected, .console-list a:active.option-selected {
-  color: var(--lime);
+  color: #C6EC51;
 }
 
 .loading-icon {
@@ -229,19 +229,19 @@ h3 {
   font-weight: normal !important;
 }
 
-.local-2.multi-active, .local-3.multi-active {
+.multi-active .local-2, .multi-active .local-3 {
   color: #14e070;
 }
 
-.local-4.multi-active {
+.multi-active .local-4 {
   color: #32a8fc;
 }
 
-.local-5.multi-active, .local-6.multi-active {
+.multi-active .local-5, .multi-active .local-6 {
   color: #ffae59;
 }
 
-.local-7.multi-active, .local-8.multi-active, .local-9.multi-active, .local-10.multi-active, .local-11.multi-active, .local-12.multi-active, .local-13.multi-active, .local-14.multi-active, .local-15.multi-active, .local-16.multi-active {
+.multi-active .local-7, .multi-active .local-8, .multi-active .local-9, .multi-active .local-10, .multi-active .local-11, .multi-active .local-12, .multi-active .local-13, .multi-active .local-14, .multi-active .local-15, .multi-active .local-16 {
   color: #f45555;
 }
 
@@ -268,10 +268,14 @@ h3 {
   display: inline-block;
   padding: 2px;
   margin: 0 8px 8px 0;
-  background: var(--pink);
+  background: #FD927E;
 }
 
 /*Main Table Styling*/
+table#games-table tbody tr {
+  background: black;
+}
+
 table.dataTable tbody tr {
   background: black;
 }
@@ -291,6 +295,10 @@ table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.order-colum
 
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background: #404040;
+}
+
+table.dataTable thead th, table.dataTable tfoot th {
+  font-weight: normal;
 }
 
 /*Don't clear Multi/Single Toggle*/

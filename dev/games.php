@@ -71,6 +71,7 @@
 			echo $row["name"] ."</td>
 			<td>"; 
 			switch ($row["completion"]) { 
+				case NULL: break;
 				case 0: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='svg/endless.svg' title='Endless'>"; break;
 				case 1: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unplayed.svg' title='Unplayed'>"; break;
 				case 2: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unfinished.svg' title='Unfinished'>"; break; 
@@ -80,13 +81,14 @@
 			echo "</td>
 			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<span class='filter-data'>" . $row["rating"] . "</span><img class='rating svg' src='svg/star.svg'>"; } echo "</td>
 			<td>". $row["console_name"]; 
-			if ($row["original_console"] != "0") echo " (". $row["console_original_name"] .")"; 
+			if ($row["original_console"] != "") echo " (". $row["console_original_name"] .")"; 
 			echo "</td>
 			<td>". max($row["multi_comp_local"], $row["multi_coop_local"]) ."</td>
 			<td>". max($row["multi_comp_LAN"], $row["multi_coop_LAN"]) ."</td>
 			<td>". $row["multi_note"] ."</td>
 		</tr>";
 	}
+
 ?>
 
 <div class="games-table-detail">
@@ -154,5 +156,5 @@
 		</tbody>
 	</table>
 </div>
-
-<script type="text/javascript" src="js/game-table.js"></script>
+<!-- 
+<script type="text/javascript" src="js/game-table.js"></script> -->

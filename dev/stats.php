@@ -8,7 +8,7 @@
 	$sql .= "SELECT COUNT(*) FROM games AS g 
 		LEFT JOIN games_tags AS gt ON g.id = gt.gameid
 		LEFT JOIN tags AS t ON t.id = gt.tagid
-		WHERE compilation_root != -1";
+		WHERE (compilation_root IS NULL OR compilation_root != -1)";
 
 	$total = $sql;
 
@@ -113,6 +113,5 @@
 			<tr><td>5-Player+ </td><td>" . $multiplayers[3] . "</td><td>" . $multiplayerPercent[3] . "%</td></tr>
 			<tr><td>7-Player+ </td><td>" . $multiplayers[4] . "</td><td>" . $multiplayerPercent[4] . "%</td></tr>
 		</table>";
-
-	echo "<script> updateStats(); </script>"
+		
 ?>

@@ -1,25 +1,21 @@
-gameid,tagid
-1,1
-4,1
-6,1
-7,1
-8,1
-10,1
-11,1
-13,1
-15,1
-18,1
-21,1
-22,1
-434,1
-435,1
-496,1
-575,1
-306,12
-195,12
-197,12
-635,12
-200,14
-459,14
-76,14
-169,14
+id,"name"
+1,"Accessible"
+2,"Investment"
+3,"Asymmetric"
+4,"Racing"
+5,"Splitscreen"
+6,"Single Screen"
+7,"Campaign"
+8,"Party"
+9,"Mainstream"
+10,"Niche"
+11,"Teams"
+12,"Split Controller"
+13,"Pass the Controller"
+14,"Fighting"
+15,"Motion Control"
+16,"Minigames"
+17,"Turn Based"
+18,"Shooter"
+19,"Weird Controls"
+20,"Something Else"

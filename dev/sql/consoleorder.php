@@ -3,7 +3,11 @@
 include "../html/dblogin.php";
 
 // These console names must match what's already in the DB
-$consoles = ["Wii U", 
+$consoles = [
+      "Nintendo Switch"
+      "Cartridges (Switch)",
+      "eShop (Switch)",
+      "Wii U", 
       "Wii U Discs", 
       "eShop (Wii U)", 
       "Virtual Console (Wii U)", 
