@@ -1,66 +1,59 @@
 $(document).ready(function () {
 
-	//Initial Loading
+	// *** Initial Loading ***
+
+	function loadingFinished(component) { 
+		$(`.${component} .loading-icon`).addClass("hidden");
+	}
 
 	var tagIDs = ["-1"];
-
-	var loading = {
-		"finish": function(component) { 
-			if (component === "stats") {
-				$("#stats-box .loading-icon").addClass("hidden");					
-			} else if (component === "games") {
-				$("#games-box .loading-icon").addClass("hidden");					
-			}
-		}
-	};
-
 	$.post("stats.php", {"consoleID": "-1", "tagIDs": tagIDs}, function(data) {
-		$("#stats").html(data);
+		$("#stats-content").html(data);
 		updateStats();
-		loading.finish("stats");
+		loadingFinished("stats");
 	});
 	$.post("games.php", {"consoleID": "-1", "tagIDs": tagIDs}, function(data) {
-		$("#games").html(data);
+		$("#games-content").html(data);
 		initializeDataTable();
-		loading.finish("games");
+		loadingFinished("games");
 	});
 
-	function mobileSidedrawer(side) {
+	function mobileSidebar(side) {
 		return function() { 
-			$sidedrawer = $(`.sidedrawer-${side}`);
-			$sidedrawer.toggleClass('active'); 
+			$sidebar = $(`.sidebar-${side}`);
+			$sidebar.toggleClass('active'); 
 		};
 	}
 
-	function desktopSidedrawer(side) {
+	function desktopSidebar(side) {
 		return function() { 
-			$('body').toggleClass(`hide-sidedrawer-${side}`); 
+			$('body').toggleClass(`sidebar-hide-${side}`); 
 		};
 	}
 
 	// Table doesn't update as transition occurs, which sucks
 	// Don't need this for mobile since sidebar doesn't move table, kills performance
 	// The detection method for mobile is stupid
-	$(".sidedrawer").on("transitionend", function() {
-		if ($(".sidedrawer-left-toggle-mobile:visible").length === 0) {
+	$(".sidebar").on("transitionend", function() {
+		if ($(".sidebar-toggle-l-m:visible").length === 0) {
 			$("#games-table").DataTable().columns.adjust().responsive.recalc();
 		}
 	});
 
-	$('.sidedrawer-left-toggle-mobile').on('click', mobileSidedrawer("left"));
-	$('.sidedrawer-left-toggle-desktop').on('click', desktopSidedrawer("left"));
-	$('.sidedrawer-right-toggle-mobile').on('click', mobileSidedrawer("right"));
-	$('.sidedrawer-right-toggle-desktop').on('click', desktopSidedrawer("right"));
+	$('.sidebar-toggle-l-m').on('click', mobileSidebar("l"));
+	$('.sidebar-toggle-l-d').on('click', desktopSidebar("l"));
+	$('.sidebar-toggle-r-m').on('click', mobileSidebar("r"));
+	$('.sidebar-toggle-r-d').on('click', desktopSidebar("r"));
 
 	// Left & Right Arrow Keys
 	$('body').keydown(function(event) {
-		if (event.keyCode === 37) desktopSidedrawer("left")();
-		else if (event.keyCode === 39) desktopSidedrawer("right")();
+		if (event.keyCode === 37) desktopSidebar("l")();
+		else if (event.keyCode === 39) desktopSidebar("r")();
 	});
 
-	$(".content-wrapper").on('swipeleft', mobileSidedrawer("right")).on('swiperight', mobileSidedrawer("left"));
-	$(".sidedrawer-left").on('swipeleft', mobileSidedrawer("left"));
-	$(".sidedrawer-right").on('swiperight', mobileSidedrawer("right"));
+	$(".content").on('swipeleft', mobileSidebar("r")).on('swiperight', mobileSidebar("l"));
+	$(".sidebar-l").on('swipeleft', mobileSidebar("l"));
+	$(".sidebar-r").on('swiperight', mobileSidebar("r"));
 
 	// Functions?
 
@@ -88,9 +81,9 @@ $(document).ready(function () {
 		}
 
 		if ($(this).next().is("img")) {
-			$(".sidedrawer-left .loading-icon").insertAfter($(this).next("img")).removeClass("hidden");
+			$(".sidebar-l .loading-icon").insertAfter($(this).next("img")).addClass("visible");
 		} else {
-			$(".sidedrawer-left .loading-icon").appendTo($(this)).removeClass("hidden");			
+			$(".sidebar-l .loading-icon").appendTo($(this)).addClass("visible");			
 		}
 
 		var loading = {
@@ -101,19 +94,19 @@ $(document).ready(function () {
 				else if (component === "games") this.games = true;
 
 				if (this.stats && this.games) {
-					$(".loading-icon").addClass("hidden");					
+					$(".loading-icon").removeClass("visible");					
 				}
 			}
 		};
 
 		// Pass Data
 		$.post("stats.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			$("#stats").html(data);
+			$("#stats-content").html(data);
 			updateStats();
 			loading.finish("stats");
 		});
 		$.post("games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			$("#games").html(data);
+			$("#games-content").html(data);
 			initializeDataTable();
 			loading.finish("games");
 		});
@@ -147,7 +140,7 @@ $(document).ready(function () {
 			$(`[data-root='${consoleRoot}']`).each(function() { consoleChildren.push($(this).attr("data-id")); });
 		}
 
-		$(".sidedrawer-right .loading-icon").appendTo($(this)).removeClass("hidden");
+		$(".sidebar-r .loading-icon").appendTo($(this)).addClass("visible");
 
 		var loading = {
 			"stats": false, 
@@ -157,19 +150,19 @@ $(document).ready(function () {
 				else if (component === "games") this.games = true;
 				
 				if (this.stats && this.games) {
-					$(".loading-icon").addClass("hidden");					
+					$(".loading-icon").removeClass("visible");					
 				}
 			}
 		};
 
 		// Pass Data
 		$.post("stats.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			$("#stats").html(data);
+			$("#stats-content").html(data);
 			updateStats();
 			loading.finish("stats");
 		});
 		$.post("games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			$("#games").html(data);
+			$("#games-content").html(data);
 			initializeDataTable();
 			loading.finish("games");
 		});
@@ -177,38 +170,21 @@ $(document).ready(function () {
 
 	function initializeDataTable() {
 	    var table = $('#games-table').DataTable({
-			//"paging": false,
 			"pageLength": 150,
 			"pagingType": "simple",
 			"info": false,
 			"responsive": true,
-			// "columnDefs": [
-			//     { "targets": ["rating","completion"], "visible": false, "searchable": false }
-			// ],
-			"dom": 'Bfrtip', /*Ordering of Table Elements, B needed for buttons*/
-			"buttons": [
-				// {
-	   //              text: 'Single/Multi',
-	   //              action: function ( e, dt, node, config ) {
-	   //              	var single = dt.column(".completion").visible();
-	   //              	console.log(single);
-	   //                  dt.columns([".local-coop",".local-comp",".LAN-coop",".LAN-comp",".online-coop",".online-comp"]).visible(single);
-	   //                  dt.columns([".completion",".rating",".system"]).visible(!single);
-	   //              }
-	   //          },
-	            //'colvis',
-	            //'print'
-	        ],
+			"dom": 'frtip', /*Ordering of Table Elements, B needed for buttons*/
 	        "columnDefs": [
-	        	{ "targets": ["rating","completion","local-comp","LAN-comp","multi-note"], "orderSequence": ["desc", "asc"] },
-	        	{ "targets": ["rating","completion","system","local-comp","LAN-comp","multi-note"], "searchable": false }
+	        	{ "targets": ["rating","completion","local-comp","link-comp","multi-note"], "orderSequence": ["desc", "asc"] },
+	        	{ "targets": ["rating","completion","console","local-comp","link-comp","multi-note"], "searchable": false }
 	        ]
 		});
 
 		$("#singlemulti").on("change", function() {
 			var single = this.checked;
 			// This isn't really single view, but makes sense to toggle initial view on/off
-			table.columns([".completion",".rating",".system"]).visible(single, false);
+			table.columns([".completion",".rating",".console"]).visible(single, false);
 			// Relying on indexes is fragile
 			if (single) table.order([0, 'asc']);
 			else table.order([4, 'desc'], [5, 'desc']);

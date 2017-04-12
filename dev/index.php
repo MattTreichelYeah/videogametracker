@@ -5,59 +5,51 @@
 ?>
 
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<?php include 'head.php' ?>
 	</head>
-	<body class="hide-sidedrawer-right">
-		<div class="sidedrawer sidedrawer-left">
+	<body class="sidebar-hide-r">
+		<aside class="sidebar sidebar-l colour1">
 			<h3>Consoles</h3>
-			<a class="sidedrawer-toggle sidedrawer-left-toggle-mobile">☰</a>
+			<a class="sidebar-toggle sidebar-toggle-l-m">☰</a>
 
-			<!--Component from Loading.io -->
-			<div class='loading-icon hidden uil-rolling-css'><div><div></div><div></div></div></div>
+			<?php include 'components/loading.html' ?>
 
 			<?php include 'consoles.php' ?>
-		</div>
-		<div class="content-wrapper">
+		</aside>
+		<main class="content">
 			<h1>Video Games</h1>
 
-			<div class="console-box-access">
-				<div class="console-access">
-					<a class="sidedrawer-toggle sidedrawer-left-toggle-mobile"><h2 class="console-title">All Games</h2> ☰</a>
-					<a class="sidedrawer-toggle sidedrawer-left-toggle-desktop"><h2 class="console-title">All Games</h2> ☰</a>
-				</div><div class="tag-access"> <!-- No Line Break -->
-					<a class="sidedrawer-toggle sidedrawer-right-toggle-mobile">☰ <h2 class="tag-title">All Tags</h2> </a>
-					<a class="sidedrawer-toggle sidedrawer-right-toggle-desktop">☰	<h2 class="tag-title">All Tags</h2> </a>
+			<section id="filter" class="filter colour2">
+				<div class="filter-console">
+					<a class="sidebar-toggle sidebar-toggle-l-m"><h2 class="console-title">All Games</h2> ☰</a>
+					<a class="sidebar-toggle sidebar-toggle-l-d"><h2 class="console-title">All Games</h2> ☰</a>
+				</div><div class="filter-tag"> <!-- No Line Break -->
+					<a class="sidebar-toggle sidebar-toggle-r-m">☰ <h2 class="tag-title">All Tags</h2> </a>
+					<a class="sidebar-toggle sidebar-toggle-r-d">☰ <h2 class="tag-title">All Tags</h2> </a>
 				</div>
-			</div>
+			</section>
 			
-			<div id="stats-box">
-				<!--<h3>Stats!</h3>-->
+			<section id="stats" class="stats colour1">
+				<?php include 'components/loading.html' ?>
 
-				<!--Component from Loading.io -->
-				<div class='loading-icon uil-rolling-css'><div><div></div><div></div></div></div>
+				<div id="stats-content"></div>
+			</section>
 
-				<div id="stats"></div>
-			</div>
+			<section id="games" class="games colour2">
+				<?php include 'components/loading.html' ?>
 
-			<div id="games-box">
-				<!-- <h3>Games!</h3> -->
-
-				<!--Component from Loading.io -->
-				<div class='loading-icon uil-rolling-css'><div><div></div><div></div></div></div>
-
-				<div id="games"></div>
-			</div>
-		</div>
-		<div class="sidedrawer sidedrawer-right">
+				<div id="games-content"></div>
+			</section>
+		</main>
+		<aside class="sidebar sidebar-r colour1">
 			<h3>Tags (Experimental Data)</h3>
-			<a class="sidedrawer-toggle sidedrawer-right-toggle-mobile">☰</a>
+			<a class="sidebar-toggle sidebar-toggle-r-m">☰</a>
 
-			<!--Component from Loading.io -->
-			<div class='loading-icon hidden uil-rolling-css'><div><div></div><div></div></div></div>
+			<?php include 'components/loading.html' ?>
 
 			<?php include 'tags.php' ?>
-		</div>
+		</aside>
 	</body>
 </html>

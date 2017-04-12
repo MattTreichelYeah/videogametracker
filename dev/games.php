@@ -61,25 +61,35 @@
 	//echo $sql;
 
 	$games = mysqli_query($db, $sql);
+
+	function playerRange($playercount) {
+		$range = "one";
+		if (2 <= $playercount && $playercount <= 3) $range = "low";
+		else if ($playercount === 4) $range = "medium"; 
+		else if (5 <= $playercount && $playercount <= 6) $range = "high"; 
+		else if (7 <= $playercount) $range = "extreme";
+		return $range;
+	}
 	
 	function printrow($row) {
-		// Should probably use Join?
-		echo "<tr class='local-". max($row["multi_comp_local"], $row["multi_coop_local"], $row["multi_comp_LAN"], $row["multi_coop_LAN"]) ."'>
+		echo "<tr class='local-";
+		$playercount = max($row["multi_comp_local"], $row["multi_coop_local"], $row["multi_comp_LAN"], $row["multi_coop_LAN"]);
+		echo playerRange($playercount) . "'>
 			<td class='title-cell'>"; 
-			if ($row["compilation_root"] != 0 && $row["compilation_root"] != -1) { echo "<img class='svg' src='svg/arrow.svg' title='" . $row["compilation_name"] . "'><span class='filter-data'>" . $row["compilation_name"] . "</span> "; } 
-			else if ($row["dlc_root"] != 0) { echo "<img class='svg' src='svg/arrow.svg' title='" . $row["dlc_name"] . "'><span class='filter-data'>" . $row["dlc_name"] . "</span> "; } 
+			if ($row["compilation_root"] != 0 && $row["compilation_root"] != -1) { echo "<img class='svg' src='svg/arrow.svg' title='" . $row["compilation_name"] . "'><span class='sort-data'>" . $row["compilation_name"] . "</span> "; } 
+			else if ($row["dlc_root"] != 0) { echo "<img class='svg' src='svg/arrow.svg' title='" . $row["dlc_name"] . "'><span class='sort-data'>" . $row["dlc_name"] . "</span> "; } 
 			echo $row["name"] ."</td>
 			<td>"; 
 			switch ($row["completion"]) { 
 				case NULL: break;
-				case 0: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='svg/endless.svg' title='Endless'>"; break;
-				case 1: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unplayed.svg' title='Unplayed'>"; break;
-				case 2: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unfinished.svg' title='Unfinished'>"; break; 
-				case 3: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='svg/beaten.svg' title='Beaten'>"; break; 
-				case 4: echo "<span class='filter-data'>" . $row["completion"] . "</span><img class='svg' src='svg/completed2.svg' title='Completed'>"; break; 
+				case 0: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/endless.svg' title='Endless'>"; break;
+				case 1: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unplayed.svg' title='Unplayed'>"; break;
+				case 2: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unfinished.svg' title='Unfinished'>"; break; 
+				case 3: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/beaten.svg' title='Beaten'>"; break; 
+				case 4: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/completed2.svg' title='Completed'>"; break; 
 			}
 			echo "</td>
-			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<span class='filter-data'>" . $row["rating"] . "</span><img class='rating svg' src='svg/star.svg'>"; } echo "</td>
+			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<span class='sort-data'>" . $row["rating"] . "</span><img class='rating svg' src='svg/star.svg'>"; } echo "</td>
 			<td>". $row["console_name"]; 
 			if ($row["original_console"] != "") echo " (". $row["console_original_name"] .")"; 
 			echo "</td>
@@ -119,32 +129,20 @@
 
 	?>
 </div>
-
-<!--Component from Proto.io - https://proto.io/freebies/onoff/-->
-<div class="onoffswitch">
-    <input type="checkbox" id="singlemulti" name="singlemulti" class="onoffswitch-checkbox" checked>
-    <label class="onoffswitch-label" for="singlemulti">
-        <span class="onoffswitch-inner"></span>
-        <span class="onoffswitch-switch"></span>
-    </label>
-</div>
-
 <div>
-	<table id="games-table" class="hover compact order-column nowrap" width="100%"> <!--nowrap is useful attribute-->
+	<?php include 'components/toggle.html' ?>
+
+	<table id="games-table" class="games-table hover compact order-column nowrap" width="100%">
 		<thead>
 			<tr>
-				<!--Class Names are for Datatables Column Visibility Control-->
+				<!--Class Names are for DataTables Column Visibility Control-->
 				<th class="name"><span class="th-desktop">Name</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="completion"><span class="th-desktop">Completion</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="rating"><span class="th-desktop">Rating</span><span class="th-mobile">&nbsp;</span></th>
-				<th class="system"><span class="th-desktop">Console</span><span class="th-mobile">&nbsp;</span></th>
+				<th class="console"><span class="th-desktop">Console</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="local-comp"><img class='svg' src="svg/local.svg" title="Local Players"></th>
-				<th class="LAN-comp"><img class='svg' src="svg/LAN.svg" title="System Link Players"></th>
+				<th class="link-comp"><img class='svg' src="svg/link.svg" title="System Link Players"></th>
 				<th class="multi-note"><span class="th-desktop">Multiplayer Note</span><span class="th-mobile">&nbsp;</span></th>
-<!-- 				<th class="local-coop"><img class='svg' src="svg/local.svg" title="Local Co-op Players"></th>
-				<th class="LAN-coop"><img class='svg' src="svg/LAN.svg" title="LAN Co-op Players"></th> -->
-<!-- 				<th class="online-comp"><img class='svg' src="svg/online.svg" title="Online Competitive Players"></th>
-				<th class="online-coop"><img class='svg' src="svg/online.svg" title="Online Co-op Players"></th> -->
 			</tr>
 		</thead>
 		<tbody>
@@ -156,5 +154,3 @@
 		</tbody>
 	</table>
 </div>
-<!-- 
-<script type="text/javascript" src="js/game-table.js"></script> -->

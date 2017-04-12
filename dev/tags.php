@@ -2,8 +2,8 @@
 	include "dblogin.php";
 ?>
 
-<div class="console-box">
-	<ul class="console-list">
+<div class="sidebar-content tags">
+	<ul>
 		<li><a href="" class="tag-link option-selected" data-id="-1" data-root="-1">All Tags</a></li>
 		<?php
 			$sql = "SELECT * FROM tags ORDER BY name";

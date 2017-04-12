@@ -1,0 +1,395 @@
+$colour1: #FD927E;
+$colour2: #C6EC51;
+$colour3: #000000;
+$colour4: #FFFFFF;
+$playercountLow: #14E070;
+$playercountMedium: #32A8FC;
+$playercountHigh: #FFAE59;
+$playercountExtreme: #F45555;
+$mobileBreakpoint: 768px;
+
+*, :before, :after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Oswald', Verdana;
+	background: $colour3;
+}
+
+/* Ex. "Video Games" */
+h1 {
+	font-size: 50px;
+	margin: 20px;
+	padding-bottom: 7px;
+	border-bottom: 4px solid $colour4;
+	color: $colour4;
+}
+
+/* Ex. Main Console & Tag Filter Titles */
+h2 {
+	font-size: 22px;
+	display: inline-block;
+	line-height: 1.2;
+}
+
+/* Ex. Now Playing, Sidebar Titles */
+h3 {
+	font-size: 18px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+section, aside {
+	padding: 20px;
+
+	&.colour1 {
+		background: $colour1;
+	}
+
+	&.colour2 {
+		background: $colour2;
+	}
+}
+
+::-webkit-scrollbar {
+  background: $colour1;
+}
+::-webkit-scrollbar-thumb {
+  background: $colour4;
+}
+
+/* *** Games Section *** */
+
+.games-table-detail {
+	line-height: 1.4;
+	padding-bottom: 10px;
+	h3 {
+		padding: 2px;
+		margin: 0 4px 8px 0;
+	}
+}
+
+.games .onoffswitch {
+	float: right;
+	z-index: 1; /* Needs to overlap table to be clickable */
+}
+
+@media (max-width: $mobileBreakpoint) {
+	.games {
+		padding: 24px 0;
+	}
+	.games-table-detail {
+		padding: 0 20px 12px 20px;
+	}
+}
+
+.games-table {
+	margin-top: 7px;
+	thead tr {
+		text-align: left;
+	}
+}
+
+/* Blank out headers but show &nbsp; to not collapse row */
+.th-desktop {
+	display: inline;
+}
+.th-mobile {
+	display: none;
+}
+@media (max-width: $mobileBreakpoint) {
+	.th-desktop {
+		display: none;
+	}
+	.th-mobile {
+		display: inline;
+	}
+}
+
+/* *** Stats Section *** */
+
+.stats-table {
+	width: 33%;
+	padding-right: 5px;
+	display: inline-block;
+	td, th {
+		padding: 5px 5px 5px 0;
+		text-align: left;
+	}
+}
+
+// Bar graph is background of 3rd column of table
+// but on mobile the 2nd and 3rd column are hidden and the bar graph is moved to the 1st column
+.stats-table tr td:nth-child(3) {
+	width: 100%;
+	background: url('../images/stat-percent-background.png') no-repeat;
+}
+@media (max-width: $mobileBreakpoint) {
+	.stats-table tr {
+		td:nth-child(1) {
+			width: 100%;
+			background: url('../images/stat-percent-background.png') no-repeat;
+		}
+		td:nth-child(n+2) {
+			display: none;
+		}
+	}
+}
+
+/* *** Filter Section *** */
+
+
+.filter > div {
+	display: inline-block;
+	width: 50%;
+}
+.filter :last-child {
+	text-align: right;
+}
+
+@media (max-width: $mobileBreakpoint) {
+	.filter > div {
+		display: block;
+		width: initial;
+		line-height: 2;
+	}
+	.filter :last-child {
+		text-align: left;
+		h2 {
+			font-size: 95%;		
+		}
+		.sidebar-toggle {
+			font-size: 95%;
+		}
+	}
+}
+
+/* *** Sidebars *** */
+
+.sidebar-content {
+	color: $colour4;
+	font-size: 22px;
+	background: $colour3;
+	padding: 15px;
+	ul {
+		list-style-type: none;
+		padding-left: 0px;
+		ul {
+			font-size: 15px;
+			padding-top: 5px;
+			padding-left: 15px;
+			display: none; //initial
+		}
+	}
+	li {
+		padding: 3px 0px;
+	}
+	a {
+		color: $colour4;
+		&.option-selected {
+			color: $colour2;
+		}
+	}
+}
+
+.sidebar-toggle {
+	font-size: 22px;
+	text-align: right;
+	line-height: 0.70; /*This is neccessary since the ☰ icon and the custom font don't align well*/
+	float: right;
+}
+
+.filter .sidebar-toggle {
+	float: none;
+	font-size: 26px;
+}
+
+/* *** More Classes *** */
+
+.loading-icon {
+	transform: scale(0.11);
+	position: relative;
+	top: -10px;
+	width: 20px;
+	height: 20px;
+	&.hidden {
+		display: none;
+	}
+}
+.sidebar .loading-icon {
+	transform: scale(0.07);
+	display: none;
+	top: -8px;
+	width: 10px;
+	height: 10px;
+	&.visible {
+		display: inline-block;
+	}
+}
+@media (max-width: $mobileBreakpoint) {
+	.games .loading-icon {
+		margin-left: 20px;
+	}
+}
+
+@mixin local($playercount, $colour) {
+    .multi-active .local-#{$playercount} {
+        color: #{$colour};
+    }
+}
+@include local('low', $playercountLow);
+@include local('medium', $playercountMedium);
+@include local('high', $playercountHigh);
+@include local('extreme', $playercountExtreme);
+
+/* Compilation titles are invisible but exist for searching purposes */
+.sort-data {
+	display: none;
+}
+
+.svg {
+	height: 1em;
+	width: 1em;
+	vertical-align: bottom;
+}
+
+.dropdown {
+	height: 1em;
+	vertical-align: bottom;
+}
+
+.now-playing {
+	display: inline-block;
+	padding: 2px;
+	margin: 0 8px 8px 0;
+	background: $colour1;
+}
+
+/* *** Override DataTables CSS *** */
+
+.games table tbody {
+	color: $colour4;
+	font-weight: normal !important;
+}
+
+table.games-table tbody tr {
+	background: $colour3;
+}
+
+table.dataTable tbody tr {
+	background: $colour3;
+}
+
+table.dataTable > tbody > tr.child:hover {
+	/*Uses !important in datatables.css*/
+	background: $colour3 !important;
+}
+
+table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3, table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3 {
+	background: #262626;
+}
+
+table.dataTable.display, table.dataTable.order-column.hover {
+	tbody tr:hover > .sorting_1 {
+		background: #595959;
+	}
+}
+
+table.dataTable.hover, table.dataTable.display {
+	tbody tr:hover {
+		background: #404040;
+	}
+}
+
+table.dataTable {
+	thead th, tfoot th {
+		font-weight: normal;
+	}
+}
+
+/*Don't clear Multi/Single Toggle*/
+.dataTables_wrapper {
+	clear: initial;
+}
+
+/*Sorting Arrows*/
+table.dataTable thead {
+	.sorting, .sorting_asc, .sorting_desc {
+		background-image: none;
+	}
+}
+@media (max-width: $mobileBreakpoint) {
+	table.dataTable thead {
+		.sorting {
+			background-image: url("../svg/sort.svg");
+			background-size: 0.8em;
+		}
+		.sorting_asc {
+			background-image: url("../svg/sort_asc.svg");
+			background-size: 0.8em;
+		}
+		.sorting_desc {
+			background-image: url("../svg/sort_desc.svg");
+			background-size: 0.8em;
+		}
+	}
+}
+
+/* Search Filter Bar */
+.dataTables_filter {
+	background: $colour1;
+	width: calc(100% - 100px);
+	text-align: center !important;
+	font-size: 15px;
+	padding: 10px;
+	margin-top: 0px !important;
+	margin-bottom: 10px;
+	float: left !important;
+
+	input {
+		/* 68px is the Label */
+		width: calc(100% - 68px);
+		font-size: 15px;
+		border: 0px;
+	}
+}
+
+/* Responsive Expand Buttons */
+table.dataTable.dtr-inline.collapsed > tbody > tr {
+	> td:first-child:before, > th:first-child:before {
+		box-shadow: none;
+		border: none;
+		background-color: $colour1;
+		color: $colour3;
+		font-weight: bold;
+		font-family: 'Oswald', Verdana;
+	}
+}
+
+table.dataTable.dtr-inline.collapsed.compact > tbody > tr {
+	> td:first-child:before, > th:first-child:before {
+		text-indent: 0px;
+	}
+}
+
+/* 'Minus' sign that lines up with 'Plus' in all fonts, rather than 'dash' */
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent {
+	> td:first-child:before, > th:first-child:before {
+		content: "−";
+	}
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	border-radius: 0px !important;
+	border: none !important;
+
+	&:hover {
+		background: $colour3 !important;
+		color: $colour4 !important;
+	}
+
+	&.disabled {
+		background: none !important;
+	}
+}

@@ -2,8 +2,8 @@
 	include "dblogin.php";
 ?>
 
-<div class="console-box">
-	<ul class="console-list">
+<div class="sidebar-content consoles">
+	<ul>
 		<li><a href="" class="console-link option-selected" data-id="-1" data-root="-1">All Games</a></li>
 		<?php
 			$sql = "SELECT * FROM consoles ORDER BY consoles.`order`";
