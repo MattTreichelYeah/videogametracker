@@ -86,7 +86,7 @@
 				case 1: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unplayed.svg' title='Unplayed' alt='Unplayed'>"; break;
 				case 2: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unfinished.svg' title='Unfinished' alt='Unfinished'>"; break; 
 				case 3: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/beaten.svg' title='Beaten' alt='Beaten'>"; break; 
-				case 4: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/completed2.svg' title='Completed' alt='Completeds'>"; break; 
+				case 4: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/completed2.svg' title='Completed' alt='Completed'>"; break; 
 			}
 			echo "</td>
 			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<span class='sort-data'>" . $row["rating"] . "</span><img class='rating svg' src='svg/star.svg' alt='Star'>"; } echo "</td>
@@ -115,7 +115,7 @@
 			LEFT JOIN tags AS t ON t.id = gt.tagid";
 
 		if ($whereConsole != "") $sql .= $whereConsole . " AND now_playing = 1 " . $groupBy;
-		else $sql .= " WHERE now_playing = 1" . $group By;
+		else $sql .= " WHERE now_playing = 1" . $groupBy;
 
 		$now_playing = mysqli_query($db, $sql);
 
