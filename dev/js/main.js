@@ -1,22 +1,40 @@
 $(document).ready(function () {
 
-	// *** Initial Loading ***
+	// Post Function that also handles loading icons
+	function getData(consoleID, consoleChildren, tagIDs) {
+		
+		var loading = {
+			"stats": false, 
+			"games": false, 
+			"finish": function(component) { 
+				// Initial Loading Icons are initially visible and hidden seperately (and stay hidden)
+				$(`.${component} .loading-icon`).addClass("hidden");
+				// Sidebar Loading Icons are initially hidden and made invisible when both sections done
+				if (component === "stats") this.stats = true;
+				else if (component === "games") this.games = true;
+				
+				if (this.stats && this.games) {
+					$(".sidebar .loading-icon").removeClass("visible");					
+				}
+			}
+		};
 
-	function loadingFinished(component) { 
-		$(`.${component} .loading-icon`).addClass("hidden");
+		// Pass Data
+		$.post("stats.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
+			$("#stats-content").html(data);
+			updateStats();
+			loading.finish("stats");
+		});
+		$.post("games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
+			$("#games-content").html(data);
+			initializeDataTable();
+			loading.finish("games");
+		});
 	}
 
-	var tagIDs = ["-1"];
-	$.post("stats.php", {"consoleID": "-1", "tagIDs": tagIDs}, function(data) {
-		$("#stats-content").html(data);
-		updateStats();
-		loadingFinished("stats");
-	});
-	$.post("games.php", {"consoleID": "-1", "tagIDs": tagIDs}, function(data) {
-		$("#games-content").html(data);
-		initializeDataTable();
-		loadingFinished("games");
-	});
+	// *** Initial Loading ***
+
+	getData(-1, [-1], [-1]);
 
 	function mobileSidebar(side) {
 		return function() { 
@@ -86,30 +104,7 @@ $(document).ready(function () {
 			$(".sidebar-l .loading-icon").appendTo($(this)).addClass("visible");			
 		}
 
-		var loading = {
-			"stats": false, 
-			"games": false, 
-			"finish": function(component) { 
-				if (component === "stats") this.stats = true;
-				else if (component === "games") this.games = true;
-
-				if (this.stats && this.games) {
-					$(".loading-icon").removeClass("visible");					
-				}
-			}
-		};
-
-		// Pass Data
-		$.post("stats.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			$("#stats-content").html(data);
-			updateStats();
-			loading.finish("stats");
-		});
-		$.post("games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			$("#games-content").html(data);
-			initializeDataTable();
-			loading.finish("games");
-		});
+		getData(consoleID, consoleChildren, tagIDs);
 	});
 
 	$('.tag-link').click(function(event){
@@ -142,30 +137,7 @@ $(document).ready(function () {
 
 		$(".sidebar-r .loading-icon").appendTo($(this)).addClass("visible");
 
-		var loading = {
-			"stats": false, 
-			"games": false, 
-			"finish": function(component) { 
-				if (component === "stats") this.stats = true;
-				else if (component === "games") this.games = true;
-				
-				if (this.stats && this.games) {
-					$(".loading-icon").removeClass("visible");					
-				}
-			}
-		};
-
-		// Pass Data
-		$.post("stats.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			$("#stats-content").html(data);
-			updateStats();
-			loading.finish("stats");
-		});
-		$.post("games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
-			$("#games-content").html(data);
-			initializeDataTable();
-			loading.finish("games");
-		});
+		getData(consoleID, consoleChildren, tagIDs);
 	});
 
 	function initializeDataTable() {
