@@ -117,6 +117,8 @@
 		if ($whereConsole != "") $sql .= $whereConsole . " AND now_playing = 1 " . $groupBy;
 		else $sql .= " WHERE now_playing = 1" . $groupBy;
 
+		$sql .= " ORDER BY g.name";
+
 		$now_playing = mysqli_query($db, $sql);
 
 		if (mysqli_num_rows($now_playing) != 0) {
