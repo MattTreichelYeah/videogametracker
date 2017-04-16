@@ -22,7 +22,7 @@
     version: '2.1.2',
     enabled: 'ontouchstart' in document.documentElement,
     preventDefault: true,
-    threshold: 30
+    threshold: 90
   };
 
   var startX,
