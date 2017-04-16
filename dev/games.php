@@ -1,5 +1,5 @@
 <?php
-	include "dblogin.php";
+	include ".database.php";
 
 	// Apparently necessary on server
 	// Though really means my query is badly optimized

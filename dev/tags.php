@@ -1,5 +1,5 @@
 <?php
-	include "dblogin.php";
+	include ".database.php";
 ?>
 
 <div class="sidebar-content tags">

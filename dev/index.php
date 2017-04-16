@@ -1,7 +1,6 @@
 <?php
 	/* Be extra sure UTF-8 */
 	header('Content-Type: text/html; charset=utf-8');
-	include "dblogin.php";
 ?>
 
 <!doctype html>

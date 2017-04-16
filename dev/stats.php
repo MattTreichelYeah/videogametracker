@@ -1,5 +1,5 @@
 <?php
-	include "dblogin.php";
+	include ".database.php";
 
 	$sql = "";
 
