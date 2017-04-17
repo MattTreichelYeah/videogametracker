@@ -65,7 +65,7 @@
 	function playerRange($playercount) {
 		$range = "one";
 		if (2 <= $playercount && $playercount <= 3) $range = "low";
-		else if ($playercount === 4) $range = "medium"; 
+		else if ($playercount == 4) $range = "medium"; 
 		else if (5 <= $playercount && $playercount <= 6) $range = "high"; 
 		else if (7 <= $playercount) $range = "extreme";
 		return $range;
