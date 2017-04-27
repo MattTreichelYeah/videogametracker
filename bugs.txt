@@ -7,8 +7,4 @@ Other Things
 -Browser Quirks: Link Underline Width, Completed SVG in FireFox Windows is unsmooth
 -Database Backup
 -Test Scroll Swipe Events Conflict on Scrolling
--Prettier Scrollbar for Console Box
 -Optimal Player # Data
--Save DB Login in Server?
-
--Database in localhost is most up to date version, not csv
