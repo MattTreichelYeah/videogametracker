@@ -102,7 +102,7 @@ section, aside {
 	.th-desktop {
 		display: none;
 	}
-	.th-mobile {
+	.th-mobile, tr.child .th-desktop {
 		display: inline;
 	}
 }
@@ -281,9 +281,13 @@ table.dataTable tbody tr {
 	background: $colour3;
 }
 
+table.dataTable > tbody > tr.child {
+	background: #404040;
+}
+
 table.dataTable > tbody > tr.child:hover {
 	/*Uses !important in datatables.css*/
-	background: $colour3 !important;
+	background: #404040 !important;
 }
 
 table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3, table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3 {
