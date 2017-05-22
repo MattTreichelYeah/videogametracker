@@ -21,7 +21,7 @@
   $.detectSwipe = {
     version: '2.1.2',
     enabled: 'ontouchstart' in document.documentElement,
-    preventDefault: true,
+    preventDefault: false,
     threshold: 90
   };
 
