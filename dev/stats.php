@@ -28,7 +28,7 @@
 	
 	$whereConsole = "";	
 	if ($_POST["consoleID"] != "-1") { 
-		if (!is_null($_POST["consoleChildren"])) {
+		if (isset($_POST["consoleChildren"])) {
 			// Some redundancy here with the first criteria
 			$whereConsole .= " AND (g.console = {$_POST["consoleID"]}";
 			foreach ($_POST["consoleChildren"] as $child) {
@@ -38,7 +38,7 @@
 			$whereConsole .= " AND (g.console = {$_POST["consoleID"]}";
 		}
 
-		if(!is_null($_POST["tagIDs"]) && $_POST["tagIDs"][0] != "-1") {
+		if(isset($_POST["tagIDs"]) && $_POST["tagIDs"][0] != "-1") {
 			$whereConsole .= ") AND (gt.tagid = {$_POST["tagIDs"][0]}"; 
 			foreach ($_POST["tagIDs"] as $tag) {
 	    		$whereConsole .= " OR gt.tagid = {$tag}";
@@ -48,7 +48,7 @@
 			$whereConsole .= ") GROUP BY g.id";
 		}
 	} else {
-		if(!is_null($_POST["tagIDs"]) && $_POST["tagIDs"][0] != "-1") {
+		if(isset($_POST["tagIDs"]) && $_POST["tagIDs"][0] != "-1") {
 			$whereConsole .= " AND (gt.tagid = {$_POST["tagIDs"][0]}"; 
 			foreach ($_POST["tagIDs"] as $tag) {
 	    		$whereConsole .= " OR gt.tagid = {$tag}";
