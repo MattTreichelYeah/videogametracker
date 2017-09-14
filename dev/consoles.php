@@ -31,7 +31,7 @@
 					//Child console exists, create sublist
 					} else if ($row['console_root'] == $previous_root && $sublist_start){
 						$sublist_start=false;
-						echo " <img class='dropdown' src='svg/dropdown.svg' alt='Dropdown Arrow'>
+						echo " <a href='' class='dropdown'><img src='svg/dropdown.svg' alt='Dropdown Arrow'></a>
 						<ul class='console-sublist'>
 							<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}'>{$row['name']} ({$root_name})</a></li>";
 						$sublist=true;
