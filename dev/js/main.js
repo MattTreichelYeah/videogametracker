@@ -49,11 +49,15 @@ $(document).ready(function () {
 		};
 	}
 
+	// The detection method for mobile is stupid
+	function mobileSidebarActive() {
+		return $(".sidebar-toggle-l-m:visible").length !== 0;
+	}
+
 	// Table doesn't update as transition occurs, which sucks
 	// Don't need this for mobile since sidebar doesn't move table, kills performance
-	// The detection method for mobile is stupid
 	$(".sidebar").on("transitionend", function() {
-		if ($(".sidebar-toggle-l-m:visible").length === 0) {
+		if (!mobileSidebarActive()) {
 			$("#games-table").DataTable().columns.adjust().responsive.recalc();
 		}
 	});
@@ -65,8 +69,13 @@ $(document).ready(function () {
 
 	// Left & Right Arrow Keys
 	$('body').keydown(function(event) {
-		if (event.keyCode === 37) desktopSidebar("l")();
-		else if (event.keyCode === 39) desktopSidebar("r")();
+		if (event.keyCode === 37) {
+			if (!mobileSidebarActive()) desktopSidebar("l")();
+			else mobileSidebar("l")();
+		} else if (event.keyCode === 39) {
+			if (!mobileSidebarActive()) desktopSidebar("r")();
+			else mobileSidebar("r")();
+		}
 	});
 
 	$(".content").on('swipeleft', mobileSidebar("r")).on('swiperight', mobileSidebar("l"));
