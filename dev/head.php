@@ -9,12 +9,12 @@
 <!--Mine-->
 <link rel="stylesheet" type="text/css" href="css/master.css">
 <!--Favicons-->
-<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png?v=2">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png?v=2">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png?v=2">
-<link rel="manifest" href="/favicons/manifest.json?v=2">
-<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg?v=2" color="#fd927e">
-<link rel="shortcut icon" href="/favicons/favicon.ico?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png?v=2">
+<link rel="manifest" href="favicons/manifest.json?v=3">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg?v=2" color="#fd927e">
+<link rel="shortcut icon" href="favicons/favicon.ico?v=2">
 <meta name="apple-mobile-web-app-title" content="VG Tracker">
 <meta name="application-name" content="VG Tracker">
 <meta name="msapplication-config" content="/favicons/browserconfig.xml?v=2">
