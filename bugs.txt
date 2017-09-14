@@ -8,3 +8,8 @@ Other Things
 -Database Backup
 -Test Scroll Swipe Events Conflict on Scrolling
 -Optimal Player # Data
+-Top 3 Ranking by Console?
+-Routing like eh-hem.net/videogames/nintendods#multi might be cool
+-Sanitize Input
+-Touch Reaction for Single/Multi
+-Background for non-percentage in bar charts, to make clear, especially on mobile? Don't really have another colour though
