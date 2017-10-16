@@ -32,10 +32,6 @@ $(document).ready(function () {
 		});
 	}
 
-	// *** Initial Loading ***
-
-	getData(-1, [-1], [-1]);
-
 	function mobileSidebar(side) {
 		return function() { 
 			$sidebar = $(`.sidebar-${side}`);
@@ -186,6 +182,37 @@ $(document).ready(function () {
 		    // Mobile visible
 		    $(element).prev().prev().css("background-size", percent + " 100%");
 		});
+	}
+
+	// *** Initial Loading ***
+
+	let mainConsole, subConsole;
+	[mainConsole, subConsole] = parseConsoleURL(window.location.href);
+	initialDataCall(mainConsole, subConsole);
+
+	function parseConsoleURL(URL) {
+		let consoleString, mainConsole, subConsole;
+		consoleString = URL.substring(URL.lastIndexOf("/") + 1);
+		return consoleString.split("+");
+	}
+
+	function initialDataCall(mainConsole, subConsole) {
+		if (!mainConsole) {
+			getData(-1, [-1], [-1]); // Default "All Games"
+		} else {
+			// Lazy Hacky
+			// Expects short name for mainConsole, hyphenated long name for subConsole
+			try {
+				if (!subConsole) {
+					$(`.sidebar-l [data-name='${mainConsole}']`)[0].click();
+				} else {
+					$(`.sidebar-l [data-name='${mainConsole} ${subConsole}']`)[0].click();
+					$(`.sidebar-l [data-name='${mainConsole} ${subConsole}']`).parent().parent().siblings(".dropdown")[0].click();
+				}
+			} catch(error) {
+				getData(-1, [-1], [-1]); // Default "All Games"
+			}
+		}
 	}
 
 });

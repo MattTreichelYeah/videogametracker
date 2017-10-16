@@ -18,26 +18,29 @@
 			while($row = mysqli_fetch_array($result)) {
 				if ($row['owned'] == 1) {
 					if ($row['console_root'] == $row['id']) { 
+						$data_name = strtolower($row['name_short']); //for URL parsing
 						if (!$sublist) { //New root console, no previous sublist, ready to start sublist
-							echo "<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}'>{$row['name']}</a>";
+							echo "<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}' data-name='{$data_name}'>{$row['name']}</a>";
 						} else { //New root console, previous sublist, quit sublist and ready to start new sublist
 							$sublist = false;
 							echo "</ul></li>
-							<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}'>{$row['name']}</a>";
+							<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}' data-name='{$data_name}'>{$row['name']}</a>";
 						}
 						$previous_root = $row['console_root'];
 						$root_name = $row['name_short'];
 						$sublist_start = true;
 					//Child console exists, create sublist
 					} else if ($row['console_root'] == $previous_root && $sublist_start){
-						$sublist_start=false;
+						$data_subname = str_replace(" ","-",strtolower($row['name'])); //for URL parsing
+						$sublist_start = false;
 						echo " <a href='' class='dropdown'><img src='svg/dropdown.svg' alt='Dropdown Arrow'></a>
 						<ul class='console-sublist'>
-							<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}'>{$row['name']}<span class='sidebar-accessible'> ({$root_name})</span></a></li>";
-						$sublist=true;
+							<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}' data-name='{$data_name} ${data_subname}'>{$row['name']}<span class='sidebar-accessible'> ({$root_name})</span></a></li>";
+						$sublist = true;
 					//New child console, continue sublist
 					} else if ($row['console_root'] == $previous_root && !$sublist_start){
-						echo "<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}'>{$row['name']}<span class='sidebar-accessible'> ({$root_name})</span></a></li>";
+						$data_subname = str_replace(" ","-",strtolower($row['name'])); //for URL parsing
+						echo "<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}' data-name='{$data_name} ${data_subname}'>{$row['name']}<span class='sidebar-accessible'> ({$root_name})</span></a></li>";
 					}
 				}
 			}
