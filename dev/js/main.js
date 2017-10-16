@@ -26,8 +26,22 @@ $(document).ready(function () {
 			loading.finish("stats");
 		});
 		$.post("games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
+			// Retrieve current state if exists
+			let multiToggle = $("#singlemulti");
+			let multi;
+			if (multiToggle.length !== 0) {
+				multi = !multiToggle.prop("checked");
+			} else {
+				multi = parseMultiURL();
+			}
+
+			// Setup HTML
 			$("#games-content").html(data);
 			initializeDataTable();
+			if (multi) {
+				setMultiplayerView(true);
+				multiToggle = $("#singlemulti").prop("checked", false);
+			}
 			loading.finish("games");
 		});
 	}
@@ -146,8 +160,22 @@ $(document).ready(function () {
 		getData(consoleID, consoleChildren, tagIDs);
 	});
 
+	function setMultiplayerView(multi) {
+		let table = $('#games-table').DataTable({ "retrieve": true });
+		// This isn't really single view, but makes sense to toggle initial view on/off
+		table.columns([".completion",".rating",".console"]).visible(!multi, false);
+		if (!multi) {
+			table.order([0, 'asc']); // Relying on indexes is fragile
+			$("#games-table").removeClass("multi-active"); //enable highlighting
+		} else {
+			table.order([4, 'desc'], [5, 'desc']);
+			$("#games-table").addClass("multi-active");
+		}
+		table.columns.adjust().draw();
+	}
+
 	function initializeDataTable() {
-	    var table = $('#games-table').DataTable({
+	    let table = $('#games-table').DataTable({
 			"pageLength": 150,
 			"pagingType": "simple",
 			"info": false,
@@ -160,14 +188,7 @@ $(document).ready(function () {
 		});
 
 		$("#singlemulti").on("change", function() {
-			var single = this.checked;
-			// This isn't really single view, but makes sense to toggle initial view on/off
-			table.columns([".completion",".rating",".console"]).visible(single, false);
-			// Relying on indexes is fragile
-			if (single) table.order([0, 'asc']);
-			else table.order([4, 'desc'], [5, 'desc']);
-			table.columns.adjust().draw();
-			$("#games-table").toggleClass("multi-active"); //enable highlighting
+			setMultiplayerView(!this.checked);
 		});
 
 		$(".dataTables_paginate").on("click", function(event) {
@@ -187,13 +208,16 @@ $(document).ready(function () {
 	// *** Initial Loading ***
 
 	let mainConsole, subConsole;
-	[mainConsole, subConsole] = parseConsoleURL(window.location.href);
+	[mainConsole, subConsole] = parseConsoleURL(window.location.href.replace(window.location.hash, ""));
 	initialDataCall(mainConsole, subConsole);
 
 	function parseConsoleURL(URL) {
-		let consoleString, mainConsole, subConsole;
-		consoleString = URL.substring(URL.lastIndexOf("/") + 1);
-		return consoleString.split("+");
+		let queryString = URL.substring(URL.lastIndexOf("/") + 1);
+		return queryString.split("+");
+	}
+
+	function parseMultiURL(URL) {
+		return window.location.hash === "#multi";
 	}
 
 	function initialDataCall(mainConsole, subConsole) {
