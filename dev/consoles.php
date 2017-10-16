@@ -33,11 +33,11 @@
 						$sublist_start=false;
 						echo " <a href='' class='dropdown'><img src='svg/dropdown.svg' alt='Dropdown Arrow'></a>
 						<ul class='console-sublist'>
-							<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}'>{$row['name']} ({$root_name})</a></li>";
+							<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}'>{$row['name']}<span class='sidebar-accessible'> ({$root_name})</span></a></li>";
 						$sublist=true;
 					//New child console, continue sublist
 					} else if ($row['console_root'] == $previous_root && !$sublist_start){
-						echo "<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}'>{$row['name']} ({$root_name})</a></li>";
+						echo "<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}'>{$row['name']}<span class='sidebar-accessible'> ({$root_name})</span></a></li>";
 					}
 				}
 			}

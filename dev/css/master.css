@@ -631,6 +631,14 @@ section.colour2, aside.colour2 {
   color: #C6EC51;
 }
 
+.sidebar-content .sidebar-accessible {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 .sidebar-toggle {
   font-size: 22px;
   text-align: right;
