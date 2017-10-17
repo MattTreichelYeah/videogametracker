@@ -1,5 +1,5 @@
 <?php
-	include ".database.php";
+	include $_SERVER['DOCUMENT_ROOT']."/videogames/.database.php";
 ?>
 
 <div class="sidebar-content consoles">
@@ -33,7 +33,7 @@
 					} else if ($row['console_root'] == $previous_root && $sublist_start){
 						$data_subname = str_replace(" ","-",strtolower($row['name'])); //for URL parsing
 						$sublist_start = false;
-						echo " <a href='' class='dropdown'><img src='svg/dropdown.svg' alt='Dropdown Arrow'></a>
+						echo " <a href='' class='dropdown'><img src='/videogames/svg/dropdown.svg' alt='Dropdown Arrow'></a>
 						<ul class='console-sublist'>
 							<li><a href='' class='console-link' data-id='{$row['id']}' data-root='{$row['console_root']}' data-name='{$data_name} ${data_subname}'>{$row['name']}<span class='sidebar-accessible'> ({$root_name})</span></a></li>";
 						$sublist = true;

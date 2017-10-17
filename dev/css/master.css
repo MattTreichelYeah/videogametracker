@@ -559,13 +559,13 @@ section.colour2, aside.colour2 {
 
 .stats-table tr td:nth-child(3) {
   width: 100%;
-  background: url("../images/stat-percent-background.png") no-repeat;
+  background: url("/videogames/images/stat-percent-background.png") no-repeat;
 }
 
 @media (max-width: 768px) {
   .stats-table tr td:nth-child(1) {
     width: 100%;
-    background: url("../images/stat-percent-background.png") no-repeat;
+    background: url("/videogames/images/stat-percent-background.png") no-repeat;
   }
   .stats-table tr td:nth-child(n+2) {
     display: none;
@@ -773,15 +773,15 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 
 @media (max-width: 768px) {
   table.dataTable thead .sorting {
-    background-image: url("../svg/sort.svg");
+    background-image: url("/videogames/svg/sort.svg");
     background-size: 0.8em;
   }
   table.dataTable thead .sorting_asc {
-    background-image: url("../svg/sort_asc.svg");
+    background-image: url("/videogames/svg/sort_asc.svg");
     background-size: 0.8em;
   }
   table.dataTable thead .sorting_desc {
-    background-image: url("../svg/sort_desc.svg");
+    background-image: url("/videogames/svg/sort_desc.svg");
     background-size: 0.8em;
   }
 }

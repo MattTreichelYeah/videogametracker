@@ -20,12 +20,12 @@ $(document).ready(function () {
 		};
 
 		// Pass Data
-		$.post("stats.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
+		$.post("/videogames/stats.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
 			$("#stats-content").html(data);
 			updateStats();
 			loading.finish("stats");
 		});
-		$.post("games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
+		$.post("/videogames/games.php", {"consoleID": consoleID, "consoleChildren": consoleChildren, "tagIDs": tagIDs}, function(data) {
 			// Retrieve current state if exists
 			let multiToggle = $("#singlemulti");
 			let multi;
@@ -208,12 +208,13 @@ $(document).ready(function () {
 	// *** Initial Loading ***
 
 	let mainConsole, subConsole;
-	[mainConsole, subConsole] = parseConsoleURL(window.location.href.replace(window.location.hash, ""));
+	[mainConsole, subConsole] = parseConsoleURL(window.location.href);
 	initialDataCall(mainConsole, subConsole);
 
 	function parseConsoleURL(URL) {
-		let queryString = URL.substring(URL.lastIndexOf("/") + 1);
-		return queryString.split("+");
+		URL = URL.replace(window.location.hash, "");
+		let queryString = URL.split("videogames/")[1];
+		return queryString.split("/");
 	}
 
 	function parseMultiURL(URL) {

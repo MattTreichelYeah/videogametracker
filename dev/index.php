@@ -6,16 +6,19 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<?php include 'head.php' ?>
+		<?php 
+			//Document Root necessary because PHP sucks and URL routing ruins relative links
+			include $_SERVER['DOCUMENT_ROOT'].'/videogames/head.php' 
+		?>
 	</head>
 	<body class="sidebar-hide-r">
 		<aside class="sidebar sidebar-l colour1">
 			<h3>Consoles</h3>
 			<a class="sidebar-toggle sidebar-toggle-l-m">☰</a>
 
-			<?php include 'components/loading.html' ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/videogames/components/loading.html' ?>
 
-			<?php include 'consoles.php' ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/videogames/consoles.php' ?>
 		</aside>
 		<main class="content">
 			<h1>Video Games</h1>
@@ -31,13 +34,13 @@
 			</section>
 			
 			<section id="stats" class="stats colour1">
-				<?php include 'components/loading.html' ?>
+				<?php include $_SERVER['DOCUMENT_ROOT'].'/videogames/components/loading.html' ?>
 
 				<div id="stats-content"></div>
 			</section>
 
 			<section id="games" class="games colour2">
-				<?php include 'components/loading.html' ?>
+				<?php include $_SERVER['DOCUMENT_ROOT'].'/videogames/components/loading.html' ?>
 
 				<div id="games-content"></div>
 			</section>
@@ -46,9 +49,9 @@
 			<h3>Tags (Experimental Data)</h3>
 			<a class="sidebar-toggle sidebar-toggle-r-m">☰</a>
 
-			<?php include 'components/loading.html' ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/videogames/components/loading.html' ?>
 
-			<?php include 'tags.php' ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'].'/videogames/tags.php' ?>
 		</aside>
 	</body>
 </html>

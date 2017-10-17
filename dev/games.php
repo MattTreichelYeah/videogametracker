@@ -1,5 +1,5 @@
 <?php
-	include ".database.php";
+	include $_SERVER['DOCUMENT_ROOT']."/videogames/.database.php";
 
 	// Apparently necessary on server
 	// Though really means my query is badly optimized
@@ -76,20 +76,20 @@
 		$playercount = max($row["multi_comp_local"], $row["multi_coop_local"], $row["multi_comp_LAN"], $row["multi_coop_LAN"]);
 		echo playerRange($playercount) . "'>
 			<td class='title-cell'>"; 
-			if ($row["compilation_root"] != 0 && $row["compilation_root"] != -1) { echo "<img class='svg' src='svg/arrow.svg' title='" . $row["compilation_name"] . "' alt='Compilation Indicator'><span class='sort-data'>" . $row["compilation_name"] . "</span> "; } 
-			else if ($row["dlc_root"] != 0) { echo "<img class='svg' src='svg/arrow.svg' title='" . $row["dlc_name"] . "' alt='DLC Indicator'><span class='sort-data'>" . $row["dlc_name"] . "</span> "; } 
+			if ($row["compilation_root"] != 0 && $row["compilation_root"] != -1) { echo "<img class='svg' src='/videogames/svg/arrow.svg' title='" . $row["compilation_name"] . "' alt='Compilation Indicator'><span class='sort-data'>" . $row["compilation_name"] . "</span> "; } 
+			else if ($row["dlc_root"] != 0) { echo "<img class='svg' src='/videogames/svg/arrow.svg' title='" . $row["dlc_name"] . "' alt='DLC Indicator'><span class='sort-data'>" . $row["dlc_name"] . "</span> "; } 
 			echo $row["name"] ."</td>
 			<td>"; 
 			switch ($row["completion"]) { 
 				case NULL: break;
-				case 0: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/endless.svg' title='Endless' alt='Endless'>"; break;
-				case 1: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unplayed.svg' title='Unplayed' alt='Unplayed'>"; break;
-				case 2: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/unfinished.svg' title='Unfinished' alt='Unfinished'>"; break; 
-				case 3: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/beaten.svg' title='Beaten' alt='Beaten'>"; break; 
-				case 4: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='svg/completed2.svg' title='Completed' alt='Completed'>"; break; 
+				case 0: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='/videogames/svg/endless.svg' title='Endless' alt='Endless'>"; break;
+				case 1: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='/videogames/svg/unplayed.svg' title='Unplayed' alt='Unplayed'>"; break;
+				case 2: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='/videogames/svg/unfinished.svg' title='Unfinished' alt='Unfinished'>"; break; 
+				case 3: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='/videogames/svg/beaten.svg' title='Beaten' alt='Beaten'>"; break; 
+				case 4: echo "<span class='sort-data'>" . $row["completion"] . "</span><img class='svg' src='/videogames/svg/completed2.svg' title='Completed' alt='Completed'>"; break; 
 			}
 			echo "</td>
-			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<span class='sort-data'>" . $row["rating"] . "</span><img class='rating svg' src='svg/star.svg' alt='Star'>"; } echo "</td>
+			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<span class='sort-data'>" . $row["rating"] . "</span><img class='rating svg' src='/videogames/svg/star.svg' alt='Star'>"; } echo "</td>
 			<td>". $row["console_name"]; 
 			if ($row["original_console"] != "") echo " (". $row["console_original_name"] .")"; 
 			echo "</td>
@@ -142,8 +142,8 @@
 				<th class="completion"><span class="th-desktop">Completion</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="rating"><span class="th-desktop">Rating</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="console"><span class="th-desktop">Console</span><span class="th-mobile">&nbsp;</span></th>
-				<th class="local-comp"><img class='svg' src="svg/local.svg" title="Local Player Count" alt="Local Player Count"></th>
-				<th class="link-comp"><img class='svg' src="svg/link.svg" title="System Link Player Count" alt="System Link Player Count"></th>
+				<th class="local-comp"><img class='svg' src="/videogames/svg/local.svg" title="Local Player Count" alt="Local Player Count"></th>
+				<th class="link-comp"><img class='svg' src="/videogames/svg/link.svg" title="System Link Player Count" alt="System Link Player Count"></th>
 				<th class="multi-note"><span class="th-desktop">Multiplayer Note</span><span class="th-mobile">&nbsp;</span></th>
 			</tr>
 		</thead>

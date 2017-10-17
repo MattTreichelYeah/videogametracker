@@ -123,13 +123,13 @@ section, aside {
 // but on mobile the 2nd and 3rd column are hidden and the bar graph is moved to the 1st column
 .stats-table tr td:nth-child(3) {
 	width: 100%;
-	background: url('../images/stat-percent-background.png') no-repeat;
+	background: url('/videogames/images/stat-percent-background.png') no-repeat;
 }
 @media (max-width: $mobileBreakpoint) {
 	.stats-table tr {
 		td:nth-child(1) {
 			width: 100%;
-			background: url('../images/stat-percent-background.png') no-repeat;
+			background: url('/videogames/images/stat-percent-background.png') no-repeat;
 		}
 		td:nth-child(n+2) {
 			display: none;
@@ -332,15 +332,15 @@ table.dataTable thead {
 @media (max-width: $mobileBreakpoint) {
 	table.dataTable thead {
 		.sorting {
-			background-image: url("../svg/sort.svg");
+			background-image: url("/videogames/svg/sort.svg");
 			background-size: 0.8em;
 		}
 		.sorting_asc {
-			background-image: url("../svg/sort_asc.svg");
+			background-image: url("/videogames/svg/sort_asc.svg");
 			background-size: 0.8em;
 		}
 		.sorting_desc {
-			background-image: url("../svg/sort_desc.svg");
+			background-image: url("/videogames/svg/sort_desc.svg");
 			background-size: 0.8em;
 		}
 	}

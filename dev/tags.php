@@ -1,5 +1,5 @@
 <?php
-	include ".database.php";
+	include $_SERVER['DOCUMENT_ROOT']."/videogames/.database.php";
 ?>
 
 <div class="sidebar-content tags">
