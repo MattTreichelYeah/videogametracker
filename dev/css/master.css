@@ -699,6 +699,23 @@ section.colour2, aside.colour2 {
   color: #F45555;
 }
 
+.title-cell {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+}
+
+table.dataTable tbody tr td:first-child {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .title-cell {
+    max-width: 250px;
+  }
+}
+
 /* Compilation titles are invisible but exist for searching purposes */
 .sort-data {
   display: none;
@@ -707,7 +724,6 @@ section.colour2, aside.colour2 {
 .svg {
   height: 1em;
   width: 1em;
-  vertical-align: bottom;
 }
 
 .dropdown img {

@@ -75,10 +75,10 @@
 		echo "<tr class='local-";
 		$playercount = max($row["multi_comp_local"], $row["multi_coop_local"], $row["multi_comp_LAN"], $row["multi_coop_LAN"]);
 		echo playerRange($playercount) . "'>
-			<td class='title-cell'>"; 
+			<td><div class='title-cell'>"; 
 			if ($row["compilation_root"] != 0 && $row["compilation_root"] != -1) { echo "<img class='svg' src='/videogames/svg/arrow.svg' title='" . $row["compilation_name"] . "' alt='Compilation Indicator'><span class='sort-data'>" . $row["compilation_name"] . "</span> "; } 
 			else if ($row["dlc_root"] != 0) { echo "<img class='svg' src='/videogames/svg/arrow.svg' title='" . $row["dlc_name"] . "' alt='DLC Indicator'><span class='sort-data'>" . $row["dlc_name"] . "</span> "; } 
-			echo $row["name"] ."</td>
+			echo $row["name"] ."</div></td>
 			<td>"; 
 			switch ($row["completion"]) { 
 				case NULL: break;
