@@ -853,3 +853,12 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
   background: none !important;
 }
+
+table.dataTable td.dataTables_empty {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+table.dataTable tr.child td.child {
+  padding-top: 5px;
+}

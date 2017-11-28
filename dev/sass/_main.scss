@@ -420,3 +420,12 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent {
 		background: none !important;
 	}
 }
+
+//Due to line-height issues needed for text-overflow wrappers in name column
+table.dataTable td.dataTables_empty {
+	padding-top: 5px !important; 
+	padding-bottom: 5px !important;
+}
+table.dataTable tr.child td.child {
+	padding-top: 5px;
+}
