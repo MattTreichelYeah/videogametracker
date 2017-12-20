@@ -38,6 +38,7 @@ $(document).ready(function () {
 			// Setup HTML
 			$("#games-content").html(data);
 			initializeDataTable();
+			setSearch();
 			if (multi) {
 				setMultiplayerView(true);
 				multiToggle = $("#singlemulti").prop("checked", false);
@@ -174,6 +175,15 @@ $(document).ready(function () {
 		table.columns.adjust().draw();
 	}
 
+	let initial = true;
+	function setSearch() {
+		if (initial) {
+			let table = $('#games-table').DataTable({ "retrieve": true });
+			table.search(parseSearchURL(window.location.href)).draw();
+			initial = false;
+		}
+	}
+
 	function initializeDataTable() {
 	    let table = $('#games-table').DataTable({
 			"pageLength": 150,
@@ -212,9 +222,16 @@ $(document).ready(function () {
 	initialDataCall(mainConsole, subConsole);
 
 	function parseConsoleURL(URL) {
-		URL = URL.replace(window.location.hash, "");
+		URL = URL.split("?")[0];
 		let queryString = URL.split("videogames/")[1];
 		return queryString.split("/");
+	}
+
+	function parseSearchURL(URL) {
+		URL = URL.replace(window.location.hash, "");
+		let queryString = URL.split("?")[1];
+		if (queryString) return queryString.replace(/_/g," ");
+		else return "";
 	}
 
 	function parseMultiURL(URL) {
