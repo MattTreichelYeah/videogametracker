@@ -222,7 +222,7 @@ $(document).ready(function () {
 	initialDataCall(mainConsole, subConsole);
 
 	function parseConsoleURL(URL) {
-		URL = URL.split("?")[0];
+		URL = URL.replace(window.location.hash, "").split("?")[0];
 		let queryString = URL.split("videogames/")[1];
 		return queryString.split("/");
 	}
