@@ -14,7 +14,17 @@ $(document).ready(function () {
 				else if (component === "games") this.games = true;
 				
 				if (this.stats && this.games) {
-					$(".sidebar .loading-icon").removeClass("visible");					
+					$(".sidebar .loading-icon").removeClass("visible");
+
+					// == why
+					let consoleName = (consoleID != "-1") ? $(`.sidebar-l [data-id='${consoleID}']`).attr("data-name") : "";
+					consoleName = consoleName.replace(/ /g, "/");
+					let searchValue = "";
+					if (initial) {
+						searchValue = window.location.search;
+						initial = false;
+					}
+					window.history.replaceState({}, "", `/videogames/${consoleName}${searchValue}${window.location.hash}`);			
 				}
 			}
 		};
@@ -168,9 +178,11 @@ $(document).ready(function () {
 		if (!multi) {
 			table.order([0, 'asc']); // Relying on indexes is fragile
 			$("#games-table").removeClass("multi-active"); //enable highlighting
+			window.history.replaceState({}, "", `${window.location.pathname}${window.location.search}`);
 		} else {
 			table.order([4, 'desc'], [5, 'desc']);
 			$("#games-table").addClass("multi-active");
+			window.history.replaceState({}, "", `${window.location.pathname}${window.location.search}#multi`);
 		}
 		table.columns.adjust().draw();
 	}
@@ -179,8 +191,8 @@ $(document).ready(function () {
 	function setSearch() {
 		if (initial) {
 			let table = $('#games-table').DataTable({ "retrieve": true });
-			table.search(parseSearchURL(window.location.href)).draw();
-			initial = false;
+			table.search(parseSearchURL(decodeURI(window.location.href))).draw();
+			// initial = false; // lol actually flip off after URL is parsed for first time
 		}
 	}
 
@@ -195,6 +207,14 @@ $(document).ready(function () {
 	        	{ "targets": ["rating","completion","local-comp","link-comp","multi-note"], "orderSequence": ["desc", "asc"] },
 	        	{ "targets": ["rating","completion","console","local-comp","link-comp","multi-note"], "searchable": false }
 	        ]
+		});
+
+		table.on('search.dt', function () {
+			let searchValue = $('.dataTables_filter input').val();
+			if (searchValue !== "") {
+				searchValue = "?" + searchValue.replace(/#/g, "").replace(/ /g, "_");
+			}
+			window.history.replaceState({}, "", `${window.location.pathname}${searchValue}${window.location.hash}`);
 		});
 
 		$("#singlemulti").on("change", function() {
