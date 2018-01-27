@@ -47,13 +47,15 @@ $(document).ready(function () {
 
 			// Setup HTML
 			$("#games-content").html(data);
-			initializeDataTable();
-			setSearch();
-			if (multi) {
-				setMultiplayerView(true);
-				multiToggle = $("#singlemulti").prop("checked", false);
-			}
-			loading.finish("games");
+			initializeDataTable().then(() => {
+				setSearch();
+				if (multi) {
+					setMultiplayerView(true);
+					multiToggle = $("#singlemulti").prop("checked", false);
+				}
+				loading.finish("games");
+			});
+			console.log('unblocked?');
 		});
 	}
 
@@ -197,33 +199,42 @@ $(document).ready(function () {
 	}
 
 	function initializeDataTable() {
-	    let table = $('#games-table').DataTable({
-			"pageLength": 150,
-			"pagingType": "simple",
-			"info": false,
-			"responsive": true,
-			"dom": 'frtip', /*Ordering of Table Elements, B needed for buttons*/
-	        "columnDefs": [
-	        	{ "targets": ["rating","completion","local-comp","link-comp","multi-note"], "orderSequence": ["desc", "asc"] },
-	        	{ "targets": ["rating","completion","console","local-comp","link-comp","multi-note"], "searchable": false }
-	        ]
-		});
+		// await (() => {
+			return new Promise(resolve => {
+				setTimeout(() => {
+				    let table = $('#games-table').DataTable({
+						"pageLength": 150,
+						"pagingType": "simple",
+						"info": false,
+						"responsive": true,
+						"dom": 'frtip', /*Ordering of Table Elements, B needed for buttons*/
+				        "columnDefs": [
+				        	{ "targets": ["rating","completion","local-comp","link-comp","multi-note"], "orderSequence": ["desc", "asc"] },
+				        	{ "targets": ["rating","completion","console","local-comp","link-comp","multi-note"], "searchable": false }
+				        ]
+					});
 
-		table.on('search.dt', function () {
-			let searchValue = $('.dataTables_filter input').val();
-			if (searchValue !== "") {
-				searchValue = "?" + searchValue.replace(/#/g, "").replace(/ /g, "_");
-			}
-			window.history.replaceState({}, "", `${window.location.pathname}${searchValue}${window.location.hash}`);
-		});
+					table.on('search.dt', function () {
+						let searchValue = $('.dataTables_filter input').val();
+						if (searchValue !== "") {
+							searchValue = "?" + searchValue.replace(/#/g, "").replace(/ /g, "_");
+						}
+						window.history.replaceState({}, "", `${window.location.pathname}${searchValue}${window.location.hash}`);
+					});
 
-		$("#singlemulti").on("change", function() {
-			setMultiplayerView(!this.checked);
-		});
+					$("#singlemulti").on("change", function() {
+						setMultiplayerView(!this.checked);
+					});
 
-		$(".dataTables_paginate").on("click", function(event) {
-		    $("#games-table").DataTable().columns.adjust().responsive.recalc();
-		});
+					$(".dataTables_paginate").on("click", function(event) {
+					    $("#games-table").DataTable().columns.adjust().responsive.recalc();
+					});
+					
+					console.log("done processing")
+					return resolve();
+				}, 0);
+			});
+		// });
 	}
 
 	function updateStats() {
