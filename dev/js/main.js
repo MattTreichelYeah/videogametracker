@@ -205,7 +205,8 @@ $(document).ready(function () {
 			"dom": 'frtip', /*Ordering of Table Elements, B needed for buttons*/
 	        "columnDefs": [
 	        	{ "targets": ["rating","completion","local-comp","link-comp","multi-note"], "orderSequence": ["desc", "asc"] },
-	        	{ "targets": ["rating","completion","console","local-comp","link-comp","multi-note"], "searchable": false }
+	        	{ "targets": ["rating","completion","console","local-comp","link-comp","multi-note"], "searchable": false },
+	        	{ "targets": ["local-comp", "link-comp"], "render": (data, type) => ((type === "display" && data === "999") ? "∞" : data) }
 	        ]
 		});
 
