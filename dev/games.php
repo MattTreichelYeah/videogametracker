@@ -107,15 +107,18 @@
 
 	<?php 
 
-		$sql = "SELECT g.name, c2.name_short AS console_name
+		$sql = "SELECT g.name, g.now_playing, g.dlc_root,
+			c2.name_short AS console_name,
+			g2.name AS dlc_name
 			FROM games AS g
 			LEFT JOIN consoles AS c ON g.console = c.id
 			LEFT JOIN consoles AS c2 ON c2.id = c.console_root
+			LEFT JOIN games AS g2 ON g.dlc_root = g2.id
 			LEFT JOIN games_tags AS gt ON g.id = gt.gameid
 			LEFT JOIN tags AS t ON t.id = gt.tagid";
 
-		if ($whereConsole != "") $sql .= $whereConsole . " AND now_playing = 1 " . $groupBy;
-		else $sql .= " WHERE now_playing = 1" . $groupBy;
+		if ($whereConsole != "") $sql .= $whereConsole . " AND g.now_playing = 1 " . $groupBy;
+		else $sql .= " WHERE g.now_playing = 1" . $groupBy;
 
 		$sql .= " ORDER BY g.name";
 
@@ -123,7 +126,9 @@
 
 		if (mysqli_num_rows($now_playing) != 0) {
 			while($row = mysqli_fetch_array($now_playing)) {
-				echo "<span class='now-playing'>" . $row["name"] . " (" . $row["console_name"] . ")</span>";
+				echo "<span class='now-playing'>"; 
+				if ($row["dlc_root"] != 0) { echo "<img class='svg' src='/videogames/svg/arrowBlack.svg' title='" . $row["dlc_name"] . "' alt='DLC Indicator'>"; } 
+				echo $row["name"] . " (" . $row["console_name"] . ")</span>";
 			}
 		} else {
 			echo "None!";
