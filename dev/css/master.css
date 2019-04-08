@@ -21,63 +21,52 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 .onoffswitch {
   position: relative;
   width: 80px;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
-}
+  -ms-user-select: none; }
 
 .onoffswitch-checkbox {
-  display: none;
-}
+  display: none; }
 
 .onoffswitch-label {
   display: block;
   overflow: hidden;
   cursor: pointer;
-  border: 0px solid #FD927E;
-}
+  border: 0px solid #FD927E; }
 
 .onoffswitch-inner {
   display: block;
   width: 200%;
   margin-left: -100%;
-  transition: margin 0.3s ease-in 0s;
-}
+  transition: margin 0.3s ease-in 0s; }
 
 .onoffswitch-inner:before, .onoffswitch-inner:after {
   display: block;
@@ -88,23 +77,20 @@ table {
   line-height: 40px;
   font-size: 15px;
   color: white;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .onoffswitch-inner:before {
   content: "Single";
   padding-left: 10px;
   background-color: #FD927E;
-  color: #000000;
-}
+  color: #000000; }
 
 .onoffswitch-inner:after {
   content: "Multi";
   padding-right: 10px;
   background-color: #FD927E;
   color: #000000;
-  text-align: right;
-}
+  text-align: right; }
 
 .onoffswitch-switch {
   display: block;
@@ -116,16 +102,13 @@ table {
   bottom: 0;
   right: 54px;
   border: 3px solid #FFFFFF;
-  transition: all 0.3s ease-in 0s;
-}
+  transition: all 0.3s ease-in 0s; }
 
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-  margin-left: 0;
-}
+  margin-left: 0; }
 
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-  right: 0px;
-}
+  right: 0px; }
 
 /* MUI "Sidedrawer" Component */
 /* (Mostly) transition relevant CSS */
@@ -145,74 +128,63 @@ body {
   overflow: auto;
   background-color: #FD927E;
   transition: transform 0.2s;
-  will-change: transform;
-}
+  will-change: transform; }
 
 .sidebar-l {
-  left: -285px;
-}
+  left: -285px; }
 
 .sidebar-r {
   left: 100%;
-  right: 285px;
-}
+  right: 285px; }
 
 .content {
   min-height: 100%;
   overflow-x: hidden;
   margin-left: 0px;
   margin-right: 0px;
-  transition: margin-left 0.2s, margin-right 0.2s;
-}
+  transition: margin-left 0.2s, margin-right 0.2s; }
 
 .sidebar-toggle-l-m, .sidebar-toggle-r-m {
-  display: initial;
-}
+  display: initial; }
 
 .sidebar-toggle-l-d, .sidebar-toggle-r-d {
-  display: none;
-}
+  display: none; }
 
 /* Desktop Transition */
 @media (min-width: 768px) {
   .sidebar-l {
-    transform: translate(285px);
-  }
+    transform: translate(285px); }
+
   .sidebar-r {
-    transform: translate(-285px);
-  }
+    transform: translate(-285px); }
+
   .content {
     margin-left: 285px;
-    margin-right: 285px;
-  }
-  body.sidebar-hide-l .sidebar-l {
-    transform: translate(-285px);
-  }
-  body.sidebar-hide-r .sidebar-r {
-    transform: translate(285px);
-  }
-  body.sidebar-hide-l .content {
-    margin-left: 0px;
-  }
-  body.sidebar-hide-r .content {
-    margin-right: 0px;
-  }
-  .sidebar-toggle-l-m, .sidebar-toggle-r-m {
-    display: none;
-  }
-  .sidebar-toggle-l-d, .sidebar-toggle-r-d {
-    display: initial;
-  }
-}
+    margin-right: 285px; }
 
+  body.sidebar-hide-l .sidebar-l {
+    transform: translate(-285px); }
+
+  body.sidebar-hide-r .sidebar-r {
+    transform: translate(285px); }
+
+  body.sidebar-hide-l .content {
+    margin-left: 0px; }
+
+  body.sidebar-hide-r .content {
+    margin-right: 0px; }
+
+  .sidebar-toggle-l-m, .sidebar-toggle-r-m {
+    display: none; }
+
+  .sidebar-toggle-l-d, .sidebar-toggle-r-d {
+    display: initial; } }
 /* Mobile Transition */
 .sidebar-l.active {
-  transform: translate(285px);
-}
+  transform: translate(285px); }
 
 .sidebar-r.active {
-  transform: translate(-285px);
-}
+  transform: translate(-285px); }
 
 @-webkit-keyframes uil-rolling-anim {
   0% {
@@ -220,196 +192,155 @@ body {
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   50% {
     -ms-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
+    transform: rotate(180deg); }
   100% {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
+    transform: rotate(360deg); } }
 @-webkit-keyframes uil-rolling-anim {
   0% {
     -ms-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   50% {
     -ms-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
+    transform: rotate(180deg); }
   100% {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
+    transform: rotate(360deg); } }
 @-moz-keyframes uil-rolling-anim {
   0% {
     -ms-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   50% {
     -ms-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
+    transform: rotate(180deg); }
   100% {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
+    transform: rotate(360deg); } }
 @-ms-keyframes uil-rolling-anim {
   0% {
     -ms-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   50% {
     -ms-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
+    transform: rotate(180deg); }
   100% {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
+    transform: rotate(360deg); } }
 @-moz-keyframes uil-rolling-anim {
   0% {
     -ms-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   50% {
     -ms-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
+    transform: rotate(180deg); }
   100% {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
+    transform: rotate(360deg); } }
 @-webkit-keyframes uil-rolling-anim {
   0% {
     -ms-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   50% {
     -ms-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
+    transform: rotate(180deg); }
   100% {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
+    transform: rotate(360deg); } }
 @-o-keyframes uil-rolling-anim {
   0% {
     -ms-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   50% {
     -ms-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
+    transform: rotate(180deg); }
   100% {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
+    transform: rotate(360deg); } }
 @keyframes uil-rolling-anim {
   0% {
     -ms-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   50% {
     -ms-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
+    transform: rotate(180deg); }
   100% {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
+    transform: rotate(360deg); } }
 .uil-rolling-css {
   width: 200px;
-  height: 200px;
-}
+  height: 200px; }
 
 .uil-rolling-css > div {
   width: 200px;
@@ -419,8 +350,7 @@ body {
   -moz-animation: uil-rolling-anim 0.8s linear infinite;
   -webkit-animation: uil-rolling-anim 0.8s linear infinite;
   -o-animation: uil-rolling-anim 0.8s linear infinite;
-  animation: uil-rolling-anim 0.8s linear infinite;
-}
+  animation: uil-rolling-anim 0.8s linear infinite; }
 
 .uil-rolling-css > div div {
   position: absolute;
@@ -430,25 +360,21 @@ body {
   border-color: #ffffff;
   border-style: solid;
   border-width: 40px;
-  border-bottom-width: 0;
-}
+  border-bottom-width: 0; }
 
 .uil-rolling-css > div div:nth-of-type(2) {
   -ms-transform: translate(0, 50px) rotate(54deg) translate(0, -50px);
   -moz-transform: translate(0, 50px) rotate(54deg) translate(0, -50px);
   -webkit-transform: translate(0, 50px) rotate(54deg) translate(0, -50px);
   -o-transform: translate(0, 50px) rotate(54deg) translate(0, -50px);
-  transform: translate(0, 50px) rotate(54deg) translate(0, -50px);
-}
+  transform: translate(0, 50px) rotate(54deg) translate(0, -50px); }
 
 *, :before, :after {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   font-family: 'Oswald', Verdana;
-  background: #000000;
-}
+  background: #000000; }
 
 /* Ex. "Video Games" */
 h1 {
@@ -456,201 +382,146 @@ h1 {
   margin: 20px;
   padding-bottom: 7px;
   border-bottom: 4px solid #FFFFFF;
-  color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
 /* Ex. Main Console & Tag Filter Titles */
 h2 {
   font-size: 22px;
   display: inline-block;
-  line-height: 1.2;
-}
+  line-height: 1.2; }
 
 /* Ex. Now Playing, Sidebar Titles */
 h3 {
   font-size: 18px;
   display: inline-block;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
 section, aside {
-  padding: 20px;
-}
-
-section.colour1, aside.colour1 {
-  background: #FD927E;
-}
-
-section.colour2, aside.colour2 {
-  background: #C6EC51;
-}
+  padding: 20px; }
+  section.colour1, aside.colour1 {
+    background: #FD927E; }
+  section.colour2, aside.colour2 {
+    background: #C6EC51; }
 
 ::-webkit-scrollbar {
-  background: #FD927E;
-}
+  background: #FD927E; }
 
 ::-webkit-scrollbar-thumb {
-  background: #FFFFFF;
-}
+  background: #FFFFFF; }
 
 /* *** Games Section *** */
 .games-table-detail {
   line-height: 1.4;
-  padding-bottom: 10px;
-}
-
-.games-table-detail h3 {
-  padding: 2px;
-  margin: 0 4px 8px 0;
-}
+  padding-bottom: 10px; }
+  .games-table-detail h3 {
+    padding: 2px;
+    margin: 0 4px 8px 0; }
 
 .games .onoffswitch {
   float: right;
   z-index: 1;
-  /* Needs to overlap table to be clickable */
-}
+  /* Needs to overlap table to be clickable */ }
 
 @media (max-width: 768px) {
   .games {
-    padding: 24px 0;
-  }
+    padding: 24px 0; }
+
   .games-table-detail {
-    padding: 0 20px 12px 20px;
-  }
-}
-
+    padding: 0 20px 12px 20px; } }
 .games-table {
-  margin-top: 7px;
-}
-
-.games-table thead tr {
-  text-align: left;
-}
+  margin-top: 7px; }
+  .games-table thead tr {
+    text-align: left; }
 
 /* Blank out headers but show &nbsp; to not collapse row */
 .th-desktop {
-  display: inline;
-}
+  display: inline; }
 
 .th-mobile {
-  display: none;
-}
+  display: none; }
 
 @media (max-width: 768px) {
   .th-desktop {
-    display: none;
-  }
-  .th-mobile, tr.child .th-desktop {
-    display: inline;
-  }
-}
+    display: none; }
 
+  .th-mobile, tr.child .th-desktop {
+    display: inline; } }
 /* *** Stats Section *** */
 .stats-table {
   width: 33%;
   padding-right: 5px;
-  display: inline-block;
-}
-
-.stats-table td, .stats-table th {
-  padding: 5px 5px 5px 0;
-  text-align: left;
-}
+  display: inline-block; }
+  .stats-table td, .stats-table th {
+    padding: 5px 5px 5px 0;
+    text-align: left; }
 
 .stats-table tr td:nth-child(3) {
   width: 100%;
-  background: url("/videogames/images/stat-percent-background.png") no-repeat;
-}
+  background: url("/videogames/images/stat-percent-background.png") no-repeat; }
 
 @media (max-width: 768px) {
   .stats-table tr td:nth-child(1) {
     width: 100%;
-    background: url("/videogames/images/stat-percent-background.png") no-repeat;
-  }
+    background: url("/videogames/images/stat-percent-background.png") no-repeat; }
   .stats-table tr td:nth-child(n+2) {
-    display: none;
-  }
-}
-
+    display: none; } }
 /* *** Filter Section *** */
 .filter > div {
   display: inline-block;
-  width: 50%;
-}
+  width: 50%; }
 
 .filter :last-child {
-  text-align: right;
-}
+  text-align: right; }
 
 @media (max-width: 768px) {
   .filter > div {
     display: block;
     width: initial;
-    line-height: 2;
-  }
-  .filter :last-child {
-    text-align: left;
-  }
-  .filter :last-child h2 {
-    font-size: 95%;
-  }
-  .filter :last-child .sidebar-toggle {
-    font-size: 95%;
-  }
-}
+    line-height: 2; }
 
+  .filter :last-child {
+    text-align: left; }
+    .filter :last-child h2 {
+      font-size: 95%; }
+    .filter :last-child .sidebar-toggle {
+      font-size: 95%; } }
 /* *** Sidebars *** */
 .sidebar-content {
   color: #FFFFFF;
   font-size: 22px;
   background: #000000;
-  padding: 15px;
-}
-
-.sidebar-content ul {
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-.sidebar-content ul ul {
-  font-size: 15px;
-  padding-top: 5px;
-  padding-left: 15px;
-  display: none;
-}
-
-.sidebar-content li {
-  padding: 3px 0px;
-}
-
-.sidebar-content a {
-  color: #FFFFFF;
-}
-
-.sidebar-content a.option-selected {
-  color: #C6EC51;
-}
-
-.sidebar-content .sidebar-accessible {
-  position: absolute;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
+  padding: 15px; }
+  .sidebar-content ul {
+    list-style-type: none;
+    padding-left: 0px; }
+    .sidebar-content ul ul {
+      font-size: 15px;
+      padding-top: 5px;
+      padding-left: 15px;
+      display: none; }
+  .sidebar-content li {
+    padding: 3px 0px; }
+  .sidebar-content a {
+    color: #FFFFFF; }
+    .sidebar-content a.option-selected {
+      color: #C6EC51; }
+  .sidebar-content .sidebar-accessible {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px); }
 
 .sidebar-toggle {
   font-size: 22px;
   text-align: right;
   line-height: 0.70;
   /*This is neccessary since the ☰ icon and the custom font don't align well*/
-  float: right;
-}
+  float: right; }
 
 .filter .sidebar-toggle {
   float: none;
-  font-size: 26px;
-}
+  font-size: 26px; }
 
 /* *** More Classes *** */
 .loading-icon {
@@ -658,150 +529,112 @@ section.colour2, aside.colour2 {
   position: relative;
   top: -10px;
   width: 20px;
-  height: 20px;
-}
-
-.loading-icon.hidden {
-  display: none;
-}
+  height: 20px; }
+  .loading-icon.hidden {
+    display: none; }
 
 .sidebar .loading-icon {
   transform: scale(0.07);
   display: none;
   top: -8px;
   width: 10px;
-  height: 10px;
-}
-
-.sidebar .loading-icon.visible {
-  display: inline-block;
-}
+  height: 10px; }
+  .sidebar .loading-icon.visible {
+    display: inline-block; }
 
 @media (max-width: 768px) {
   .games .loading-icon {
-    margin-left: 20px;
-  }
-}
-
+    margin-left: 20px; } }
 .multi-active .local-low {
-  color: #14E070;
-}
+  color: #14E070; }
 
 .multi-active .local-medium {
-  color: #32A8FC;
-}
+  color: #32A8FC; }
 
 .multi-active .local-high {
-  color: #FFAE59;
-}
+  color: #FFAE59; }
 
 .multi-active .local-extreme {
-  color: #F45555;
-}
+  color: #F45555; }
 
 .title-cell {
   overflow-x: hidden;
   text-overflow: ellipsis;
-  line-height: 1.5;
-}
+  line-height: 1.5; }
 
 table.dataTable tbody tr td:first-child {
   padding-top: 0;
-  padding-bottom: 0;
-}
+  padding-bottom: 0; }
 
 @media (max-width: 768px) {
   .title-cell {
-    max-width: 250px;
-  }
-}
-
+    max-width: 250px; } }
 /* Compilation titles are invisible but exist for searching purposes */
 .sort-data {
-  display: none;
-}
+  display: none; }
 
 .svg {
   height: 1em;
-  width: 1em;
-}
+  width: 1em; }
 
 .dropdown img {
   height: 1em;
-  vertical-align: bottom;
-}
+  vertical-align: bottom; }
 
 .now-playing {
   display: inline-block;
   padding: 2px;
   margin: 0 8px 8px 0;
-  background: #FD927E;
-}
+  background: #FD927E; }
 
 /* *** Override DataTables CSS *** */
 .games table tbody {
   color: #FFFFFF;
-  font-weight: normal !important;
-}
+  font-weight: normal !important; }
 
 table.games-table tbody tr {
-  background: #000000;
-}
+  background: #000000; }
 
 table.dataTable tbody tr {
-  background: #000000;
-}
+  background: #000000; }
 
 table.dataTable > tbody > tr.child {
-  background: #404040;
-}
+  background: #404040; }
 
 table.dataTable > tbody > tr.child:hover {
   /*Uses !important in datatables.css*/
-  background: #404040 !important;
-}
+  background: #404040 !important; }
 
 table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3, table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3 {
-  background: #262626;
-}
+  background: #262626; }
 
 table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_1 {
-  background: #595959;
-}
+  background: #595959; }
 
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
-  background: #404040;
-}
+  background: #404040; }
 
 table.dataTable thead th, table.dataTable tfoot th {
-  font-weight: normal;
-}
+  font-weight: normal; }
 
 /*Don't clear Multi/Single Toggle*/
 .dataTables_wrapper {
-  clear: initial;
-}
+  clear: initial; }
 
 /*Sorting Arrows*/
 table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
-  background-image: none;
-}
+  background-image: none; }
 
 @media (max-width: 768px) {
   table.dataTable thead .sorting {
     background-image: url("/videogames/svg/sort.svg");
-    background-size: 0.8em;
-  }
+    background-size: 0.8em; }
   table.dataTable thead .sorting_asc {
     background-image: url("/videogames/svg/sort_asc.svg");
-    background-size: 0.8em;
-  }
+    background-size: 0.8em; }
   table.dataTable thead .sorting_desc {
     background-image: url("/videogames/svg/sort_desc.svg");
-    background-size: 0.8em;
-  }
-}
-
+    background-size: 0.8em; } }
 /* Search Filter Bar */
 .dataTables_filter {
   background: #FD927E;
@@ -811,54 +644,47 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
   padding: 10px;
   margin-top: 0px !important;
   margin-bottom: 10px;
-  float: left !important;
-}
-
-.dataTables_filter input {
-  /* 68px is the Label */
-  width: calc(100% - 68px);
-  font-size: 15px;
-  border: 0px;
-}
+  float: left !important; }
+  .dataTables_filter input {
+    /* 68px is the Label */
+    width: calc(100% - 68px);
+    font-size: 15px;
+    border: 0px; }
 
 /* Responsive Expand Buttons */
 table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before {
   box-shadow: none;
   border: none;
+  border-radius: 0 !important;
   background-color: #FD927E;
   color: #000000;
   font-weight: bold;
-  font-family: 'Oswald', Verdana;
-}
+  font-family: 'Oswald', Verdana; }
+
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before {
+  background-color: #C6EC51; }
 
 table.dataTable.dtr-inline.collapsed.compact > tbody > tr > td:first-child:before, table.dataTable.dtr-inline.collapsed.compact > tbody > tr > th:first-child:before {
-  text-indent: 0px;
-}
+  text-indent: 0px; }
 
 /* 'Minus' sign that lines up with 'Plus' in all fonts, rather than 'dash' */
 table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before {
-  content: "−";
-}
+  content: "−"; }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button {
   border-radius: 0px !important;
-  border: none !important;
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
-  background: #000000 !important;
-  color: #FFFFFF !important;
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
-  background: none !important;
-}
+  border: none !important; }
+  .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #000000 !important;
+    color: #FFFFFF !important; }
+  .dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    background: none !important; }
 
 table.dataTable td.dataTables_empty {
   padding-top: 5px !important;
-  padding-bottom: 5px !important;
-}
+  padding-bottom: 5px !important; }
 
 table.dataTable tr.child td.child {
-  padding-top: 5px;
-}
+  padding-top: 5px; }
+
+/*# sourceMappingURL=master.css.map */
