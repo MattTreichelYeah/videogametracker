@@ -578,8 +578,7 @@ table.dataTable tbody tr td:first-child {
   width: 1em; }
 
 .dropdown img {
-  height: 1em;
-  vertical-align: bottom; }
+  height: 1em; }
 
 .now-playing {
   display: inline-block;
