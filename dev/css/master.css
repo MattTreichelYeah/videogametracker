@@ -746,6 +746,10 @@ table.games-table tbody tr {
   background: #000000;
 }
 
+table.dataTable.no-footer {
+  border-bottom: none;
+}
+
 table.dataTable tbody tr {
   background: #000000;
 }
@@ -773,6 +777,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 
 table.dataTable thead th, table.dataTable tfoot th {
   font-weight: normal;
+  border-bottom: none;
 }
 
 /*Don't clear Multi/Single Toggle*/

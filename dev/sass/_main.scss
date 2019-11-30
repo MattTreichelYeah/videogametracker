@@ -315,6 +315,10 @@ table.games-table tbody tr {
 	background: $colour3;
 }
 
+table.dataTable.no-footer {
+	border-bottom: none;
+}
+
 table.dataTable tbody tr {
 	background: $colour3;
 }
@@ -347,6 +351,7 @@ table.dataTable.hover, table.dataTable.display {
 table.dataTable {
 	thead th, tfoot th {
 		font-weight: normal;
+		border-bottom: none;
 	}
 }
 
