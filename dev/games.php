@@ -6,7 +6,7 @@
 	$sql = "SET SQL_BIG_SELECTS = 1; ";
 	mysqli_query($db, $sql);
 
-	$sql = "SELECT g.name, g.completion, g.rating, g.console, g.original_console, g.compilation_root, g.dlc_root, g.multi_note, g.multi_comp_local, g.multi_comp_LAN, g.multi_comp_LAN_max, g.multi_coop_local, g.multi_coop_LAN, g.multi_coop_LAN_max, g.xbox_one_compat,
+	$sql = "SELECT g.name, g.completion, g.rating, g.console, g.original_console, g.compilation_root, g.dlc_root, g.multi_note, g.multi_comp_local, g.multi_comp_LAN, g.multi_comp_LAN_max, g.multi_coop_local, g.multi_coop_LAN, g.multi_coop_LAN_max, g.copies, g.xbox_one_compat,
 		c.name_short AS console_name, 
 		c2.name_short AS console_original_name, 
 		g2.name AS compilation_name, 
@@ -75,10 +75,16 @@
 		echo "<tr class='local-";
 		$playercount = max($row["multi_comp_local"], $row["multi_coop_local"], $row["multi_comp_LAN"], $row["multi_coop_LAN"]);
 		echo playerRange($playercount) . "'>
-			<td><div class='title-cell'>"; 
+			<td><div class='copy-container'><div class='title-cell'>"; 
 			if ($row["compilation_root"] != 0 && $row["compilation_root"] != -1) { echo "<img class='svg' src='/videogames/svg/arrow.svg' title='" . $row["compilation_name"] . "' alt='Compilation Indicator'><span class='sort-data'>" . $row["compilation_name"] . "</span> "; } 
 			else if ($row["dlc_root"] != 0) { echo "<img class='svg' src='/videogames/svg/arrow.svg' title='" . $row["dlc_name"] . "' alt='DLC Indicator'><span class='sort-data'>" . $row["dlc_name"] . "</span> "; } 
-			echo $row["name"] ."</div></td>
+			echo $row["name"] . "</div>";
+			if ($row["copies"] > 1) { 
+				for ($i=1; $i <= $row["copies"]; $i++) { 
+					echo " <img class='copy svg' src='/videogames/svg/copies.svg' alt='Copy' title='Copy'>";
+				}
+			}
+			echo "</div></td>
 			<td>"; 
 			switch ($row["completion"]) { 
 				case NULL: break;

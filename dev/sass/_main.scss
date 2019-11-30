@@ -277,6 +277,22 @@ table.dataTable tbody tr td:first-child {
 	//vertical-align: bottom;
 }
 
+.copy-container {
+	display: flex;
+	align-items: center;
+}
+
+.copy {
+	display: none;
+	height: 0.5em;
+	width: 0.5em;
+	margin-left: 5px;
+}
+
+.multi-active .copy {
+	display: inline-block;
+}
+
 .dropdown img {
 	height: 1em;
 }
