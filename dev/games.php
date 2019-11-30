@@ -6,7 +6,7 @@
 	$sql = "SET SQL_BIG_SELECTS = 1; ";
 	mysqli_query($db, $sql);
 
-	$sql = "SELECT g.name, g.completion, g.rating, g.console, g.original_console, g.compilation_root, g.dlc_root, g.multi_note, g.multi_comp_local, g.multi_comp_LAN, g.multi_coop_local, g.multi_coop_LAN,
+	$sql = "SELECT g.name, g.completion, g.rating, g.console, g.original_console, g.compilation_root, g.dlc_root, g.multi_note, g.multi_comp_local, g.multi_comp_LAN, g.multi_comp_LAN_max, g.multi_coop_local, g.multi_coop_LAN, g.multi_coop_LAN_max, g.xbox_one_compat,
 		c.name_short AS console_name, 
 		c2.name_short AS console_original_name, 
 		g2.name AS compilation_name, 
@@ -94,8 +94,9 @@
 			if ($row["original_console"] != "") echo " (". $row["console_original_name"] .")"; 
 			echo "</td>
 			<td>". max($row["multi_comp_local"], $row["multi_coop_local"]) ."</td>
-			<td>". max($row["multi_comp_LAN"], $row["multi_coop_LAN"]) ."</td>
-			<td>". $row["multi_note"] ."</td>
+			<td>". max($row["multi_comp_LAN"], $row["multi_coop_LAN"]);
+			if ($row["multi_comp_LAN_max"] != "" || $row["multi_coop_LAN_max"] != "") echo "<span title='Theoretical ". max($row["multi_comp_LAN_max"], $row["multi_coop_LAN_max"]) ."'>*</span>";
+			echo "</td><td>". $row["multi_note"] ."</td>
 		</tr>";
 	}
 

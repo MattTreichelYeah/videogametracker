@@ -206,7 +206,14 @@ $(document).ready(function () {
 	        "columnDefs": [
 	        	{ "targets": ["rating","completion","local-comp","link-comp","multi-note"], "orderSequence": ["desc", "asc"] },
 	        	{ "targets": ["rating","completion","console","local-comp","link-comp","multi-note"], "searchable": false },
-	        	{ "targets": ["local-comp", "link-comp"], "render": (data, type) => ((type === "display" && data === "999") ? "∞" : data) }
+				{ 
+					"targets": ["local-comp", "link-comp"], 
+					"render": (data, type) => {
+						if (type === "display") data = (data === "999" ? "∞" : data);
+						else if (type === "sort" || type === "type") data = (data.includes("*") ? data.split("<span")[0] : data); // type === "type" apparently necessary
+						return data;
+					}
+				}
 	        ]
 		});
 
