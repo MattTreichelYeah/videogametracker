@@ -96,7 +96,8 @@
 			}
 			echo "</td>
 			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<span class='sort-data'>" . $row["rating"] . "</span><img class='rating svg' src='/videogames/svg/star.svg' alt='Star'>"; } echo "</td>
-			<td>". $row["console_name"]; 
+			<td>". $row["console_name"];
+			if ($row["xbox_one_compat"]) echo "<sup class='indicator' title='Xbox One Compatible'>▲</sup>";
 			if ($row["original_console"] != "") echo " (". $row["console_original_name"] .")"; 
 			echo "</td>
 			<td>". max($row["multi_comp_local"], $row["multi_coop_local"]) ."</td>
