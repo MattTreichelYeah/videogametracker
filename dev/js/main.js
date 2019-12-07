@@ -173,13 +173,15 @@ $(document).ready(function () {
 
 	function setMultiplayerView(multi) {
 		let table = $('#games-table').DataTable({ "retrieve": true });
-		// This isn't really single view, but makes sense to toggle initial view on/off
-		table.columns([".completion",".rating",".console"]).visible(!multi, false);
+		table.columns([".completion",".rating"]).visible(!multi, false);
+		table.columns([".local-comp",".link-comp",".multi-note"]).visible(multi, false);
 		if (!multi) {
+			// table.colReorder.move(6, 3); // Move console column
 			table.order([0, 'asc']); // Relying on indexes is fragile
 			$("#games-table").removeClass("multi-active"); //enable highlighting
 			window.history.replaceState({}, "", `${window.location.pathname}${window.location.search}`);
 		} else {
+			// table.colReorder.move(3, 6); // Move console column
 			table.order([4, 'desc'], [5, 'desc']);
 			$("#games-table").addClass("multi-active");
 			window.history.replaceState({}, "", `${window.location.pathname}${window.location.search}#multi`);
@@ -202,8 +204,10 @@ $(document).ready(function () {
 			"pagingType": "simple",
 			"info": false,
 			"responsive": true,
+			// "colReorder": { enable: false },
 			"dom": 'frtip', /*Ordering of Table Elements, B needed for buttons*/
 	        "columnDefs": [
+				{ "targets": ["local-comp","link-comp","multi-note"], "visible": false }, // initially single view
 	        	{ "targets": ["rating","completion","local-comp","link-comp","multi-note"], "orderSequence": ["desc", "asc"] },
 	        	{ "targets": ["rating","completion","console","local-comp","link-comp","multi-note"], "searchable": false },
 				{ 
