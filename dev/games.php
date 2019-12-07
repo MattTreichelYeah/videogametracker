@@ -6,7 +6,7 @@
 	$sql = "SET SQL_BIG_SELECTS = 1; ";
 	mysqli_query($db, $sql);
 
-	$sql = "SELECT g.name, g.completion, g.rating, g.console, g.original_console, g.compilation_root, g.dlc_root, g.multi_note, g.multi_comp_local, g.multi_comp_LAN, g.multi_comp_LAN_max, g.multi_coop_local, g.multi_coop_LAN, g.multi_coop_LAN_max, g.copies, g.xbox_one_compat,
+	$sql = "SELECT g.name, g.completion, g.rating, g.console, g.original_console, g.compilation_root, g.dlc_root, g.multi_note, g.multi_comp_local, g.multi_comp_LAN, g.multi_comp_LAN_max, g.multi_comp_online, g.multi_coop_local, g.multi_coop_LAN, g.multi_coop_LAN_max, g.multi_coop_online, g.copies, g.xbox_one_compat,
 		c.name_short AS console_name, 
 		c2.name_short AS console_original_name, 
 		g2.name AS compilation_name, 
@@ -73,7 +73,7 @@
 	
 	function printrow($row) {
 		echo "<tr class='local-";
-		$playercount = max($row["multi_comp_local"], $row["multi_coop_local"], $row["multi_comp_LAN"], $row["multi_coop_LAN"]);
+		$playercount = max($row["multi_comp_local"], $row["multi_coop_local"], $row["multi_comp_LAN"], $row["multi_coop_LAN"], $row["multi_comp_online"], $row["multi_coop_online"]);
 		echo playerRange($playercount) . "'>
 			<td><div class='copy-container'><div class='title-cell'>"; 
 			if ($row["compilation_root"] != 0 && $row["compilation_root"] != -1) { echo "<img class='svg' src='/videogames/svg/arrow.svg' title='" . $row["compilation_name"] . "' alt='Compilation Indicator'><span class='sort-data'>" . $row["compilation_name"] . "</span> "; } 
@@ -101,8 +101,9 @@
 			if ($row["original_console"] != "") echo " (". $row["console_original_name"] .")"; 
 			echo "</td>
 			<td>". max($row["multi_comp_local"], $row["multi_coop_local"]) ."</td>
-			<td>". max($row["multi_comp_LAN"], $row["multi_coop_LAN"]);
-			if ($row["multi_comp_LAN_max"] != "" || $row["multi_coop_LAN_max"] != "") echo "<span title='Theoretical ". max($row["multi_comp_LAN_max"], $row["multi_coop_LAN_max"]) ."'>*</span>";
+			<td>". max($row["multi_comp_LAN"], $row["multi_coop_LAN"], $row["multi_comp_online"], $row["multi_coop_online"]);
+			if ($row["multi_comp_LAN_max"] != "" || $row["multi_coop_LAN_max"] != "") echo "<sup title='Theoretical ". max($row["multi_comp_LAN_max"], $row["multi_coop_LAN_max"]) ."'>*</sup>";
+			if ($row["multi_comp_online"] != "" || $row["multi_coop_online"] != "") echo "<sup class='indicator' title='Online Only'>X</sup>";
 			echo "</td><td>". $row["multi_note"] ."</td>
 		</tr>";
 	}

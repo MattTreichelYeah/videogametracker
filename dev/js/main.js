@@ -214,7 +214,7 @@ $(document).ready(function () {
 					"targets": ["local-comp", "link-comp"], 
 					"render": (data, type) => {
 						if (type === "display") data = (data === "999" ? "∞" : data);
-						else if (type === "sort" || type === "type") data = (data.includes("*") ? data.split("<span")[0] : data); // type === "type" apparently necessary
+						else if (type === "sort" || type === "type") data = (data.includes("*") || data.includes("X") ? data.split("<sup")[0] : data); // type === "type" apparently necessary
 						return data;
 					}
 				}
