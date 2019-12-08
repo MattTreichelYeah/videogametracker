@@ -77,7 +77,7 @@
 		echo playerRange($playercount) . "'>
 			<td><div class='copy-container'><div class='title-cell'>"; 
 			if ($row["compilation_root"] != 0 && $row["compilation_root"] != -1) { echo "<img class='svg' src='/videogames/svg/arrow.svg' title='" . $row["compilation_name"] . "' alt='Compilation Indicator'><span class='sort-data'>" . $row["compilation_name"] . "</span> "; } 
-			else if ($row["dlc_root"] != 0) { echo "<img class='svg' src='/videogames/svg/arrow.svg' title='" . $row["dlc_name"] . "' alt='DLC Indicator'><span class='sort-data'>" . $row["dlc_name"] . "</span> "; } 
+			else if ($row["dlc_root"] != 0) { echo "<img class='svg' src='/videogames/svg/arrowGreen.svg' title='" . $row["dlc_name"] . "' alt='DLC Indicator'><span class='sort-data'>" . $row["dlc_name"] . "</span> "; } 
 			echo $row["name"] . "</div>";
 			if ($row["copies"] > 1) { 
 				for ($i=1; $i <= $row["copies"]; $i++) { 
