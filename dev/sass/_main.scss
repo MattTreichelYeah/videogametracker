@@ -249,6 +249,9 @@ section, aside {
 @include local('high', $playercountHigh);
 @include local('extreme', $playercountExtreme);
 
+.xb1x-enhanced {
+	color: $colour2;
+}
 
 .title-cell {
 	// max-width: 500px;

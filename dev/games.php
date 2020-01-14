@@ -6,7 +6,7 @@
 	$sql = "SET SQL_BIG_SELECTS = 1; ";
 	mysqli_query($db, $sql);
 
-	$sql = "SELECT g.name, g.completion, g.rating, g.console, g.original_console, g.compilation_root, g.dlc_root, g.multi_note, g.multi_comp_local, g.multi_comp_LAN, g.multi_comp_LAN_max, g.multi_comp_online, g.multi_coop_local, g.multi_coop_LAN, g.multi_coop_LAN_max, g.multi_coop_online, g.copies, g.xbox_one_compat,
+	$sql = "SELECT g.name, g.completion, g.rating, g.console, g.original_console, g.compilation_root, g.dlc_root, g.multi_note, g.multi_comp_local, g.multi_comp_LAN, g.multi_comp_LAN_max, g.multi_comp_online, g.multi_coop_local, g.multi_coop_LAN, g.multi_coop_LAN_max, g.multi_coop_online, g.copies, g.xbox_one_compat, g.xbox_one_x_enhanced,
 		c.name_short AS console_name, 
 		c2.name_short AS console_original_name, 
 		g2.name AS compilation_name, 
@@ -97,7 +97,12 @@
 			echo "</td>
 			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<span class='sort-data'>" . $row["rating"] . "</span><img class='rating svg' src='/videogames/svg/star.svg' alt='Star'>"; } echo "</td>
 			<td>". $row["console_name"];
-			if ($row["xbox_one_compat"]) echo "<sup class='indicator' title='Xbox One Compatible'>▲</sup>";
+			if ($row["xbox_one_compat"]) {
+				echo "<sup class='indicator"; 
+				if ($row["xbox_one_x_enhanced"]) echo " xb1x-enhanced' title='Xbox One X Enhanced'";
+				else echo "' title='Xbox One Compatible'";
+				echo ">▲</sup>";
+			}
 			if ($row["original_console"] != "") echo " (". $row["console_original_name"] .")"; 
 			echo "</td>
 			<td>". max($row["multi_comp_local"], $row["multi_coop_local"]) ."</td>
