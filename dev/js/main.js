@@ -182,7 +182,7 @@ $(document).ready(function () {
 			window.history.replaceState({}, "", `${window.location.pathname}${window.location.search}`);
 		} else {
 			// table.colReorder.move(3, 6); // Move console column
-			table.order([4, 'desc'], [5, 'desc']);
+			table.order([3, 'desc'], [4, 'desc']);
 			$("#games-table").addClass("multi-active");
 			window.history.replaceState({}, "", `${window.location.pathname}${window.location.search}#multi`);
 		}

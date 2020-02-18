@@ -96,6 +96,11 @@
 			}
 			echo "</td>
 			<td>"; for ($i=1; $i <= $row["rating"]; $i++) { echo "<span class='sort-data'>" . $row["rating"] . "</span><img class='rating svg' src='/videogames/svg/star.svg' alt='Star'>"; } echo "</td>
+			<td>". max($row["multi_comp_local"], $row["multi_coop_local"]) ."</td>
+			<td>". max($row["multi_comp_LAN"], $row["multi_coop_LAN"], $row["multi_comp_online"], $row["multi_coop_online"]);
+			if ($row["multi_comp_LAN_max"] != "" || $row["multi_coop_LAN_max"] != "") echo "<sup title='Theoretical ". max($row["multi_comp_LAN_max"], $row["multi_coop_LAN_max"]) ."'>*</sup>";
+			if ($row["multi_comp_online"] != "" || $row["multi_coop_online"] != "") echo "<sup class='indicator' title='Online Only'>X</sup>";
+			echo "</td><td>". $row["multi_note"] ."</td>
 			<td>". $row["console_name"];
 			if ($row["xbox_one_compat"]) {
 				echo "<sup class='indicator"; 
@@ -105,11 +110,6 @@
 			}
 			if ($row["original_console"] != "") echo " (". $row["console_original_name"] .")"; 
 			echo "</td>
-			<td>". max($row["multi_comp_local"], $row["multi_coop_local"]) ."</td>
-			<td>". max($row["multi_comp_LAN"], $row["multi_coop_LAN"], $row["multi_comp_online"], $row["multi_coop_online"]);
-			if ($row["multi_comp_LAN_max"] != "" || $row["multi_coop_LAN_max"] != "") echo "<sup title='Theoretical ". max($row["multi_comp_LAN_max"], $row["multi_coop_LAN_max"]) ."'>*</sup>";
-			if ($row["multi_comp_online"] != "" || $row["multi_coop_online"] != "") echo "<sup class='indicator' title='Online Only'>X</sup>";
-			echo "</td><td>". $row["multi_note"] ."</td>
 		</tr>";
 	}
 
@@ -160,10 +160,10 @@
 				<th class="name"><span class="th-desktop">Name</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="completion"><span class="th-desktop">Completion</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="rating"><span class="th-desktop">Rating</span><span class="th-mobile">&nbsp;</span></th>
-				<th class="console"><span class="th-desktop">Console</span><span class="th-mobile">&nbsp;</span></th>
 				<th class="local-comp"><img class='svg' src="/videogames/svg/local.svg" title="Local Player Count" alt="Local Player Count"></th>
 				<th class="link-comp"><img class='svg' src="/videogames/svg/link.svg" title="System Link Player Count" alt="System Link Player Count"></th>
 				<th class="multi-note"><span class="th-desktop">Multiplayer Note</span><span class="th-mobile">&nbsp;</span></th>
+				<th class="console"><span class="th-desktop">Console</span><span class="th-mobile">&nbsp;</span></th>
 			</tr>
 		</thead>
 		<tbody>
