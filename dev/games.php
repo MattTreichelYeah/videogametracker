@@ -105,8 +105,8 @@
 			<td>". $row["console_name"];
 			if ($row["xbox_one_compat"]) {
 				echo "<sup class='indicator"; 
-				if ($row["xbox_one_x_enhanced"]) echo " xb1x-enhanced' title='Xbox One X Enhanced'";
-				else echo "' title='Xbox One Compatible'";
+				if ($row["xbox_one_x_enhanced"]) echo " xb1x-enhanced' title='Xbox X Enhanced'";
+				else echo "' title='Xbox Forward Compatible'";
 				echo ">▲</sup>";
 			}
 			if ($row["original_console"] != "") echo " (". $row["console_original_name"] .")"; 
