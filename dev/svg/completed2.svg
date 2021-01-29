@@ -1,20 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
 <svg width="401" height="400" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
-  <title>background</title>
-  <rect fill="none" id="canvas_background" height="402" width="403" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  <g>
+    <title>background</title>
+    <rect fill="none" id="canvas_background" height="402" width="403" y="-1" x="-1"/>
+    <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+      <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+    </g>
   </g>
- </g>
- <g>
-  <title>Layer 1</title>
-  <path id="svg_26" d="m12.81,124.098599l109.248582,-109.2486l154.502751,0l109.248582,109.2486l0,154.502806l-109.248582,109.248612l-154.502751,0l-109.248582,-109.248612l0,-154.502806z" stroke-opacity="null" stroke-width="41" stroke="#FD927E" fill="none"/>
-  <path stroke="#FD927E" id="svg_27" d="m69.44999,140.364203l77.909199,-77.909224l110.181618,0l77.909199,77.909224l0,110.181676l-77.909199,77.909233l-110.181618,0l-77.909199,-77.909233l0,-110.181676z" fill-opacity="null" stroke-opacity="null" stroke-width="99" fill="none"/>
-  <path stroke="#FD927E" id="svg_28" d="m156.449998,185.401052l26.94604,-26.946048l38.10793,0l26.946044,26.946048l0,38.107953l-26.946044,26.946051l-38.10793,0l-26.94604,-26.946051l0,-38.107953z" fill-opacity="null" stroke-opacity="null" stroke-width="99" fill="none"/>
-  <rect transform="rotate(-45 1.4999999999999982,6.499999999999999) " id="svg_29" height="1" width="143" y="6" x="-70" fill-opacity="null" stroke-opacity="null" stroke-width="99" stroke="#FD927E" fill="none"/>
-  <rect transform="rotate(-45 394.49999999999994,399.5) " id="svg_30" height="1" width="143" y="399" x="323" fill-opacity="null" stroke-opacity="null" stroke-width="99" stroke="#FD927E" fill="none"/>
-  <rect transform="rotate(45 4.5000000000001075,401.4999999999999) " id="svg_31" height="1" width="143" y="401" x="-67" fill-opacity="null" stroke-opacity="null" stroke-width="99" stroke="#FD927E" fill="none"/>
-  <rect transform="rotate(45 396.5,2.499999999999976) " id="svg_32" height="1" width="143" y="2" x="325" fill-opacity="null" stroke-opacity="null" stroke-width="99" stroke="#FD927E" fill="none"/>
- </g>
+  <g>
+    <title>Layer 1</title>
+    <path id="svg_26" d="m12.81,124.098599l109.248582,-109.2486l154.502751,0l109.248582,109.2486l0,154.502806l-109.248582,109.248612l-154.502751,0l-109.248582,-109.248612l0,-154.502806z" stroke-opacity="null" stroke-width="41" stroke="#FD927E" fill="none"/>
+    <path stroke="#FD927E" id="svg_27" d="m69.44999,140.364203l77.909199,-77.909224l110.181618,0l77.909199,77.909224l0,110.181676l-77.909199,77.909233l-110.181618,0l-77.909199,-77.909233l0,-110.181676z" fill-opacity="null" stroke-opacity="null" stroke-width="99" fill="none"/>
+    <path stroke="#FD927E" id="svg_28" d="M 76.964 145.81 L 151.076 71.698 L 255.885 71.698 L 329.997 145.81 L 329.997 250.619 L 255.885 324.731 L 151.076 324.731 L 76.964 250.619 L 76.964 145.81 Z" fill-opacity="null" stroke-opacity="null" stroke-width="99" style="fill: rgb(253, 146, 126);"/>
+    <rect transform="rotate(-45 1.4999999999999982,6.499999999999999) " id="svg_29" height="1" width="143" y="6" x="-70" fill-opacity="null" stroke-opacity="null" stroke-width="99" stroke="#FD927E" fill="none"/>
+    <rect transform="rotate(-45 394.49999999999994,399.5) " id="svg_30" height="1" width="143" y="399" x="323" fill-opacity="null" stroke-opacity="null" stroke-width="99" stroke="#FD927E" fill="none"/>
+    <rect transform="rotate(45 4.5000000000001075,401.4999999999999) " id="svg_31" height="1" width="143" y="401" x="-67" fill-opacity="null" stroke-opacity="null" stroke-width="99" stroke="#FD927E" fill="none"/>
+    <rect transform="rotate(45 396.5,2.499999999999976) " id="svg_32" height="1" width="143" y="2" x="325" fill-opacity="null" stroke-opacity="null" stroke-width="99" stroke="#FD927E" fill="none"/>
+  </g>
 </svg>
